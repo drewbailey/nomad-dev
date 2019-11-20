@@ -1,0 +1,7 @@
+^C==> Caught signal: interrupt
+    2019-09-26T09:01:37.817-0400 [DEBUG] http: shutting down http server
+    2019-09-26T09:01:37.817-0400 [INFO ] agent: requesting shutdown
+    2019-09-26T09:01:37.817-0400 [INFO ] client: shutting down
+    2019-09-26T09:01:37.818-0400 [DEBUG] client.alloc_r
+
+

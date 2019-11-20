@@ -1,0 +1,8 @@
+{
+    "server": false,
+    "datacenter": "x1c",
+    "data_dir": "/tmp/consul-client",
+    "log_level": "INFO",
+    "enable_syslog": true,
+    "leave_on_terminate": true
+}
