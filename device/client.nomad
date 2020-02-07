@@ -2,10 +2,10 @@
 log_level = "DEBUG"
 
 # Setup data dir
-data_dir = "/tmp/client1"
+data_dir = "/tmp/client2"
 
 # Give the agent a unique name. Defaults to hostname
-name = "client1"
+name = "client2"
 
 plugin_dir = "/opt/nomad/plugins"
 

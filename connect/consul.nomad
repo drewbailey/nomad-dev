@@ -4,6 +4,10 @@ job "delay" {
   group "api" {
     shutdown_delay = "10s"
 
+    service {
+      tags = ["group"]
+    }
+
     spread {
       attribute = "${node.datacenter}"
 
@@ -34,6 +38,10 @@ job "delay" {
       config {
         image = "hashicorpnomad/counter-dashboard:v1"
       }
+
+      # service {
+      #   tags = ["other awesome"]
+      # }
     }
   }
 }

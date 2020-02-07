@@ -1,0 +1,225 @@
+{
+    "Job": {
+        "AllAtOnce": false,
+        "Constraints": [
+            {
+                "LTarget": "${attr.kernel.name}",
+                "Operand": "=",
+                "RTarget": "linux"
+            },
+            {
+                "LTarget": "${node.class}",
+                "Operand": "=",
+                "RTarget": "093-asg-spot"
+            }
+        ],
+        "CreateIndex": 263893356,
+        "Datacenters": [
+            "staging-us-east-1"
+        ],
+        "Dispatched": false,
+        "ID": "danap-stack-ads",
+        "JobModifyIndex": 263893356,
+        "Meta": null,
+        "Migrate": null,
+        "ModifyIndex": 263895417,
+        "Name": "danap-stack-ads",
+        "Namespace": "default",
+        "ParameterizedJob": null,
+        "ParentID": "",
+        "Payload": null,
+        "Periodic": null,
+        "Priority": 50,
+        "Region": "staging-us-east-1",
+        "Reschedule": null,
+        "Stable": false,
+        "Status": "running",
+        "StatusDescription": "",
+        "Stop": false,
+        "SubmitTime": 1565692620717080477,
+        "TaskGroups": [
+            {
+                "Constraints": [
+                    {
+                        "LTarget": "",
+                        "Operand": "distinct_hosts",
+                        "RTarget": "true"
+                    },
+                    {
+                        "LTarget": "${attr.vault.version}",
+                        "Operand": "version",
+                        "RTarget": ">= 0.6.1"
+                    }
+                ],
+                "Count": 1,
+                "EphemeralDisk": {
+                    "Migrate": false,
+                    "SizeMB": 300,
+                    "Sticky": false
+                },
+                "Meta": null,
+                "Migrate": {
+                    "HealthCheck": "checks",
+                    "HealthyDeadline": 300000000000,
+                    "MaxParallel": 1,
+                    "MinHealthyTime": 10000000000
+                },
+                "Name": "ads",
+                "ReschedulePolicy": {
+                    "Attempts": 3,
+                    "Delay": 30000000000,
+                    "DelayFunction": "constant",
+                    "Interval": 3600000000000,
+                    "MaxDelay": 3600000000000,
+                    "Unlimited": false
+                },
+                "RestartPolicy": {
+                    "Attempts": 4,
+                    "Delay": 25000000000,
+                    "Interval": 300000000000,
+                    "Mode": "delay"
+                },
+                "Tasks": [
+                    {
+                        "Artifacts": null,
+                        "Config": {
+                            "force_pull": true,
+                            "image": "",
+                            "logging": [
+                                {
+                                    "config": [
+                                        {
+                                            "gelf-address": "udp://0.0.0.0:5000",
+                                            "tag": "{\"es_index\":\"danap\", \"nomad_job_name\":\"${NOMAD_JOB_NAME}\",\"nomad_group_name\":\"${NOMAD_GROUP_NAME}\",\"nomad_task_name\":\"${NOMAD_TASK_NAME}\",\"nomad_alloc_id\":\"${NOMAD_ALLOC_ID}\"}"
+                                        }
+                                    ],
+                                    "type": "gelf"
+                                }
+                            ],
+                            "port_map": [
+                                {
+                                    "unicorn": 3000.0
+                                }
+                            ]
+                        },
+                        "Constraints": null,
+                        "DispatchPayload": null,
+                        "Driver": "docker",
+                        "Env": {
+                            "RESQUE_REDIS_DB": "7",
+                            "_VERSION": "2019-08-13 10:37:00.195750017 +0000 UTC m=+0.019961268",
+                            "CACHE_REDIS_DB": "6",
+                            "LOGSTASH_SYNC": "true",
+                            "MYSQL_DATABASE": "ads_danap",
+                            "RAILS_ENV": "staging"
+                        },
+                        "KillSignal": "",
+                        "KillTimeout": 5000000000,
+                        "Leader": false,
+                        "LogConfig": {
+                            "MaxFileSizeMB": 10,
+                            "MaxFiles": 10
+                        },
+                        "Meta": null,
+                        "Name": "ads",
+                        "Resources": {
+                            "CPU": 1000,
+                            "DiskMB": 0,
+                            "IOPS": 0,
+                            "MemoryMB": 1000,
+                            "Networks": [
+                                {
+                                    "CIDR": "",
+                                    "Device": "",
+                                    "DynamicPorts": [
+                                        {
+                                            "Label": "unicorn",
+                                            "Value": 0
+                                        }
+                                    ],
+                                    "IP": "",
+                                    "MBits": 10,
+                                    "ReservedPorts": null
+                                }
+                            ]
+                        },
+                        "Services": [
+                            {
+                                "AddressMode": "auto",
+                                "CanaryTags": null,
+                                "CheckRestart": null,
+                                "Checks": [
+                                    {
+                                        "AddressMode": "",
+                                        "Args": null,
+                                        "CheckRestart": null,
+                                        "Command": "",
+                                        "GRPCService": "",
+                                        "GRPCUseTLS": false,
+                                        "Header": null,
+                                        "Id": "",
+                                        "InitialStatus": "",
+                                        "Interval": 5000000000,
+                                        "Method": "",
+                                        "Name": "HTTP Health",
+                                        "Path": "/ping",
+                                        "PortLabel": "unicorn",
+                                        "Protocol": "",
+                                        "TLSSkipVerify": false,
+                                        "Timeout": 3000000000,
+                                        "Type": "http"
+                                    }
+                                ],
+                                "Id": "",
+                                "Name": "danap-stack-ads",
+                                "PortLabel": "unicorn",
+                                "Tags": [
+               
+                                ]
+                            }
+                        ],
+                        "ShutdownDelay": 0,
+                        "Templates": [
+                            {
+                                "ChangeMode": "restart",
+                                "ChangeSignal": "",
+                                "DestPath": "local/services.env",
+                                "EmbeddedTmpl": "\n  {{ range service \"danap-stack-redis\" }}\n    CACHE_REDIS_HOST=\"{{ .Address }}\"\n    CACHE_REDIS_PORT=\"{{ .Port }}\"\n    RESQUE_REDIS_HOST=\"{{ .Address }}\"\n    RESQUE_REDIS_PORT=\"{{ .Port }}\"\n  {{ end }}\n\n  {{ range service \"danap-stack-mysql\" }}\n    MYSQL_HOST=\"{{ .Address }}\"\n    MYSQL_PORT=\"{{ .Port }}\"\n  {{ end }}\n  ",
+                                "Envvars": true,
+                                "LeftDelim": "{{",
+                                "Perms": "0644",
+                                "RightDelim": "}}",
+                                "SourcePath": "",
+                                "Splay": 5000000000,
+                                "VaultGrace": 15000000000
+                            }
+                        ],
+                        "User": "",
+                        "Vault": {
+                            "ChangeMode": "restart",
+                            "ChangeSignal": "SIGHUP",
+                            "Env": true,
+                            "Policies": [
+                                ""
+                            ]
+                        }
+                    }
+                ],
+                "Update": null
+            }
+        ],
+        "Type": "service",
+        "Update": {
+            "AutoRevert": false,
+            "Canary": 0,
+            "HealthCheck": "",
+            "HealthyDeadline": 0,
+            "MaxParallel": 0,
+            "MinHealthyTime": 0,
+            "ProgressDeadline": 0,
+            "Stagger": 0
+        },
+        "VaultToken": "",
+        "Version": 0
+    }
+}

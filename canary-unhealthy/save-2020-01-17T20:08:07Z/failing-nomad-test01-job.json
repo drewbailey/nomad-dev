@@ -1,0 +1,42 @@
+[
+  {
+    "CreateIndex": 8,
+    "Datacenters": [
+      "dc1"
+    ],
+    "ID": "failing-nomad-test01",
+    "JobModifyIndex": 33,
+    "JobSummary": {
+      "Children": {
+        "Dead": 0,
+        "Pending": 0,
+        "Running": 0
+      },
+      "CreateIndex": 8,
+      "JobID": "failing-nomad-test01",
+      "ModifyIndex": 69,
+      "Namespace": "default",
+      "Summary": {
+        "group": {
+          "Complete": 4,
+          "Failed": 7,
+          "Lost": 0,
+          "Queued": 0,
+          "Running": 1,
+          "Starting": 0
+        }
+      }
+    },
+    "ModifyIndex": 33,
+    "Name": "failing-nomad-test01",
+    "ParameterizedJob": false,
+    "ParentID": "",
+    "Periodic": false,
+    "Priority": 50,
+    "Status": "running",
+    "StatusDescription": "",
+    "Stop": false,
+    "SubmitTime": 1579291650911838500,
+    "Type": "service"
+  }
+]

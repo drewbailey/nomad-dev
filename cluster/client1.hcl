@@ -7,12 +7,11 @@ data_dir = "/tmp/client1"
 # Give the agent a unique name. Defaults to hostname
 name = "client1"
 
-# Enable debugging
-enable_debug = true
-
 # Enable the client
 client {
   enabled = true
+
+  node_class = "class-1"
 
   server_join {
     retry_join = ["127.0.0.1:4647", "127.0.0.1:5647", "127.0.0.1:6647"]
@@ -32,3 +31,10 @@ plugin "raw_exec" {
 ports {
   http = 7646
 }
+
+# acl {
+#   enabled    = true
+#   token_ttl  = "30s"
+#   policy_ttl = "60s"
+# }
+

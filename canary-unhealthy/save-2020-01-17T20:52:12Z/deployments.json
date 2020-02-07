@@ -1,0 +1,30 @@
+[
+  {
+    "CreateIndex": 10,
+    "ID": "daae0cf6-9cb4-99f1-e0b9-e3027d016022",
+    "JobCreateIndex": 8,
+    "JobID": "failing-nomad-test01",
+    "JobModifyIndex": 8,
+    "JobSpecModifyIndex": 8,
+    "JobVersion": 0,
+    "ModifyIndex": 10,
+    "Namespace": "default",
+    "Status": "running",
+    "StatusDescription": "Deployment is running",
+    "TaskGroups": {
+      "group": {
+        "AutoPromote": false,
+        "AutoRevert": false,
+        "DesiredCanaries": 0,
+        "DesiredTotal": 4,
+        "HealthyAllocs": 0,
+        "PlacedAllocs": 4,
+        "PlacedCanaries": null,
+        "ProgressDeadline": 600000000000,
+        "Promoted": false,
+        "RequireProgressBy": "2020-01-17T16:02:00.518566324-05:00",
+        "UnhealthyAllocs": 0
+      }
+    }
+  }
+]

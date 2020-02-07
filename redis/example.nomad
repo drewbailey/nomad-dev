@@ -11,10 +11,8 @@
 #
 #     https://www.nomadproject.io/docs/job-specification/job.html
 #
-job "redis" {
-  # The "region" parameter specifies the region in which to execute the job. If
-  # omitted, this inherits the default region name of "global".
-  # region = "global"
+job "redis-3000" {
+  # The "region" parameter specifies the region in which to execute the job. If  # omitted, this inherits the default region name of "global".  # region = "global"
 
   # The "datacenters" parameter specifies the list of datacenters which should
   # be considered when placing this task. This must be provided.
@@ -91,7 +89,6 @@ job "redis" {
     # version is deployed and upon promotion the old version is stopped.
     canary = 0
   }
-
   # The "group" stanza defines a series of tasks that should be co-located on
   # the same Nomad client. Any task within a group will be placed on the same
   # client.
@@ -105,7 +102,7 @@ job "redis" {
     # The "count" parameter specifies the number of the task groups that should
     # be running under this group. This value must be non-negative and defaults
     # to 1.
-    count = 3
+    count = 1
 
     # The "restart" stanza configures a group's behavior on task failure. If
     # left unspecified, a default restart policy is used based on the job type.
@@ -142,19 +139,11 @@ job "redis" {
     #     https://www.nomadproject.io/docs/job-specification/ephemeral_disk.html
     #
     ephemeral_disk {
-      # When sticky is true and the task group is updated, the scheduler
-      # will prefer to place the updated allocation on the same node and
-      # will migrate the data. This is useful for tasks that store data
-      # that should persist across allocation updates.
-      # sticky = true
-      # 
-      # Setting migrate to true results in the allocation directory of a
-      # sticky allocation directory to be migrated.
-      # migrate = true
+      # When sticky is true and the task group is updated, the scheduler  # will prefer to place the updated allocation on the same node and  # will migrate the data. This is useful for tasks that store data  # that should persist across allocation updates.  # sticky = true  #   # Setting migrate to true results in the allocation directory of a  # sticky allocation directory to be migrated.  # migrate = true
 
       # The "size" parameter specifies the size in MB of shared ephemeral disk
       # between tasks in the group.
-      size = 300
+      size = 10
     }
 
     # The "task" stanza creates an individual unit of work, such as a Docker
@@ -166,6 +155,10 @@ job "redis" {
     #     https://www.nomadproject.io/docs/job-specification/task.html
     #
     task "redis" {
+      env {
+        version = "2"
+      }
+
       # The "driver" parameter specifies the task driver that should be used to
       # run the task.
       driver = "docker"
@@ -176,6 +169,7 @@ job "redis" {
       # documentation for more information.
       config {
         image = "redis:3.2"
+
         port_map {
           db = 6379
         }
@@ -209,11 +203,10 @@ job "redis" {
       #
       #     https://www.nomadproject.io/docs/job-specification/logs.html
       #
-      # logs {
-      #   max_files     = 10
-      #   max_file_size = 15
-      # }
-
+      logs {
+        max_files     = 1
+        max_file_size = 9
+      }
       # The "resources" stanza describes the requirements a task needs to
       # execute. Resource requirements include memory, network, cpu, and more.
       # This ensures the task will execute on a machine that contains enough
@@ -225,14 +218,15 @@ job "redis" {
       #     https://www.nomadproject.io/docs/job-specification/resources.html
       #
       resources {
-        cpu    = 500 # 500 MHz
-        memory = 256 # 256MB
+        cpu = 20 # 500 MHz    
+
+        memory = 40 # 256MB
+
         network {
-          mbits = 10
-          port "db" {}
+          mbits = 1
+          port  "db"  {}
         }
       }
-
       # The "service" stanza instructs Nomad to register this task as a service
       # in the service discovery engine, which is currently Consul. This will
       # make the service addressable after Nomad has placed it on a host and
@@ -247,6 +241,7 @@ job "redis" {
         name = "global-redis-check"
         tags = ["global", "cache", "urlprefix-/redis"]
         port = "db"
+
         check {
           name     = "alive"
           type     = "tcp"

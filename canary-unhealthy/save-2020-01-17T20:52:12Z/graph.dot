@@ -1,0 +1,46 @@
+digraph G {
+
+/* deploy-to-deploy */
+deploy_daae0cf
+
+/* deploy-to-eval */
+deploy_daae0cf -> eval_b181189
+
+/* deploy-to-canary */
+
+/* eval-to-eval */
+
+/* eval-to-alloc */
+eval_b181189 -> alloc_0c82c8b
+eval_b181189 -> alloc_5617e4f
+eval_b181189 -> alloc_7f0640d
+eval_b181189 -> alloc_7ff5425
+
+/* follow-up evals */
+
+/* reschedules */
+
+/* evaluations */
+eval_b181189 [label="eval:b181189", fillcolor="#ccffff", style=filled, tooltip="Status: complete\nTriggeredBy: job-register"]
+
+/* deployments */
+deploy_daae0cf [shape=box, label="deploy:daae0cf", fillcolor="#66ccff", tooltip="Status: running\nDescription: Deployment is running", style=filled]
+
+/* allocs */
+alloc_0c82c8b [shape=box, label="alloc:0c82c8b\nv0\nrunning", tooltip="DesiredStatus: run\nDeploymentStatus.Canary: null\nDeploymentStatus.Healthy: null", fillcolor="#66ff66", style=filled]
+alloc_5617e4f [shape=box, label="alloc:5617e4f\nv0\nrunning", tooltip="DesiredStatus: run\nDeploymentStatus.Canary: null\nDeploymentStatus.Healthy: null", fillcolor="#66ff66", style=filled]
+alloc_7f0640d [shape=box, label="alloc:7f0640d\nv0\nrunning", tooltip="DesiredStatus: run\nDeploymentStatus.Canary: null\nDeploymentStatus.Healthy: null", fillcolor="#66ff66", style=filled]
+alloc_7ff5425 [shape=box, label="alloc:7ff5425\nv0\nrunning", tooltip="DesiredStatus: run\nDeploymentStatus.Canary: null\nDeploymentStatus.Healthy: null", fillcolor="#66ff66", style=filled]
+
+/* tasks-to-allocs */
+alloc_0c82c8b -> task_rails_0c82c8b
+alloc_5617e4f -> task_rails_5617e4f
+alloc_7f0640d -> task_rails_7f0640d
+alloc_7ff5425 -> task_rails_7ff5425
+
+/* tasks */
+task_rails_0c82c8b [label="rails", fillcolor="#66ff66", style=filled, tooltip="State: running\nRestarts: 0\nEvents:\n- Task received by client\n- Building Task Directory\n- Task started by client"]
+task_rails_5617e4f [label="rails", fillcolor="#66ff66", style=filled, tooltip="State: running\nRestarts: 0\nEvents:\n- Task received by client\n- Building Task Directory\n- Task started by client"]
+task_rails_7f0640d [label="rails", fillcolor="#66ff66", style=filled, tooltip="State: running\nRestarts: 0\nEvents:\n- Task received by client\n- Building Task Directory\n- Task started by client"]
+task_rails_7ff5425 [label="rails", fillcolor="#66ff66", style=filled, tooltip="State: running\nRestarts: 0\nEvents:\n- Task received by client\n- Building Task Directory\n- Task started by client"]
+}

@@ -1,0 +1,21 @@
+[
+  {
+    "CreateIndex": 9,
+    "CreateTime": 1579294320517647000,
+    "DeploymentID": "daae0cf6-9cb4-99f1-e0b9-e3027d016022",
+    "ID": "b1811892-2c68-8e95-e364-6005b7ca44e0",
+    "JobID": "failing-nomad-test01",
+    "JobModifyIndex": 8,
+    "ModifyIndex": 11,
+    "ModifyTime": 1579294320520039400,
+    "Namespace": "default",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 0
+    },
+    "SnapshotIndex": 9,
+    "Status": "complete",
+    "TriggeredBy": "job-register",
+    "Type": "service"
+  }
+]

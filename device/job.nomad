@@ -1,4 +1,4 @@
-job "example" {
+job "device" {
   datacenters = ["dc1"]
 
   group "cache" {
@@ -11,7 +11,7 @@ job "example" {
 
       resources {
         device "example" {
-          count = 2
+          count = 4
         }
       }
     }

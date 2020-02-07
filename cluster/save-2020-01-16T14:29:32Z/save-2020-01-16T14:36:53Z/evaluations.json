@@ -1,0 +1,548 @@
+[
+  {
+    "BlockedEval": "57cb0ee2-fe49-31b8-0e40-3dc8bec976b1",
+    "CreateIndex": 11,
+    "CreateTime": 1579183728299693300,
+    "DeploymentID": "d50c8593-96ac-5286-ead6-d1a4a74c7e9c",
+    "FailedTGAllocs": {
+      "group": {
+        "AllocationTime": 10033,
+        "ClassExhausted": null,
+        "ClassFiltered": null,
+        "CoalescedFailures": 3,
+        "ConstraintFiltered": null,
+        "DimensionExhausted": null,
+        "NodesAvailable": {
+          "dc1": 0
+        },
+        "NodesEvaluated": 0,
+        "NodesExhausted": 0,
+        "NodesFiltered": 0,
+        "QuotaExhausted": null,
+        "ScoreMetaData": null,
+        "Scores": null
+      }
+    },
+    "ID": "8c6dad59-c901-6960-79a0-8ef747938a8a",
+    "JobID": "failing-nomad-test01",
+    "JobModifyIndex": 10,
+    "ModifyIndex": 14,
+    "ModifyTime": 1579183728662402600,
+    "Namespace": "default",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 4
+    },
+    "SnapshotIndex": 11,
+    "Status": "complete",
+    "TriggeredBy": "job-register",
+    "Type": "service"
+  },
+  {
+    "CreateIndex": 12,
+    "CreateTime": 1579183728647926300,
+    "DeploymentID": "d50c8593-96ac-5286-ead6-d1a4a74c7e9c",
+    "ID": "57cb0ee2-fe49-31b8-0e40-3dc8bec976b1",
+    "JobID": "failing-nomad-test01",
+    "JobModifyIndex": 10,
+    "ModifyIndex": 17,
+    "ModifyTime": 1579183731205690000,
+    "Namespace": "default",
+    "PreviousEval": "8c6dad59-c901-6960-79a0-8ef747938a8a",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 0
+    },
+    "SnapshotIndex": 15,
+    "Status": "complete",
+    "TriggeredBy": "queued-allocs",
+    "Type": "service"
+  },
+  {
+    "CreateIndex": 27,
+    "CreateTime": 1579183746825496000,
+    "DeploymentID": "d50c8593-96ac-5286-ead6-d1a4a74c7e9c",
+    "ID": "e2d78427-1b20-ca66-f2ea-26a762925de6",
+    "JobID": "failing-nomad-test01",
+    "ModifyIndex": 28,
+    "ModifyTime": 1579183747419055400,
+    "Namespace": "default",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 0
+    },
+    "SnapshotIndex": 27,
+    "Status": "complete",
+    "TriggeredBy": "deployment-watcher",
+    "Type": "service"
+  },
+  {
+    "CreateIndex": 30,
+    "CreateTime": 1579183750426614800,
+    "DeploymentID": "d50c8593-96ac-5286-ead6-d1a4a74c7e9c",
+    "ID": "81873712-fcaa-20ac-6084-4ab4126dbe6c",
+    "JobID": "failing-nomad-test01",
+    "ModifyIndex": 32,
+    "ModifyTime": 1579183751102943700,
+    "Namespace": "default",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 0
+    },
+    "SnapshotIndex": 30,
+    "Status": "complete",
+    "TriggeredBy": "deployment-watcher",
+    "Type": "service"
+  },
+  {
+    "CreateIndex": 34,
+    "CreateTime": 1579183766454784000,
+    "DeploymentID": "f6c5a56c-3bea-3746-a49c-49b5737131f8",
+    "ID": "6ae838f1-6695-893b-86e5-5d406a0c736e",
+    "JobID": "failing-nomad-test01",
+    "JobModifyIndex": 33,
+    "ModifyIndex": 36,
+    "ModifyTime": 1579183766819257000,
+    "Namespace": "default",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 0
+    },
+    "SnapshotIndex": 34,
+    "Status": "complete",
+    "TriggeredBy": "job-register",
+    "Type": "service"
+  },
+  {
+    "CreateIndex": 39,
+    "CreateTime": 1579183769031966200,
+    "DeploymentID": "f6c5a56c-3bea-3746-a49c-49b5737131f8",
+    "ID": "e371412b-4d5b-510f-3bec-d23692771005",
+    "JobID": "failing-nomad-test01",
+    "ModifyIndex": 40,
+    "ModifyTime": 1579183769042281200,
+    "Namespace": "default",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 0
+    },
+    "SnapshotIndex": 39,
+    "Status": "complete",
+    "TriggeredBy": "alloc-failure",
+    "Type": "service"
+  },
+  {
+    "CreateIndex": 41,
+    "CreateTime": 1579183769232849400,
+    "DeploymentID": "f6c5a56c-3bea-3746-a49c-49b5737131f8",
+    "ID": "42585c3a-944b-6f7f-b037-a01ab24b397a",
+    "JobID": "failing-nomad-test01",
+    "ModifyIndex": 43,
+    "ModifyTime": 1579183769579472100,
+    "Namespace": "default",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 0
+    },
+    "SnapshotIndex": 42,
+    "Status": "complete",
+    "TriggeredBy": "alloc-failure",
+    "Type": "service"
+  },
+  {
+    "CreateIndex": 42,
+    "CreateTime": 1579183769432045300,
+    "DeploymentID": "f6c5a56c-3bea-3746-a49c-49b5737131f8",
+    "ID": "6754df5b-aa92-ec41-921b-2b0200fa3958",
+    "JobID": "failing-nomad-test01",
+    "ModifyIndex": 45,
+    "ModifyTime": 1579183769926201300,
+    "Namespace": "default",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 0
+    },
+    "SnapshotIndex": 44,
+    "Status": "complete",
+    "TriggeredBy": "alloc-failure",
+    "Type": "service"
+  },
+  {
+    "CreateIndex": 44,
+    "CreateTime": 1579183769631720000,
+    "DeploymentID": "f6c5a56c-3bea-3746-a49c-49b5737131f8",
+    "ID": "0524a7b9-de5e-359c-0975-c63ae42573f1",
+    "JobID": "failing-nomad-test01",
+    "ModifyIndex": 46,
+    "ModifyTime": 1579183769930686500,
+    "Namespace": "default",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 0
+    },
+    "SnapshotIndex": 45,
+    "Status": "complete",
+    "TriggeredBy": "alloc-failure",
+    "Type": "service"
+  },
+  {
+    "CreateIndex": 47,
+    "CreateTime": 1579183770041033700,
+    "DeploymentID": "f6c5a56c-3bea-3746-a49c-49b5737131f8",
+    "ID": "9e43bb9c-8f4f-9941-ab5d-cbae34127da6",
+    "JobID": "failing-nomad-test01",
+    "ModifyIndex": 50,
+    "ModifyTime": 1579183770659615500,
+    "Namespace": "default",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 0
+    },
+    "SnapshotIndex": 47,
+    "Status": "complete",
+    "TriggeredBy": "deployment-watcher",
+    "Type": "service"
+  },
+  {
+    "CreateIndex": 48,
+    "CreateTime": 1579183770639272000,
+    "DeploymentID": "f6c5a56c-3bea-3746-a49c-49b5737131f8",
+    "ID": "87b9cc7b-d686-807e-58d6-e879a8bfe686",
+    "JobID": "failing-nomad-test01",
+    "JobModifyIndex": 33,
+    "ModifyIndex": 54,
+    "ModifyTime": 1579183888896456000,
+    "Namespace": "default",
+    "PreviousEval": "9e43bb9c-8f4f-9941-ab5d-cbae34127da6",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 0
+    },
+    "SnapshotIndex": 50,
+    "Status": "complete",
+    "TriggeredBy": "alloc-failure",
+    "Type": "service",
+    "WaitUntil": "2020-01-16T14:11:28.809561488Z"
+  },
+  {
+    "CreateIndex": 60,
+    "CreateTime": 1579183890819866000,
+    "DeploymentID": "f6c5a56c-3bea-3746-a49c-49b5737131f8",
+    "ID": "5b42ad17-e837-49c6-7660-3cd1b543f44b",
+    "JobID": "failing-nomad-test01",
+    "ModifyIndex": 62,
+    "ModifyTime": 1579183890843728600,
+    "Namespace": "default",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 0
+    },
+    "SnapshotIndex": 60,
+    "Status": "complete",
+    "TriggeredBy": "alloc-failure",
+    "Type": "service"
+  },
+  {
+    "CreateIndex": 61,
+    "CreateTime": 1579183890831391000,
+    "DeploymentID": "f6c5a56c-3bea-3746-a49c-49b5737131f8",
+    "ID": "cba6ad70-6506-77d7-76f7-61fa72e55664",
+    "JobID": "failing-nomad-test01",
+    "ModifyIndex": 64,
+    "ModifyTime": 1579183891201758500,
+    "Namespace": "default",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 0
+    },
+    "SnapshotIndex": 62,
+    "Status": "complete",
+    "TriggeredBy": "alloc-failure",
+    "Type": "service"
+  },
+  {
+    "CreateIndex": 65,
+    "CreateTime": 1579183891232183800,
+    "DeploymentID": "f6c5a56c-3bea-3746-a49c-49b5737131f8",
+    "ID": "e5d4350d-4944-fa9b-083d-829d37db7a86",
+    "JobID": "failing-nomad-test01",
+    "ModifyIndex": 66,
+    "ModifyTime": 1579183891242553300,
+    "Namespace": "default",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 0
+    },
+    "SnapshotIndex": 65,
+    "Status": "complete",
+    "TriggeredBy": "alloc-failure",
+    "Type": "service"
+  },
+  {
+    "CreateIndex": 69,
+    "CreateTime": 1579183891823427800,
+    "DeploymentID": "f6c5a56c-3bea-3746-a49c-49b5737131f8",
+    "ID": "06e0770b-7d70-f623-0fc2-fac891e55a1e",
+    "JobID": "failing-nomad-test01",
+    "ModifyIndex": 73,
+    "ModifyTime": 1579183892438528800,
+    "Namespace": "default",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 0
+    },
+    "SnapshotIndex": 70,
+    "Status": "complete",
+    "TriggeredBy": "deployment-watcher",
+    "Type": "service"
+  },
+  {
+    "CreateIndex": 71,
+    "CreateTime": 1579183892417612800,
+    "DeploymentID": "f6c5a56c-3bea-3746-a49c-49b5737131f8",
+    "ID": "c01110d7-8322-ad2b-6f29-e84cb5670646",
+    "JobID": "failing-nomad-test01",
+    "JobModifyIndex": 33,
+    "ModifyIndex": 82,
+    "ModifyTime": 1579184130726005500,
+    "Namespace": "default",
+    "PreviousEval": "06e0770b-7d70-f623-0fc2-fac891e55a1e",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 0
+    },
+    "SnapshotIndex": 78,
+    "Status": "complete",
+    "TriggeredBy": "alloc-failure",
+    "Type": "service",
+    "WaitUntil": "2020-01-16T14:15:30.644595013Z"
+  },
+  {
+    "CreateIndex": 76,
+    "CreateTime": 1579184015406847500,
+    "DeploymentID": "f6c5a56c-3bea-3746-a49c-49b5737131f8",
+    "ID": "c9274f17-e1ef-ef8a-1325-c624d04c41bf",
+    "JobID": "failing-nomad-test01",
+    "ModifyIndex": 78,
+    "ModifyTime": 1579184015835048400,
+    "Namespace": "default",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 0
+    },
+    "SnapshotIndex": 76,
+    "Status": "complete",
+    "TriggeredBy": "deployment-watcher",
+    "Type": "service"
+  },
+  {
+    "CreateIndex": 87,
+    "CreateTime": 1579184331419995100,
+    "DeploymentID": "f6c5a56c-3bea-3746-a49c-49b5737131f8",
+    "ID": "eb322d94-051c-dc36-6624-32a79e4a5fa7",
+    "JobID": "failing-nomad-test01",
+    "ModifyIndex": 90,
+    "ModifyTime": 1579184331784990000,
+    "Namespace": "default",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 0
+    },
+    "SnapshotIndex": 87,
+    "Status": "complete",
+    "TriggeredBy": "alloc-failure",
+    "Type": "service"
+  },
+  {
+    "CreateIndex": 88,
+    "CreateTime": 1579184331763831300,
+    "DeploymentID": "f6c5a56c-3bea-3746-a49c-49b5737131f8",
+    "ID": "eb16cf45-d70e-4d80-51d3-562515f0c967",
+    "JobID": "failing-nomad-test01",
+    "JobModifyIndex": 33,
+    "ModifyIndex": 98,
+    "ModifyTime": 1579184451320394200,
+    "Namespace": "default",
+    "PreviousEval": "eb322d94-051c-dc36-6624-32a79e4a5fa7",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 0
+    },
+    "SnapshotIndex": 94,
+    "Status": "complete",
+    "TriggeredBy": "alloc-failure",
+    "Type": "service",
+    "WaitUntil": "2020-01-16T14:20:51.311522732Z"
+  },
+  {
+    "CreateIndex": 91,
+    "CreateTime": 1579184331821239800,
+    "DeploymentID": "f6c5a56c-3bea-3746-a49c-49b5737131f8",
+    "ID": "fa1a332f-1627-2e11-c725-6bc7bca190d7",
+    "JobID": "failing-nomad-test01",
+    "ModifyIndex": 94,
+    "ModifyTime": 1579184332182421500,
+    "Namespace": "default",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 0
+    },
+    "SnapshotIndex": 91,
+    "Status": "complete",
+    "TriggeredBy": "alloc-failure",
+    "Type": "service"
+  },
+  {
+    "CreateIndex": 92,
+    "CreateTime": 1579184332166929700,
+    "DeploymentID": "f6c5a56c-3bea-3746-a49c-49b5737131f8",
+    "ID": "9c557fbd-92ab-0d5b-b1d8-676000fd8ce3",
+    "JobID": "failing-nomad-test01",
+    "JobModifyIndex": 91,
+    "ModifyIndex": 101,
+    "ModifyTime": 1579184451812492000,
+    "Namespace": "default",
+    "PreviousEval": "fa1a332f-1627-2e11-c725-6bc7bca190d7",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 0
+    },
+    "SnapshotIndex": 98,
+    "Status": "complete",
+    "TriggeredBy": "alloc-failure",
+    "Type": "service",
+    "WaitUntil": "2020-01-16T14:20:51.665365506Z"
+  },
+  {
+    "CreateIndex": 103,
+    "CreateTime": 1579184453232119800,
+    "DeploymentID": "f6c5a56c-3bea-3746-a49c-49b5737131f8",
+    "ID": "71ba8d0e-71ed-21a9-613a-47fb76dfdc06",
+    "JobID": "failing-nomad-test01",
+    "ModifyIndex": 106,
+    "ModifyTime": 1579184453598407700,
+    "Namespace": "default",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 0
+    },
+    "SnapshotIndex": 103,
+    "Status": "complete",
+    "TriggeredBy": "alloc-failure",
+    "Type": "service"
+  },
+  {
+    "CreateIndex": 104,
+    "CreateTime": 1579184453581450800,
+    "DeploymentID": "f6c5a56c-3bea-3746-a49c-49b5737131f8",
+    "ID": "c998c32c-5a89-ac33-193d-6a488950ee3b",
+    "JobID": "failing-nomad-test01",
+    "JobModifyIndex": 103,
+    "ModifyIndex": 112,
+    "ModifyTime": 1579184693086423300,
+    "Namespace": "default",
+    "PreviousEval": "71ba8d0e-71ed-21a9-613a-47fb76dfdc06",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 0
+    },
+    "SnapshotIndex": 106,
+    "Status": "complete",
+    "TriggeredBy": "alloc-failure",
+    "Type": "service",
+    "WaitUntil": "2020-01-16T14:24:53.003972791Z"
+  },
+  {
+    "CreateIndex": 115,
+    "CreateTime": 1579184694834989000,
+    "DeploymentID": "f6c5a56c-3bea-3746-a49c-49b5737131f8",
+    "ID": "cc6dd28a-c598-8e8b-ed6d-cbb03a8373c1",
+    "JobID": "failing-nomad-test01",
+    "ModifyIndex": 119,
+    "ModifyTime": 1579184695212844000,
+    "Namespace": "default",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 0
+    },
+    "SnapshotIndex": 116,
+    "Status": "complete",
+    "TriggeredBy": "alloc-failure",
+    "Type": "service"
+  },
+  {
+    "CreateIndex": 116,
+    "CreateTime": 1579184695032405200,
+    "DeploymentID": "f6c5a56c-3bea-3746-a49c-49b5737131f8",
+    "ID": "f9611eaf-8a32-83f3-a7b6-851fad2d5ad3",
+    "JobID": "failing-nomad-test01",
+    "ModifyIndex": 121,
+    "ModifyTime": 1579184695579634400,
+    "Namespace": "default",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 0
+    },
+    "SnapshotIndex": 119,
+    "Status": "complete",
+    "TriggeredBy": "alloc-failure",
+    "Type": "service"
+  },
+  {
+    "CreateIndex": 117,
+    "CreateTime": 1579184695183528000,
+    "DeploymentID": "f6c5a56c-3bea-3746-a49c-49b5737131f8",
+    "ID": "f5f597be-b8b4-618e-0ccc-620897b6424c",
+    "JobID": "failing-nomad-test01",
+    "JobModifyIndex": 116,
+    "ModifyIndex": 131,
+    "ModifyTime": 1579185174756547800,
+    "Namespace": "default",
+    "PreviousEval": "cc6dd28a-c598-8e8b-ed6d-cbb03a8373c1",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 0
+    },
+    "SnapshotIndex": 121,
+    "Status": "complete",
+    "TriggeredBy": "alloc-failure",
+    "Type": "service",
+    "WaitUntil": "2020-01-16T14:32:54.735294313Z"
+  },
+  {
+    "CreateIndex": 134,
+    "CreateTime": 1579185176632567600,
+    "DeploymentID": "f6c5a56c-3bea-3746-a49c-49b5737131f8",
+    "ID": "49259d67-6608-090b-51d4-9a0ab6a4ae79",
+    "JobID": "failing-nomad-test01",
+    "ModifyIndex": 137,
+    "ModifyTime": 1579185176649416400,
+    "Namespace": "default",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 0
+    },
+    "SnapshotIndex": 134,
+    "Status": "complete",
+    "TriggeredBy": "alloc-failure",
+    "Type": "service"
+  },
+  {
+    "CreateIndex": 135,
+    "CreateTime": 1579185176638071600,
+    "ID": "8abff929-d5fb-dc0e-8317-4a20222950cc",
+    "JobID": "failing-nomad-test01",
+    "JobModifyIndex": 134,
+    "ModifyIndex": 135,
+    "ModifyTime": 1579185176638071600,
+    "Namespace": "default",
+    "PreviousEval": "49259d67-6608-090b-51d4-9a0ab6a4ae79",
+    "Priority": 50,
+    "SnapshotIndex": 134,
+    "Status": "pending",
+    "StatusDescription": "created for delayed rescheduling",
+    "TriggeredBy": "alloc-failure",
+    "Type": "service",
+    "WaitUntil": "2020-01-16T14:48:56.460584948Z"
+  }
+]

@@ -1,0 +1,98 @@
+2020-01-13T15:32:12.798Z [DEBUG] nomad: memberlist: Stream connection from=127.0.0.1:59402
+2020-01-13T15:32:13.504Z [DEBUG] http: request complete: method=GET path=/v1/agent/health?type=server duration=164.295µs
+2020-01-13T15:32:15.517Z [TRACE] nomad.job: job mutate results: mutator=connect warnings=[] error=<nil>
+2020-01-13T15:32:15.517Z [TRACE] nomad.job: job mutate results: mutator=canonicalize warnings=[] error=<nil>
+2020-01-13T15:32:15.517Z [TRACE] nomad.job: job mutate results: mutator=constraints warnings=[] error=<nil>
+2020-01-13T15:32:15.517Z [TRACE] nomad.job: job validate results: validator=connect warnings=[] error=<nil>
+2020-01-13T15:32:15.517Z [TRACE] nomad.job: job validate results: validator=validate warnings=[] error=<nil>
+2020-01-13T15:32:15.529Z [DEBUG] worker: dequeued evaluation: eval_id=2e573e6f-bb65-b465-ea63-1b04d59eff89
+2020-01-13T15:32:15.529Z [DEBUG] worker.service_sched: reconciled current state with desired state: eval_id=2e573e6f-bb65-b465-ea63-1b04d59eff89 job_id=failing-nomad-test01 namespace=default results="Total changes: (place 4) (destructive 0) (inplace 0) (stop 0)
+Created Deployment: "c8e1bf9b-e0e0-c007-4ad0-dde6a5cfc2ff"
+Desired Changes for "group": (place 0) (inplace 0) (destructive 0) (stop 0) (migrate 0) (ignore 4) (canary 4)"
+2020-01-13T15:32:15.537Z [DEBUG] worker: submitted plan for evaluation: eval_id=2e573e6f-bb65-b465-ea63-1b04d59eff89
+2020-01-13T15:32:15.537Z [DEBUG] worker.service_sched: setting eval status: eval_id=2e573e6f-bb65-b465-ea63-1b04d59eff89 job_id=failing-nomad-test01 namespace=default status=complete
+2020-01-13T15:32:15.550Z [DEBUG] http: request complete: method=GET path=/v1/node/fbccd964-9304-bc63-2d03-979f7c9351e0/allocations?index=596 duration=40.352209372s
+2020-01-13T15:32:15.558Z [DEBUG] worker: updated evaluation: eval="<Eval "2e573e6f-bb65-b465-ea63-1b04d59eff89" JobID: "failing-nomad-test01" Namespace: "default">"
+2020-01-13T15:32:15.558Z [DEBUG] worker: ack evaluation: eval_id=2e573e6f-bb65-b465-ea63-1b04d59eff89
+2020-01-13T15:32:15.559Z [DEBUG] http: request complete: method=GET path=/v1/node/da026aba-16e7-5a99-e537-214a76550e8e/allocations?index=599 duration=38.954570357s
+2020-01-13T15:32:15.659Z [DEBUG] http: request complete: method=GET path=/v1/evaluation/2e573e6f-bb65-b465-ea63-1b04d59eff89/allocations duration=201.238µs
+2020-01-13T15:32:15.892Z [DEBUG] http: request complete: method=GET path=/v1/node/da026aba-16e7-5a99-e537-214a76550e8e/allocations?index=608 duration=195.649621ms
+2020-01-13T15:32:16.679Z [DEBUG] nomad.client: adding evaluations for rescheduling failed allocations: num_evals=1
+2020-01-13T15:32:17.042Z [DEBUG] http: request complete: method=GET path=/v1/jobs duration=194.823µs
+2020-01-13T15:32:17.092Z [DEBUG] http: request complete: method=GET path=/v1/node/da026aba-16e7-5a99-e537-214a76550e8e/allocations?index=611 duration=1.098174297s
+2020-01-13T15:32:17.127Z [DEBUG] http: request complete: method=GET path=/v1/jobs?index=613 duration=258.482µs
+2020-01-13T15:32:17.479Z [DEBUG] nomad.client: adding evaluations for rescheduling failed allocations: num_evals=1
+2020-01-13T15:32:17.715Z [DEBUG] nomad.client: adding evaluations for rescheduling failed allocations: num_evals=1
+2020-01-13T15:32:17.831Z [DEBUG] worker: dequeued evaluation: eval_id=466975fe-9e12-e14b-951b-14fd27384bae
+2020-01-13T15:32:17.832Z [DEBUG] worker.service_sched: reconciled current state with desired state: eval_id=466975fe-9e12-e14b-951b-14fd27384bae job_id=failing-nomad-test01 namespace=default results="Total changes: (place 0) (destructive 0) (inplace 0) (stop 0)
+Desired Changes for "group": (place 0) (inplace 0) (destructive 0) (stop 0) (migrate 0) (ignore 8) (canary 0)"
+2020-01-13T15:32:17.832Z [DEBUG] worker.service_sched: setting eval status: eval_id=466975fe-9e12-e14b-951b-14fd27384bae job_id=failing-nomad-test01 namespace=default status=complete
+2020-01-13T15:32:17.835Z [DEBUG] worker: updated evaluation: eval="<Eval "466975fe-9e12-e14b-951b-14fd27384bae" JobID: "failing-nomad-test01" Namespace: "default">"
+2020-01-13T15:32:17.835Z [DEBUG] worker: ack evaluation: eval_id=466975fe-9e12-e14b-951b-14fd27384bae
+2020-01-13T15:32:17.874Z [DEBUG] http: request complete: method=GET path=/v1/job/failing-nomad-test01 duration=256.346µs
+2020-01-13T15:32:17.915Z [DEBUG] nomad.client: adding evaluations for rescheduling failed allocations: num_evals=1
+2020-01-13T15:32:17.941Z [DEBUG] http: request complete: method=GET path=/v1/job/failing-nomad-test01/allocations duration=516.029µs
+2020-01-13T15:32:17.963Z [DEBUG] http: request complete: method=GET path=/v1/job/failing-nomad-test01/evaluations duration=811.873µs
+2020-01-13T15:32:18.265Z [DEBUG] http: request complete: method=GET path=/v1/job/failing-nomad-test01/evaluations?index=623 duration=45.574241ms
+2020-01-13T15:32:18.375Z [DEBUG] http: request complete: method=GET path=/v1/allocation/69ed0a8f-668a-9c5e-c44a-2c7364194748 duration=437.397µs
+2020-01-13T15:32:18.447Z [DEBUG] http: request complete: method=GET path=/v1/allocation/1ee8ad8b-5ece-0269-f820-42b946c0fc9a duration=382.203µs
+2020-01-13T15:32:18.675Z [DEBUG] http: request complete: method=GET path=/v1/allocation/9b5d82b4-20d1-933f-b517-bab71518c798 duration=329.975µs
+2020-01-13T15:32:18.739Z [DEBUG] http: request complete: method=GET path=/v1/allocation/6f13e938-33fb-5a72-e2ec-6d4ebe80d724 duration=376.213µs
+2020-01-13T15:32:18.824Z [DEBUG] http: request complete: method=GET path=/v1/allocation/69ed0a8f-668a-9c5e-c44a-2c7364194748 duration=507.998µs
+2020-01-13T15:32:18.825Z [DEBUG] http: request complete: method=GET path=/v1/allocation/6f13e938-33fb-5a72-e2ec-6d4ebe80d724 duration=384.454µs
+2020-01-13T15:32:21.678Z [DEBUG] nomad: memberlist: Stream connection from=172.31.47.243:39886
+2020-01-13T15:32:22.799Z [DEBUG] nomad: memberlist: Stream connection from=127.0.0.1:59410
+2020-01-13T15:32:23.176Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/42d13de7-bfb1-6369-8fa7-1a03f886fd51/stats duration=8.474714ms
+2020-01-13T15:32:23.509Z [DEBUG] http: request complete: method=GET path=/v1/agent/health?type=server duration=161.095µs
+2020-01-13T15:32:27.318Z [DEBUG] http: request complete: method=GET path=/v1/job/failing-nomad-test01/evaluations duration=943.785µs
+2020-01-13T15:32:27.478Z [DEBUG] http: request complete: method=GET path=/v1/evaluation/90630d4a-ff7b-4a67-2ff4-c8efeb8e0f69 duration=161.975µs
+2020-01-13T15:32:28.271Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/42d13de7-bfb1-6369-8fa7-1a03f886fd51/stats duration=2.588443ms
+2020-01-13T15:32:31.603Z [DEBUG] nomad: memberlist: Stream connection from=172.31.45.55:50878
+2020-01-13T15:32:32.799Z [DEBUG] nomad: memberlist: Stream connection from=127.0.0.1:59416
+2020-01-13T15:32:33.324Z [DEBUG] nomad: memberlist: Initiating push/pull sync with: 172.31.47.243:4648
+2020-01-13T15:32:33.510Z [DEBUG] http: request complete: method=GET path=/v1/agent/health?type=server duration=254.896µs
+2020-01-13T15:32:42.799Z [DEBUG] nomad: memberlist: Stream connection from=127.0.0.1:59424
+2020-01-13T15:32:43.511Z [DEBUG] http: request complete: method=GET path=/v1/agent/health?type=server duration=162.555µs
+2020-01-13T15:32:44.702Z [DEBUG] worker: dequeued evaluation: eval_id=fe848ef3-e347-3473-0433-1302e700f1fa
+2020-01-13T15:32:44.702Z [DEBUG] core.sched: job GC scanning before cutoff index: index=0 job_gc_threshold=4h0m0s
+2020-01-13T15:32:44.702Z [DEBUG] worker: ack evaluation: eval_id=fe848ef3-e347-3473-0433-1302e700f1fa
+2020-01-13T15:32:46.434Z [DEBUG] worker: dequeued evaluation: eval_id=f130f136-b8a3-4ce2-1770-cad4338f8664
+2020-01-13T15:32:46.435Z [DEBUG] worker.service_sched: reconciled current state with desired state: eval_id=f130f136-b8a3-4ce2-1770-cad4338f8664 job_id=failing-nomad-test01 namespace=default results="Total changes: (place 3) (destructive 0) (inplace 0) (stop 3)
+Desired Changes for "group": (place 3) (inplace 0) (destructive 0) (stop 3) (migrate 0) (ignore 5) (canary 0)"
+2020-01-13T15:32:46.445Z [DEBUG] worker: submitted plan for evaluation: eval_id=f130f136-b8a3-4ce2-1770-cad4338f8664
+2020-01-13T15:32:46.445Z [DEBUG] worker.service_sched: setting eval status: eval_id=f130f136-b8a3-4ce2-1770-cad4338f8664 job_id=failing-nomad-test01 namespace=default status=complete
+2020-01-13T15:32:46.447Z [DEBUG] http: request complete: method=GET path=/v1/job/failing-nomad-test01/deployment?index=619 duration=26.179031778s
+2020-01-13T15:32:46.451Z [DEBUG] worker: updated evaluation: eval="<Eval "f130f136-b8a3-4ce2-1770-cad4338f8664" JobID: "failing-nomad-test01" Namespace: "default">"
+2020-01-13T15:32:46.451Z [DEBUG] worker: ack evaluation: eval_id=f130f136-b8a3-4ce2-1770-cad4338f8664
+2020-01-13T15:32:47.477Z [DEBUG] nomad.client: adding evaluations for rescheduling failed allocations: num_evals=1
+2020-01-13T15:32:47.477Z [DEBUG] nomad.client: adding evaluations for rescheduling failed allocations: num_evals=1
+2020-01-13T15:32:47.677Z [DEBUG] nomad.client: adding evaluations for rescheduling failed allocations: num_evals=1
+2020-01-13T15:32:48.877Z [DEBUG] nomad.client: adding evaluations for rescheduling failed allocations: num_evals=1
+2020-01-13T15:32:48.908Z [DEBUG] worker: dequeued evaluation: eval_id=dc77ed67-48f7-cb82-026b-25a3381ef3aa
+2020-01-13T15:32:48.908Z [DEBUG] worker.service_sched: reconciled current state with desired state: eval_id=dc77ed67-48f7-cb82-026b-25a3381ef3aa job_id=failing-nomad-test01 namespace=default results="Total changes: (place 0) (destructive 0) (inplace 0) (stop 0)
+Desired Changes for "group": (place 0) (inplace 0) (destructive 0) (stop 0) (migrate 0) (ignore 4) (canary 0)"
+2020-01-13T15:32:48.908Z [DEBUG] worker.service_sched: setting eval status: eval_id=dc77ed67-48f7-cb82-026b-25a3381ef3aa job_id=failing-nomad-test01 namespace=default status=complete
+2020-01-13T15:32:48.915Z [DEBUG] worker: updated evaluation: eval="<Eval "dc77ed67-48f7-cb82-026b-25a3381ef3aa" JobID: "failing-nomad-test01" Namespace: "default">"
+2020-01-13T15:32:48.915Z [DEBUG] worker: ack evaluation: eval_id=dc77ed67-48f7-cb82-026b-25a3381ef3aa
+2020-01-13T15:32:48.915Z [DEBUG] worker: dequeued evaluation: eval_id=c99aa20f-906e-af60-f9fc-4f5f0f416f08
+2020-01-13T15:32:48.915Z [DEBUG] worker.service_sched: reconciled current state with desired state: eval_id=c99aa20f-906e-af60-f9fc-4f5f0f416f08 job_id=failing-nomad-test01 namespace=default results="Total changes: (place 0) (destructive 0) (inplace 0) (stop 0)
+Desired Changes for "group": (place 0) (inplace 0) (destructive 0) (stop 0) (migrate 0) (ignore 4) (canary 0)"
+2020-01-13T15:32:48.915Z [DEBUG] worker.service_sched: setting eval status: eval_id=c99aa20f-906e-af60-f9fc-4f5f0f416f08 job_id=failing-nomad-test01 namespace=default status=complete
+2020-01-13T15:32:48.918Z [DEBUG] worker: updated evaluation: eval="<Eval "c99aa20f-906e-af60-f9fc-4f5f0f416f08" JobID: "failing-nomad-test01" Namespace: "default">"
+2020-01-13T15:32:48.918Z [DEBUG] worker: ack evaluation: eval_id=c99aa20f-906e-af60-f9fc-4f5f0f416f08
+2020-01-13T15:32:52.799Z [DEBUG] nomad: memberlist: Stream connection from=127.0.0.1:59436
+2020-01-13T15:32:53.512Z [DEBUG] http: request complete: method=GET path=/v1/agent/health?type=server duration=192.245µs
+2020-01-13T15:33:02.800Z [DEBUG] nomad: memberlist: Stream connection from=127.0.0.1:59442
+2020-01-13T15:33:03.513Z [DEBUG] http: request complete: method=GET path=/v1/agent/health?type=server duration=198.915µs
+2020-01-13T15:33:09.496Z [DEBUG] http: request complete: method=GET path=/v1/job/failing-nomad-test01/evaluations duration=954.747µs
+2020-01-13T15:33:09.659Z [DEBUG] http: request complete: method=GET path=/v1/evaluation/9b32aadb-2866-a661-6376-e6b0a3154ba0 duration=182.457µs
+2020-01-13T15:33:12.800Z [DEBUG] nomad: memberlist: Stream connection from=127.0.0.1:59448
+2020-01-13T15:33:13.514Z [DEBUG] http: request complete: method=GET path=/v1/agent/health?type=server duration=153.991µs
+2020-01-13T15:33:21.678Z [DEBUG] nomad: memberlist: Stream connection from=172.31.47.243:39932
+2020-01-13T15:33:22.800Z [DEBUG] nomad: memberlist: Stream connection from=127.0.0.1:59456
+2020-01-13T15:33:23.515Z [DEBUG] http: request complete: method=GET path=/v1/agent/health?type=server duration=203.796µs
+2020-01-13T15:33:26.719Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/42d13de7-bfb1-6369-8fa7-1a03f886fd51/stats duration=3.157205ms
+2020-01-13T15:33:31.603Z [DEBUG] nomad: memberlist: Stream connection from=172.31.45.55:50922
+2020-01-13T15:33:32.801Z [DEBUG] nomad: memberlist: Stream connection from=127.0.0.1:59462
+2020-01-13T15:33:33.325Z [DEBUG] nomad: memberlist: Initiating push/pull sync with: 172.31.45.55:4648
+2020-01-13T15:33:33.516Z [DEBUG] http: request complete: method=GET path=/v1/agent/health?type=server duration=159.367µs

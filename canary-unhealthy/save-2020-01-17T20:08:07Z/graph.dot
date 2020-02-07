@@ -1,0 +1,129 @@
+digraph G {
+
+/* deploy-to-deploy */
+deploy_4735621 -> deploy_90c1b8d
+
+/* deploy-to-eval */
+deploy_4735621 -> eval_6f8d794
+deploy_4735621 -> eval_b7e3137
+deploy_4735621 -> eval_e865ef9
+deploy_4735621 -> eval_9f93d58
+deploy_90c1b8d -> eval_cdee48a
+deploy_90c1b8d -> eval_5e26c40
+deploy_90c1b8d -> eval_8fc282b
+deploy_90c1b8d -> eval_6bdeefa
+deploy_90c1b8d -> eval_c9d9c33
+deploy_90c1b8d -> eval_28a2aa4
+deploy_90c1b8d -> eval_3dae191
+deploy_90c1b8d -> eval_6d18867
+deploy_90c1b8d -> eval_2daa11e
+deploy_90c1b8d -> eval_f998737
+deploy_ -> eval_949a642
+
+/* deploy-to-canary */
+deploy_90c1b8d -> alloc_9f68e33 [color=blue]
+deploy_90c1b8d -> alloc_e7cfc8c [color=blue]
+deploy_90c1b8d -> alloc_7dcca6d [color=blue]
+deploy_90c1b8d -> alloc_8c5edbb [color=blue]
+deploy_90c1b8d -> alloc_239d2fb [color=blue]
+deploy_90c1b8d -> alloc_87a90b2 [color=blue]
+deploy_90c1b8d -> alloc_6b2682f [color=blue]
+deploy_90c1b8d -> alloc_fd39cc9 [color=blue]
+
+/* eval-to-eval */
+eval_6f8d794 -> eval_b7e3137
+eval_c9d9c33 -> eval_28a2aa4
+eval_f998737 -> eval_949a642
+
+/* eval-to-alloc */
+eval_cdee48a -> alloc_7dcca6d
+eval_cdee48a -> alloc_8c5edbb
+eval_cdee48a -> alloc_9f68e33
+eval_cdee48a -> alloc_e7cfc8c
+eval_b7e3137 -> alloc_0b122a6
+eval_b7e3137 -> alloc_1bab0f7
+eval_b7e3137 -> alloc_40481c3
+eval_b7e3137 -> alloc_522d5bc
+eval_28a2aa4 -> alloc_239d2fb
+eval_28a2aa4 -> alloc_6b2682f
+eval_28a2aa4 -> alloc_87a90b2
+eval_28a2aa4 -> alloc_fd39cc9
+
+/* follow-up evals */
+alloc_7dcca6d -> eval_28a2aa4
+alloc_8c5edbb -> eval_28a2aa4
+alloc_9f68e33 -> eval_28a2aa4
+alloc_e7cfc8c -> eval_28a2aa4
+alloc_239d2fb -> eval_949a642
+alloc_6b2682f -> eval_949a642
+alloc_fd39cc9 -> eval_949a642
+
+/* reschedules */
+alloc_8c5edbb -> alloc_239d2fb [color=red]
+alloc_e7cfc8c -> alloc_6b2682f [color=red]
+alloc_9f68e33 -> alloc_87a90b2 [color=red]
+alloc_7dcca6d -> alloc_fd39cc9 [color=red]
+
+/* evaluations */
+eval_6f8d794 [label="eval:6f8d794", fillcolor="#ccffff", style=filled, tooltip="Status: complete\nTriggeredBy: job-register"]
+eval_b7e3137 [label="eval:b7e3137", fillcolor="#ccffff", style=filled, tooltip="Status: complete\nTriggeredBy: queued-allocs"]
+eval_e865ef9 [label="eval:e865ef9", fillcolor="#ccffff", style=filled, tooltip="Status: complete\nTriggeredBy: deployment-watcher"]
+eval_9f93d58 [label="eval:9f93d58", fillcolor="#ccffff", style=filled, tooltip="Status: complete\nTriggeredBy: deployment-watcher"]
+eval_cdee48a [label="eval:cdee48a", fillcolor="#ccffff", style=filled, tooltip="Status: complete\nTriggeredBy: job-register"]
+eval_5e26c40 [label="eval:5e26c40", fillcolor="#ccffff", style=filled, tooltip="Status: complete\nTriggeredBy: alloc-failure"]
+eval_8fc282b [label="eval:8fc282b", fillcolor="#ccffff", style=filled, tooltip="Status: complete\nTriggeredBy: alloc-failure"]
+eval_6bdeefa [label="eval:6bdeefa", fillcolor="#ccffff", style=filled, tooltip="Status: complete\nTriggeredBy: alloc-failure"]
+eval_c9d9c33 [label="eval:c9d9c33", fillcolor="#ccffff", style=filled, tooltip="Status: complete\nTriggeredBy: deployment-watcher"]
+eval_28a2aa4 [label="eval:28a2aa4", fillcolor="#ccffff", style=filled, tooltip="Status: complete\nTriggeredBy: alloc-failure"]
+eval_3dae191 [label="eval:3dae191", fillcolor="#ccffff", style=filled, tooltip="Status: complete\nTriggeredBy: alloc-failure"]
+eval_6d18867 [label="eval:6d18867", fillcolor="#ccffff", style=filled, tooltip="Status: complete\nTriggeredBy: alloc-failure"]
+eval_2daa11e [label="eval:2daa11e", fillcolor="#ccffff", style=filled, tooltip="Status: complete\nTriggeredBy: alloc-failure"]
+eval_f998737 [label="eval:f998737", fillcolor="#ccffff", style=filled, tooltip="Status: complete\nTriggeredBy: deployment-watcher"]
+eval_949a642 [label="eval:949a642", fillcolor="#ccffff", style=filled, tooltip="Status: pending\nTriggeredBy: alloc-failure"]
+
+/* deployments */
+deploy_4735621 [shape=box, label="deploy:4735621", fillcolor="#66ff66", tooltip="Status: successful\nDescription: Deployment completed successfully", style=filled]
+deploy_90c1b8d [shape=box, label="deploy:90c1b8d", fillcolor="#66ccff", tooltip="Status: running\nDescription: Deployment is running but requires manual promotion", style=filled]
+
+/* allocs */
+alloc_7dcca6d [shape=box, label="alloc:7dcca6d\nv1\nfailed", tooltip="DesiredStatus: stop\nDeploymentStatus.Canary: true\nDeploymentStatus.Healthy: false", fillcolor="#ff0066", style=filled]
+alloc_8c5edbb [shape=box, label="alloc:8c5edbb\nv1\nfailed", tooltip="DesiredStatus: stop\nDeploymentStatus.Canary: true\nDeploymentStatus.Healthy: false", fillcolor="#ff0066", style=filled]
+alloc_9f68e33 [shape=box, label="alloc:9f68e33\nv1\nfailed", tooltip="DesiredStatus: stop\nDeploymentStatus.Canary: true\nDeploymentStatus.Healthy: false", fillcolor="#ff0066", style=filled]
+alloc_e7cfc8c [shape=box, label="alloc:e7cfc8c\nv1\nfailed", tooltip="DesiredStatus: stop\nDeploymentStatus.Canary: true\nDeploymentStatus.Healthy: false", fillcolor="#ff0066", style=filled]
+alloc_239d2fb [shape=box, label="alloc:239d2fb\nv1\nfailed", tooltip="DesiredStatus: run\nDeploymentStatus.Canary: true\nDeploymentStatus.Healthy: false", fillcolor="#ff0066", style=filled]
+alloc_6b2682f [shape=box, label="alloc:6b2682f\nv1\nfailed", tooltip="DesiredStatus: run\nDeploymentStatus.Canary: true\nDeploymentStatus.Healthy: false", fillcolor="#ff0066", style=filled]
+alloc_87a90b2 [shape=box, label="alloc:87a90b2\nv1\ncomplete", tooltip="DesiredStatus: stop\nDeploymentStatus.Canary: true\nDeploymentStatus.Healthy: false", fillcolor="#66ccff", style=filled]
+alloc_fd39cc9 [shape=box, label="alloc:fd39cc9\nv1\nfailed", tooltip="DesiredStatus: run\nDeploymentStatus.Canary: true\nDeploymentStatus.Healthy: false", fillcolor="#ff0066", style=filled]
+alloc_0b122a6 [shape=box, label="alloc:0b122a6\nv0\ncomplete", tooltip="DesiredStatus: stop\nDeploymentStatus.Canary: false\nDeploymentStatus.Healthy: true", fillcolor="#66ccff", style=filled]
+alloc_1bab0f7 [shape=box, label="alloc:1bab0f7\nv0\nrunning", tooltip="DesiredStatus: run\nDeploymentStatus.Canary: false\nDeploymentStatus.Healthy: true", fillcolor="#66ff66", style=filled]
+alloc_40481c3 [shape=box, label="alloc:40481c3\nv0\ncomplete", tooltip="DesiredStatus: stop\nDeploymentStatus.Canary: false\nDeploymentStatus.Healthy: true", fillcolor="#66ccff", style=filled]
+alloc_522d5bc [shape=box, label="alloc:522d5bc\nv0\ncomplete", tooltip="DesiredStatus: stop\nDeploymentStatus.Canary: false\nDeploymentStatus.Healthy: true", fillcolor="#66ccff", style=filled]
+
+/* tasks-to-allocs */
+alloc_7dcca6d -> task_rails_7dcca6d
+alloc_8c5edbb -> task_rails_8c5edbb
+alloc_9f68e33 -> task_rails_9f68e33
+alloc_e7cfc8c -> task_rails_e7cfc8c
+alloc_239d2fb -> task_rails_239d2fb
+alloc_6b2682f -> task_rails_6b2682f
+alloc_87a90b2 -> task_rails_87a90b2
+alloc_fd39cc9 -> task_rails_fd39cc9
+alloc_0b122a6 -> task_rails_0b122a6
+alloc_1bab0f7 -> task_rails_1bab0f7
+alloc_40481c3 -> task_rails_40481c3
+alloc_522d5bc -> task_rails_522d5bc
+
+/* tasks */
+task_rails_7dcca6d [label="rails", fillcolor="#d1d1e0", style=filled, tooltip="State: dead\nRestarts: 0\nEvents:\n- Task received by client\n- Building Task Directory\n- Task started by client\n- Exit Code: 1, Exit Message: &quot;Docker container exited with non-zero exit code: 1&quot;\n- Policy allows no restarts\n- Unhealthy because of failed task"]
+task_rails_8c5edbb [label="rails", fillcolor="#d1d1e0", style=filled, tooltip="State: dead\nRestarts: 0\nEvents:\n- Task received by client\n- Building Task Directory\n- Task started by client\n- Exit Code: 1, Exit Message: &quot;Docker container exited with non-zero exit code: 1&quot;\n- Policy allows no restarts\n- Unhealthy because of failed task"]
+task_rails_9f68e33 [label="rails", fillcolor="#d1d1e0", style=filled, tooltip="State: dead\nRestarts: 0\nEvents:\n- Task received by client\n- Building Task Directory\n- Task started by client\n- Exit Code: 1, Exit Message: &quot;Docker container exited with non-zero exit code: 1&quot;\n- Policy allows no restarts\n- Unhealthy because of failed task"]
+task_rails_e7cfc8c [label="rails", fillcolor="#d1d1e0", style=filled, tooltip="State: dead\nRestarts: 0\nEvents:\n- Task received by client\n- Building Task Directory\n- Task started by client\n- Exit Code: 1, Exit Message: &quot;Docker container exited with non-zero exit code: 1&quot;\n- Policy allows no restarts\n- Unhealthy because of failed task"]
+task_rails_239d2fb [label="rails", fillcolor="#d1d1e0", style=filled, tooltip="State: dead\nRestarts: 0\nEvents:\n- Task received by client\n- Building Task Directory\n- Task started by client\n- Exit Code: 1, Exit Message: &quot;Docker container exited with non-zero exit code: 1&quot;\n- Policy allows no restarts\n- Unhealthy because of failed task"]
+task_rails_6b2682f [label="rails", fillcolor="#d1d1e0", style=filled, tooltip="State: dead\nRestarts: 0\nEvents:\n- Task received by client\n- Building Task Directory\n- Task started by client\n- Exit Code: 1, Exit Message: &quot;Docker container exited with non-zero exit code: 1&quot;\n- Policy allows no restarts\n- Unhealthy because of failed task"]
+task_rails_87a90b2 [label="rails", fillcolor="#d1d1e0", style=filled, tooltip="State: dead\nRestarts: 0\nEvents:\n- Task received by client\n- Building Task Directory\n- Task started by client\n- Sent interrupt. Waiting 5s before force killing\n- Exit Code: 1, Exit Message: &quot;Docker container exited with non-zero exit code: 1&quot;\n- Task successfully killed"]
+task_rails_fd39cc9 [label="rails", fillcolor="#d1d1e0", style=filled, tooltip="State: dead\nRestarts: 0\nEvents:\n- Task received by client\n- Building Task Directory\n- Task started by client\n- Exit Code: 1, Exit Message: &quot;Docker container exited with non-zero exit code: 1&quot;\n- Policy allows no restarts\n- Unhealthy because of failed task"]
+task_rails_0b122a6 [label="rails", fillcolor="#d1d1e0", style=filled, tooltip="State: dead\nRestarts: 0\nEvents:\n- Task received by client\n- Building Task Directory\n- Task started by client\n- Sent interrupt. Waiting 5s before force killing\n- Exit Code: 0\n- Task successfully killed"]
+task_rails_1bab0f7 [label="rails", fillcolor="#66ff66", style=filled, tooltip="State: running\nRestarts: 0\nEvents:\n- Task received by client\n- Building Task Directory\n- Task started by client"]
+task_rails_40481c3 [label="rails", fillcolor="#d1d1e0", style=filled, tooltip="State: dead\nRestarts: 0\nEvents:\n- Task received by client\n- Building Task Directory\n- Task started by client\n- Sent interrupt. Waiting 5s before force killing\n- Exit Code: 0\n- Task successfully killed"]
+task_rails_522d5bc [label="rails", fillcolor="#d1d1e0", style=filled, tooltip="State: dead\nRestarts: 0\nEvents:\n- Task received by client\n- Building Task Directory\n- Task started by client\n- Sent interrupt. Waiting 5s before force killing\n- Exit Code: 0\n- Task successfully killed"]
+}

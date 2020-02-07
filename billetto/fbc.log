@@ -1,0 +1,1076 @@
+2020-01-13T15:31:38.584Z [DEBUG] http: request complete: method=GET path=/v1/agent/health?type=client duration=195.756µs
+2020-01-13T15:31:47.935Z [TRACE] client: next heartbeat: period=17.475539891s
+2020-01-13T15:31:48.585Z [DEBUG] http: request complete: method=GET path=/v1/agent/health?type=client duration=364.013µs
+2020-01-13T15:31:58.586Z [DEBUG] http: request complete: method=GET path=/v1/agent/health?type=client duration=207.556µs
+2020-01-13T15:32:05.412Z [TRACE] client: next heartbeat: period=12.875910242s
+2020-01-13T15:32:08.587Z [DEBUG] http: request complete: method=GET path=/v1/agent/health?type=client duration=171.375µs
+2020-01-13T15:32:15.538Z [TRACE] client: next heartbeat: period=11.475031673s
+2020-01-13T15:32:15.539Z [DEBUG] client: updated allocations: index=608 total=29 pulled=19 filtered=10
+2020-01-13T15:32:15.539Z [DEBUG] client: allocation updates: added=1 removed=0 updated=18 ignored=10
+2020-01-13T15:32:15.539Z [TRACE] client: updating alloc: alloc_id=a94fd0d3-8a36-df8d-2f57-9649131d019d index=375
+2020-01-13T15:32:15.539Z [TRACE] client: next heartbeat: period=15.061017657s
+2020-01-13T15:32:15.541Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=a94fd0d3-8a36-df8d-2f57-9649131d019d modify_index=375
+2020-01-13T15:32:15.541Z [TRACE] client: updating alloc: alloc_id=d53795fe-57a7-510c-9a23-e688c37a3a10 index=518
+2020-01-13T15:32:15.543Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=d53795fe-57a7-510c-9a23-e688c37a3a10 modify_index=518
+2020-01-13T15:32:15.543Z [TRACE] client: updating alloc: alloc_id=bfb24811-776e-ac11-179f-1da72dc17bc7 index=283
+2020-01-13T15:32:15.545Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=bfb24811-776e-ac11-179f-1da72dc17bc7 modify_index=283
+2020-01-13T15:32:15.545Z [TRACE] client: updating alloc: alloc_id=e2b544e2-65f8-3360-6ba2-20c74265078a index=589
+2020-01-13T15:32:15.547Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=e2b544e2-65f8-3360-6ba2-20c74265078a modify_index=589
+2020-01-13T15:32:15.547Z [TRACE] client: updating alloc: alloc_id=1db75628-aa86-8a5a-a04e-323393bd832b index=158
+2020-01-13T15:32:15.548Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=1db75628-aa86-8a5a-a04e-323393bd832b modify_index=158
+2020-01-13T15:32:15.548Z [TRACE] client: updating alloc: alloc_id=6a41739c-ac54-031a-d5bf-3a44ed08fd9a index=589
+2020-01-13T15:32:15.550Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=6a41739c-ac54-031a-d5bf-3a44ed08fd9a modify_index=589
+2020-01-13T15:32:15.550Z [TRACE] client: updating alloc: alloc_id=7b990a90-9ea4-9c2b-5244-24c58a80b28a index=186
+2020-01-13T15:32:15.552Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=7b990a90-9ea4-9c2b-5244-24c58a80b28a modify_index=186
+2020-01-13T15:32:15.552Z [TRACE] client: updating alloc: alloc_id=f6adb34f-6d86-0cc5-5b4e-6086f1210ced index=96
+2020-01-13T15:32:15.554Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=f6adb34f-6d86-0cc5-5b4e-6086f1210ced modify_index=96
+2020-01-13T15:32:15.554Z [TRACE] client: updating alloc: alloc_id=7d88e249-9585-0173-949a-ff8ec9b9a458 index=483
+2020-01-13T15:32:15.555Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=7d88e249-9585-0173-949a-ff8ec9b9a458 modify_index=483
+2020-01-13T15:32:15.555Z [TRACE] client: updating alloc: alloc_id=042b691b-c331-242b-f27e-fcd4522f4d23 index=96
+2020-01-13T15:32:15.557Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=042b691b-c331-242b-f27e-fcd4522f4d23 modify_index=96
+2020-01-13T15:32:15.557Z [TRACE] client: updating alloc: alloc_id=de47aba9-b2b9-b9f8-47aa-6a27b41e2a90 index=137
+2020-01-13T15:32:15.559Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=de47aba9-b2b9-b9f8-47aa-6a27b41e2a90 modify_index=137
+2020-01-13T15:32:15.559Z [TRACE] client: updating alloc: alloc_id=a4f537fb-5d70-58cd-2dd1-ba98e5bb3e05 index=375
+2020-01-13T15:32:15.561Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=a4f537fb-5d70-58cd-2dd1-ba98e5bb3e05 modify_index=375
+2020-01-13T15:32:15.561Z [TRACE] client: updating alloc: alloc_id=fa04b4f8-97a3-c271-0b7e-bc1e4c3df153 index=589
+2020-01-13T15:32:15.563Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=fa04b4f8-97a3-c271-0b7e-bc1e4c3df153 modify_index=589
+2020-01-13T15:32:15.563Z [TRACE] client: updating alloc: alloc_id=aed90a68-d584-72af-c191-16f769110960 index=264
+2020-01-13T15:32:15.565Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=aed90a68-d584-72af-c191-16f769110960 modify_index=264
+2020-01-13T15:32:15.565Z [TRACE] client: updating alloc: alloc_id=170de67b-e478-65a9-4ed9-bc48315751d0 index=395
+2020-01-13T15:32:15.567Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=170de67b-e478-65a9-4ed9-bc48315751d0 modify_index=395
+2020-01-13T15:32:15.567Z [TRACE] client: updating alloc: alloc_id=0ee7727e-7c11-117b-ab4d-f6b3f6e8a2cc index=186
+2020-01-13T15:32:15.570Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=0ee7727e-7c11-117b-ab4d-f6b3f6e8a2cc modify_index=186
+2020-01-13T15:32:15.570Z [TRACE] client: updating alloc: alloc_id=1160fece-17fb-39c3-1cdd-bc63983acd3d index=264
+2020-01-13T15:32:15.572Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=1160fece-17fb-39c3-1cdd-bc63983acd3d modify_index=264
+2020-01-13T15:32:15.572Z [TRACE] client: updating alloc: alloc_id=747cfa1b-d7bb-ef09-2cdb-69c224cef59f index=283
+2020-01-13T15:32:15.574Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=747cfa1b-d7bb-ef09-2cdb-69c224cef59f modify_index=283
+2020-01-13T15:32:15.576Z [DEBUG] client: allocation updates applied: added=1 removed=0 updated=18 ignored=10 errors=0
+2020-01-13T15:32:15.577Z [TRACE] client.alloc_runner.runner_hook.alloc_health_watcher: watching: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 deadline="2020-01-13 15:35:15.577145736 +0000 UTC m=+4346.380085238" checks=true min_healthy_time=10s
+2020-01-13T15:32:15.580Z [TRACE] client.alloc_runner: handling task state update: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 done=false
+2020-01-13T15:32:15.580Z [TRACE] client.alloc_runner: sending updated alloc: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 client_status=pending desired_status=
+2020-01-13T15:32:15.583Z [DEBUG] client.alloc_runner.task_runner.task_hook.logmon: starting plugin: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 task=rails path=/usr/local/bin/nomad args=[/usr/local/bin/nomad, logmon]
+2020-01-13T15:32:15.583Z [DEBUG] client.alloc_runner.task_runner.task_hook.logmon: plugin started: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 task=rails path=/usr/local/bin/nomad pid=7168
+2020-01-13T15:32:15.583Z [DEBUG] client.alloc_runner.task_runner.task_hook.logmon: waiting for RPC address: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 task=rails path=/usr/local/bin/nomad
+2020-01-13T15:32:15.588Z [DEBUG] client.alloc_runner.task_runner.task_hook.logmon.nomad: plugin address: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 task=rails @module=logmon address=/tmp/plugin341696520 network=unix timestamp=2020-01-13T15:32:15.587Z
+2020-01-13T15:32:15.588Z [DEBUG] client.alloc_runner.task_runner.task_hook.logmon: using plugin: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 task=rails version=2
+2020-01-13T15:32:15.589Z [INFO]  client.alloc_runner.task_runner.task_hook.logmon.nomad: opening fifo: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 task=rails @module=logmon path=/opt/nomad/data/alloc/9b5d82b4-20d1-933f-b517-bab71518c798/alloc/logs/.rails.stdout.fifo timestamp=2020-01-13T15:32:15.589Z
+2020-01-13T15:32:15.590Z [INFO]  client.alloc_runner.task_runner.task_hook.logmon.nomad: opening fifo: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 task=rails @module=logmon path=/opt/nomad/data/alloc/9b5d82b4-20d1-933f-b517-bab71518c798/alloc/logs/.rails.stderr.fifo timestamp=2020-01-13T15:32:15.589Z
+2020-01-13T15:32:15.613Z [DEBUG] client.driver_mgr.docker: image reference count incremented: driver=docker image_name=kaspergrubbe/diceapp:0.0.6 image_id=sha256:04b67578f216cb740b402f0d13826349ce9ad94ec63ca78b3480bb4cd2d02308 references=28
+2020-01-13T15:32:15.613Z [TRACE] client.driver_mgr.docker: binding volumes: driver=docker task_name=rails volumes=[/opt/nomad/data/alloc/9b5d82b4-20d1-933f-b517-bab71518c798/alloc:/alloc, /opt/nomad/data/alloc/9b5d82b4-20d1-933f-b517-bab71518c798/rails/local:/local, /opt/nomad/data/alloc/9b5d82b4-20d1-933f-b517-bab71518c798/rails/secrets:/secrets]
+2020-01-13T15:32:15.613Z [TRACE] client.driver_mgr.docker: no docker log driver provided, defaulting to json-file: driver=docker task_name=rails
+2020-01-13T15:32:15.613Z [DEBUG] client.driver_mgr.docker: configured resources: driver=docker task_name=rails memory=262144000 cpu_shares=750 cpu_quota=0 cpu_period=0
+2020-01-13T15:32:15.613Z [DEBUG] client.driver_mgr.docker: binding directories: driver=docker task_name=rails binds="[]string{"/opt/nomad/data/alloc/9b5d82b4-20d1-933f-b517-bab71518c798/alloc:/alloc", "/opt/nomad/data/alloc/9b5d82b4-20d1-933f-b517-bab71518c798/rails/local:/local", "/opt/nomad/data/alloc/9b5d82b4-20d1-933f-b517-bab71518c798/rails/secrets:/secrets"}"
+2020-01-13T15:32:15.613Z [DEBUG] client.driver_mgr.docker: networking mode not specified; using default: driver=docker task_name=rails
+2020-01-13T15:32:15.613Z [DEBUG] client.driver_mgr.docker: allocated mapped port: driver=docker task_name=rails ip=172.31.36.12 port=30711
+2020-01-13T15:32:15.613Z [DEBUG] client.driver_mgr.docker: exposed port: driver=docker task_name=rails port=8080
+2020-01-13T15:32:15.613Z [DEBUG] client.driver_mgr.docker: setting container startup command: driver=docker task_name=rails command=false
+2020-01-13T15:32:15.613Z [DEBUG] client.driver_mgr.docker: applied labels on the container: driver=docker task_name=rails labels=map[com.hashicorp.nomad.alloc_id:9b5d82b4-20d1-933f-b517-bab71518c798]
+2020-01-13T15:32:15.614Z [DEBUG] client.driver_mgr.docker: setting container name: driver=docker task_name=rails container_name=rails-9b5d82b4-20d1-933f-b517-bab71518c798
+2020-01-13T15:32:15.644Z [TRACE] client: next heartbeat: period=15.125250767s
+2020-01-13T15:32:15.676Z [INFO]  client.driver_mgr.docker: created container: driver=docker container_id=905c942339325365b285d7b1c70d1f5e918008eab9aac601dcd56fa4e9d58838
+2020-01-13T15:32:15.738Z [TRACE] client: next heartbeat: period=17.645484445s
+2020-01-13T15:32:15.740Z [DEBUG] client: updated allocations: index=610 total=29 pulled=18 filtered=11
+2020-01-13T15:32:15.740Z [DEBUG] client: allocation updates: added=0 removed=0 updated=18 ignored=11
+2020-01-13T15:32:15.740Z [TRACE] client: updating alloc: alloc_id=a4f537fb-5d70-58cd-2dd1-ba98e5bb3e05 index=375
+2020-01-13T15:32:15.740Z [TRACE] client: next heartbeat: period=15.860782354s
+2020-01-13T15:32:15.742Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=a4f537fb-5d70-58cd-2dd1-ba98e5bb3e05 modify_index=375
+2020-01-13T15:32:15.742Z [TRACE] client: updating alloc: alloc_id=a94fd0d3-8a36-df8d-2f57-9649131d019d index=375
+2020-01-13T15:32:15.744Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=a94fd0d3-8a36-df8d-2f57-9649131d019d modify_index=375
+2020-01-13T15:32:15.744Z [TRACE] client: updating alloc: alloc_id=6a41739c-ac54-031a-d5bf-3a44ed08fd9a index=589
+2020-01-13T15:32:15.746Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=6a41739c-ac54-031a-d5bf-3a44ed08fd9a modify_index=589
+2020-01-13T15:32:15.746Z [TRACE] client: updating alloc: alloc_id=e2b544e2-65f8-3360-6ba2-20c74265078a index=589
+2020-01-13T15:32:15.748Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=e2b544e2-65f8-3360-6ba2-20c74265078a modify_index=589
+2020-01-13T15:32:15.749Z [TRACE] client: updating alloc: alloc_id=1160fece-17fb-39c3-1cdd-bc63983acd3d index=264
+2020-01-13T15:32:15.750Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=1160fece-17fb-39c3-1cdd-bc63983acd3d modify_index=264
+2020-01-13T15:32:15.751Z [TRACE] client: updating alloc: alloc_id=7d88e249-9585-0173-949a-ff8ec9b9a458 index=483
+2020-01-13T15:32:15.753Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=7d88e249-9585-0173-949a-ff8ec9b9a458 modify_index=483
+2020-01-13T15:32:15.753Z [TRACE] client: updating alloc: alloc_id=1db75628-aa86-8a5a-a04e-323393bd832b index=158
+2020-01-13T15:32:15.755Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=1db75628-aa86-8a5a-a04e-323393bd832b modify_index=158
+2020-01-13T15:32:15.755Z [TRACE] client: updating alloc: alloc_id=bfb24811-776e-ac11-179f-1da72dc17bc7 index=283
+2020-01-13T15:32:15.757Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=bfb24811-776e-ac11-179f-1da72dc17bc7 modify_index=283
+2020-01-13T15:32:15.757Z [TRACE] client: updating alloc: alloc_id=aed90a68-d584-72af-c191-16f769110960 index=264
+2020-01-13T15:32:15.759Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=aed90a68-d584-72af-c191-16f769110960 modify_index=264
+2020-01-13T15:32:15.759Z [TRACE] client: updating alloc: alloc_id=de47aba9-b2b9-b9f8-47aa-6a27b41e2a90 index=137
+2020-01-13T15:32:15.760Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=de47aba9-b2b9-b9f8-47aa-6a27b41e2a90 modify_index=137
+2020-01-13T15:32:15.760Z [TRACE] client: updating alloc: alloc_id=f6adb34f-6d86-0cc5-5b4e-6086f1210ced index=96
+2020-01-13T15:32:15.762Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=f6adb34f-6d86-0cc5-5b4e-6086f1210ced modify_index=96
+2020-01-13T15:32:15.762Z [TRACE] client: updating alloc: alloc_id=7b990a90-9ea4-9c2b-5244-24c58a80b28a index=186
+2020-01-13T15:32:15.763Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=7b990a90-9ea4-9c2b-5244-24c58a80b28a modify_index=186
+2020-01-13T15:32:15.763Z [TRACE] client: updating alloc: alloc_id=fa04b4f8-97a3-c271-0b7e-bc1e4c3df153 index=589
+2020-01-13T15:32:15.765Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=fa04b4f8-97a3-c271-0b7e-bc1e4c3df153 modify_index=589
+2020-01-13T15:32:15.765Z [TRACE] client: updating alloc: alloc_id=d53795fe-57a7-510c-9a23-e688c37a3a10 index=518
+2020-01-13T15:32:15.766Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=d53795fe-57a7-510c-9a23-e688c37a3a10 modify_index=518
+2020-01-13T15:32:15.766Z [TRACE] client: updating alloc: alloc_id=042b691b-c331-242b-f27e-fcd4522f4d23 index=96
+2020-01-13T15:32:15.768Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=042b691b-c331-242b-f27e-fcd4522f4d23 modify_index=96
+2020-01-13T15:32:15.768Z [TRACE] client: updating alloc: alloc_id=747cfa1b-d7bb-ef09-2cdb-69c224cef59f index=283
+2020-01-13T15:32:15.769Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=747cfa1b-d7bb-ef09-2cdb-69c224cef59f modify_index=283
+2020-01-13T15:32:15.769Z [TRACE] client: updating alloc: alloc_id=0ee7727e-7c11-117b-ab4d-f6b3f6e8a2cc index=186
+2020-01-13T15:32:15.771Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=0ee7727e-7c11-117b-ab4d-f6b3f6e8a2cc modify_index=186
+2020-01-13T15:32:15.771Z [TRACE] client: updating alloc: alloc_id=170de67b-e478-65a9-4ed9-bc48315751d0 index=395
+2020-01-13T15:32:15.775Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=170de67b-e478-65a9-4ed9-bc48315751d0 modify_index=395
+2020-01-13T15:32:15.775Z [DEBUG] client: allocation updates applied: added=0 removed=0 updated=18 ignored=11 errors=0
+2020-01-13T15:32:16.183Z [INFO]  client.driver_mgr.docker: started container: driver=docker container_id=905c942339325365b285d7b1c70d1f5e918008eab9aac601dcd56fa4e9d58838
+2020-01-13T15:32:16.183Z [DEBUG] client.driver_mgr.docker.docker_logger: starting plugin: driver=docker path=/usr/local/bin/nomad args=[/usr/local/bin/nomad, docker_logger]
+2020-01-13T15:32:16.183Z [DEBUG] client.driver_mgr.docker.docker_logger: plugin started: driver=docker path=/usr/local/bin/nomad pid=7329
+2020-01-13T15:32:16.183Z [DEBUG] client.driver_mgr.docker.docker_logger: waiting for RPC address: driver=docker path=/usr/local/bin/nomad
+2020-01-13T15:32:16.188Z [DEBUG] client.driver_mgr.docker.docker_logger.nomad: plugin address: driver=docker @module=docker_logger address=/tmp/plugin587489065 network=unix timestamp=2020-01-13T15:32:16.188Z
+2020-01-13T15:32:16.188Z [DEBUG] client.driver_mgr.docker.docker_logger: using plugin: driver=docker version=2
+2020-01-13T15:32:16.190Z [DEBUG] client.driver_mgr.docker.docker_logger.nomad: using client connection initialized from environment: driver=docker @module=docker_logger timestamp=2020-01-13T15:32:16.190Z
+2020-01-13T15:32:16.196Z [TRACE] client.alloc_runner.task_runner: setting task state: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 task=rails state=running event=Started
+2020-01-13T15:32:16.198Z [TRACE] client.alloc_runner: handling task state update: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 done=false
+2020-01-13T15:32:16.198Z [TRACE] client.alloc_runner: sending updated alloc: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 client_status=running desired_status=
+2020-01-13T15:32:16.218Z [DEBUG] consul.sync: sync complete: registered_services=1 deregistered_services=0 registered_checks=1 deregistered_checks=0
+2020-01-13T15:32:16.421Z [ERROR] client.alloc_runner.task_runner.task_hook.stats_hook: failed to start stats collection for task with unrecoverable error: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 task=rails error="container stopped"
+2020-01-13T15:32:16.422Z [DEBUG] client.driver_mgr.docker.docker_logger: plugin process exited: driver=docker path=/usr/local/bin/nomad pid=7329
+2020-01-13T15:32:16.423Z [DEBUG] client.driver_mgr.docker.docker_logger: plugin exited: driver=docker
+2020-01-13T15:32:16.423Z [TRACE] client.alloc_runner: handling task state update: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 done=false
+2020-01-13T15:32:16.423Z [TRACE] client.alloc_runner: sending updated alloc: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 client_status=running desired_status=
+2020-01-13T15:32:16.434Z [DEBUG] client.driver_mgr.docker: image id reference count decremented: driver=docker image_id=sha256:04b67578f216cb740b402f0d13826349ce9ad94ec63ca78b3480bb4cd2d02308 references=28
+2020-01-13T15:32:16.434Z [INFO]  client.alloc_runner.task_runner: not restarting task: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 task=rails reason="Policy allows no restarts"
+2020-01-13T15:32:16.434Z [TRACE] client.alloc_runner.task_runner: setting task state: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 task=rails state=dead event="Not Restarting"
+2020-01-13T15:32:16.436Z [TRACE] client.alloc_runner: handling task state update: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 done=false
+2020-01-13T15:32:16.437Z [INFO]  client.gc: marking allocation for GC: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798
+2020-01-13T15:32:16.437Z [TRACE] client.alloc_runner: sending updated alloc: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 client_status=failed desired_status=
+2020-01-13T15:32:16.437Z [TRACE] client.alloc_runner: handling task state update: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 done=false
+2020-01-13T15:32:16.437Z [TRACE] client.alloc_runner: sending updated alloc: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 client_status=failed desired_status=
+2020-01-13T15:32:16.438Z [TRACE] client.alloc_runner.runner_hook.alloc_health_watcher: health set: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 healthy=false
+2020-01-13T15:32:16.438Z [DEBUG] client.alloc_runner.task_runner.task_hook.logmon: plugin process exited: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 task=rails path=/usr/local/bin/nomad pid=7168
+2020-01-13T15:32:16.438Z [DEBUG] client.alloc_runner.task_runner.task_hook.logmon: plugin exited: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 task=rails
+2020-01-13T15:32:16.439Z [DEBUG] client.alloc_runner.task_runner: task run loop exiting: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 task=rails
+2020-01-13T15:32:16.441Z [TRACE] client.alloc_runner: sending updated alloc: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 client_status=failed desired_status=
+2020-01-13T15:32:16.441Z [TRACE] client.alloc_runner: handling task state update: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 done=true
+2020-01-13T15:32:16.441Z [TRACE] client.alloc_runner: sending updated alloc: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 client_status=failed desired_status=
+2020-01-13T15:32:16.443Z [DEBUG] consul.sync: sync complete: registered_services=0 deregistered_services=1 registered_checks=0 deregistered_checks=1
+2020-01-13T15:32:16.444Z [TRACE] client: next heartbeat: period=19.449904052s
+2020-01-13T15:32:16.514Z [TRACE] client: next heartbeat: period=13.39085271s
+2020-01-13T15:32:16.517Z [DEBUG] client: updated allocations: index=612 total=29 pulled=18 filtered=11
+2020-01-13T15:32:16.517Z [DEBUG] client: allocation updates: added=0 removed=0 updated=18 ignored=11
+2020-01-13T15:32:16.518Z [TRACE] client: updating alloc: alloc_id=a94fd0d3-8a36-df8d-2f57-9649131d019d index=375
+2020-01-13T15:32:16.518Z [TRACE] client: next heartbeat: period=18.127127361s
+2020-01-13T15:32:16.519Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=a94fd0d3-8a36-df8d-2f57-9649131d019d modify_index=375
+2020-01-13T15:32:16.519Z [TRACE] client: updating alloc: alloc_id=7b990a90-9ea4-9c2b-5244-24c58a80b28a index=186
+2020-01-13T15:32:16.521Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=7b990a90-9ea4-9c2b-5244-24c58a80b28a modify_index=186
+2020-01-13T15:32:16.521Z [TRACE] client: updating alloc: alloc_id=042b691b-c331-242b-f27e-fcd4522f4d23 index=96
+2020-01-13T15:32:16.549Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=042b691b-c331-242b-f27e-fcd4522f4d23 modify_index=96
+2020-01-13T15:32:16.549Z [TRACE] client: updating alloc: alloc_id=6a41739c-ac54-031a-d5bf-3a44ed08fd9a index=589
+2020-01-13T15:32:16.551Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=6a41739c-ac54-031a-d5bf-3a44ed08fd9a modify_index=589
+2020-01-13T15:32:16.551Z [TRACE] client: updating alloc: alloc_id=aed90a68-d584-72af-c191-16f769110960 index=264
+2020-01-13T15:32:16.552Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=aed90a68-d584-72af-c191-16f769110960 modify_index=264
+2020-01-13T15:32:16.552Z [TRACE] client: updating alloc: alloc_id=fa04b4f8-97a3-c271-0b7e-bc1e4c3df153 index=589
+2020-01-13T15:32:16.554Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=fa04b4f8-97a3-c271-0b7e-bc1e4c3df153 modify_index=589
+2020-01-13T15:32:16.554Z [TRACE] client: updating alloc: alloc_id=de47aba9-b2b9-b9f8-47aa-6a27b41e2a90 index=137
+2020-01-13T15:32:16.556Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=de47aba9-b2b9-b9f8-47aa-6a27b41e2a90 modify_index=137
+2020-01-13T15:32:16.556Z [TRACE] client: updating alloc: alloc_id=1db75628-aa86-8a5a-a04e-323393bd832b index=158
+2020-01-13T15:32:16.557Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=1db75628-aa86-8a5a-a04e-323393bd832b modify_index=158
+2020-01-13T15:32:16.557Z [TRACE] client: updating alloc: alloc_id=d53795fe-57a7-510c-9a23-e688c37a3a10 index=518
+2020-01-13T15:32:16.559Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=d53795fe-57a7-510c-9a23-e688c37a3a10 modify_index=518
+2020-01-13T15:32:16.559Z [TRACE] client: updating alloc: alloc_id=7d88e249-9585-0173-949a-ff8ec9b9a458 index=483
+2020-01-13T15:32:16.561Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=7d88e249-9585-0173-949a-ff8ec9b9a458 modify_index=483
+2020-01-13T15:32:16.561Z [TRACE] client: updating alloc: alloc_id=170de67b-e478-65a9-4ed9-bc48315751d0 index=395
+2020-01-13T15:32:16.562Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=170de67b-e478-65a9-4ed9-bc48315751d0 modify_index=395
+2020-01-13T15:32:16.562Z [TRACE] client: updating alloc: alloc_id=bfb24811-776e-ac11-179f-1da72dc17bc7 index=283
+2020-01-13T15:32:16.564Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=bfb24811-776e-ac11-179f-1da72dc17bc7 modify_index=283
+2020-01-13T15:32:16.564Z [TRACE] client: updating alloc: alloc_id=f6adb34f-6d86-0cc5-5b4e-6086f1210ced index=96
+2020-01-13T15:32:16.566Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=f6adb34f-6d86-0cc5-5b4e-6086f1210ced modify_index=96
+2020-01-13T15:32:16.566Z [TRACE] client: updating alloc: alloc_id=747cfa1b-d7bb-ef09-2cdb-69c224cef59f index=283
+2020-01-13T15:32:16.567Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=747cfa1b-d7bb-ef09-2cdb-69c224cef59f modify_index=283
+2020-01-13T15:32:16.567Z [TRACE] client: updating alloc: alloc_id=e2b544e2-65f8-3360-6ba2-20c74265078a index=589
+2020-01-13T15:32:16.569Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=e2b544e2-65f8-3360-6ba2-20c74265078a modify_index=589
+2020-01-13T15:32:16.569Z [TRACE] client: updating alloc: alloc_id=0ee7727e-7c11-117b-ab4d-f6b3f6e8a2cc index=186
+2020-01-13T15:32:16.570Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=0ee7727e-7c11-117b-ab4d-f6b3f6e8a2cc modify_index=186
+2020-01-13T15:32:16.570Z [TRACE] client: updating alloc: alloc_id=1160fece-17fb-39c3-1cdd-bc63983acd3d index=264
+2020-01-13T15:32:16.572Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=1160fece-17fb-39c3-1cdd-bc63983acd3d modify_index=264
+2020-01-13T15:32:16.572Z [TRACE] client: updating alloc: alloc_id=a4f537fb-5d70-58cd-2dd1-ba98e5bb3e05 index=375
+2020-01-13T15:32:16.573Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=a4f537fb-5d70-58cd-2dd1-ba98e5bb3e05 modify_index=375
+2020-01-13T15:32:16.573Z [DEBUG] client: allocation updates applied: added=0 removed=0 updated=18 ignored=11 errors=0
+2020-01-13T15:32:16.642Z [TRACE] client: next heartbeat: period=14.180313984s
+2020-01-13T15:32:16.704Z [TRACE] client: next heartbeat: period=18.333110314s
+2020-01-13T15:32:16.707Z [DEBUG] client: updated allocations: index=613 total=29 pulled=18 filtered=11
+2020-01-13T15:32:16.707Z [DEBUG] client: allocation updates: added=0 removed=0 updated=18 ignored=11
+2020-01-13T15:32:16.707Z [TRACE] client: updating alloc: alloc_id=bfb24811-776e-ac11-179f-1da72dc17bc7 index=283
+2020-01-13T15:32:16.708Z [TRACE] client: next heartbeat: period=18.81684783s
+2020-01-13T15:32:16.709Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=bfb24811-776e-ac11-179f-1da72dc17bc7 modify_index=283
+2020-01-13T15:32:16.709Z [TRACE] client: updating alloc: alloc_id=e2b544e2-65f8-3360-6ba2-20c74265078a index=589
+2020-01-13T15:32:16.711Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=e2b544e2-65f8-3360-6ba2-20c74265078a modify_index=589
+2020-01-13T15:32:16.711Z [TRACE] client: updating alloc: alloc_id=1db75628-aa86-8a5a-a04e-323393bd832b index=158
+2020-01-13T15:32:16.712Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=1db75628-aa86-8a5a-a04e-323393bd832b modify_index=158
+2020-01-13T15:32:16.712Z [TRACE] client: updating alloc: alloc_id=d53795fe-57a7-510c-9a23-e688c37a3a10 index=518
+2020-01-13T15:32:16.714Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=d53795fe-57a7-510c-9a23-e688c37a3a10 modify_index=518
+2020-01-13T15:32:16.714Z [TRACE] client: updating alloc: alloc_id=7d88e249-9585-0173-949a-ff8ec9b9a458 index=483
+2020-01-13T15:32:16.716Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=7d88e249-9585-0173-949a-ff8ec9b9a458 modify_index=483
+2020-01-13T15:32:16.716Z [TRACE] client: updating alloc: alloc_id=170de67b-e478-65a9-4ed9-bc48315751d0 index=395
+2020-01-13T15:32:16.718Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=170de67b-e478-65a9-4ed9-bc48315751d0 modify_index=395
+2020-01-13T15:32:16.718Z [TRACE] client: updating alloc: alloc_id=7b990a90-9ea4-9c2b-5244-24c58a80b28a index=186
+2020-01-13T15:32:16.719Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=7b990a90-9ea4-9c2b-5244-24c58a80b28a modify_index=186
+2020-01-13T15:32:16.719Z [TRACE] client: updating alloc: alloc_id=fa04b4f8-97a3-c271-0b7e-bc1e4c3df153 index=589
+2020-01-13T15:32:16.721Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=fa04b4f8-97a3-c271-0b7e-bc1e4c3df153 modify_index=589
+2020-01-13T15:32:16.721Z [TRACE] client: updating alloc: alloc_id=a94fd0d3-8a36-df8d-2f57-9649131d019d index=375
+2020-01-13T15:32:16.723Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=a94fd0d3-8a36-df8d-2f57-9649131d019d modify_index=375
+2020-01-13T15:32:16.723Z [TRACE] client: updating alloc: alloc_id=aed90a68-d584-72af-c191-16f769110960 index=264
+2020-01-13T15:32:16.724Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=aed90a68-d584-72af-c191-16f769110960 modify_index=264
+2020-01-13T15:32:16.724Z [TRACE] client: updating alloc: alloc_id=f6adb34f-6d86-0cc5-5b4e-6086f1210ced index=96
+2020-01-13T15:32:16.726Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=f6adb34f-6d86-0cc5-5b4e-6086f1210ced modify_index=96
+2020-01-13T15:32:16.726Z [TRACE] client: updating alloc: alloc_id=042b691b-c331-242b-f27e-fcd4522f4d23 index=96
+2020-01-13T15:32:16.728Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=042b691b-c331-242b-f27e-fcd4522f4d23 modify_index=96
+2020-01-13T15:32:16.728Z [TRACE] client: updating alloc: alloc_id=de47aba9-b2b9-b9f8-47aa-6a27b41e2a90 index=137
+2020-01-13T15:32:16.729Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=de47aba9-b2b9-b9f8-47aa-6a27b41e2a90 modify_index=137
+2020-01-13T15:32:16.729Z [TRACE] client: updating alloc: alloc_id=a4f537fb-5d70-58cd-2dd1-ba98e5bb3e05 index=375
+2020-01-13T15:32:16.730Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=a4f537fb-5d70-58cd-2dd1-ba98e5bb3e05 modify_index=375
+2020-01-13T15:32:16.730Z [TRACE] client: updating alloc: alloc_id=0ee7727e-7c11-117b-ab4d-f6b3f6e8a2cc index=186
+2020-01-13T15:32:16.732Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=0ee7727e-7c11-117b-ab4d-f6b3f6e8a2cc modify_index=186
+2020-01-13T15:32:16.732Z [TRACE] client: updating alloc: alloc_id=6a41739c-ac54-031a-d5bf-3a44ed08fd9a index=589
+2020-01-13T15:32:16.734Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=6a41739c-ac54-031a-d5bf-3a44ed08fd9a modify_index=589
+2020-01-13T15:32:16.734Z [TRACE] client: updating alloc: alloc_id=1160fece-17fb-39c3-1cdd-bc63983acd3d index=264
+2020-01-13T15:32:16.736Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=1160fece-17fb-39c3-1cdd-bc63983acd3d modify_index=264
+2020-01-13T15:32:16.736Z [TRACE] client: updating alloc: alloc_id=747cfa1b-d7bb-ef09-2cdb-69c224cef59f index=283
+2020-01-13T15:32:16.738Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=747cfa1b-d7bb-ef09-2cdb-69c224cef59f modify_index=283
+2020-01-13T15:32:16.738Z [DEBUG] client: allocation updates applied: added=0 removed=0 updated=18 ignored=11 errors=0
+2020-01-13T15:32:17.980Z [TRACE] client: next heartbeat: period=16.461119078s
+2020-01-13T15:32:17.984Z [DEBUG] client: updated allocations: index=623 total=29 pulled=18 filtered=11
+2020-01-13T15:32:17.984Z [DEBUG] client: allocation updates: added=0 removed=0 updated=18 ignored=11
+2020-01-13T15:32:17.984Z [TRACE] client: updating alloc: alloc_id=aed90a68-d584-72af-c191-16f769110960 index=264
+2020-01-13T15:32:17.984Z [TRACE] client: next heartbeat: period=16.655288661s
+2020-01-13T15:32:17.986Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=aed90a68-d584-72af-c191-16f769110960 modify_index=264
+2020-01-13T15:32:17.986Z [TRACE] client: updating alloc: alloc_id=1db75628-aa86-8a5a-a04e-323393bd832b index=158
+2020-01-13T15:32:17.988Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=1db75628-aa86-8a5a-a04e-323393bd832b modify_index=158
+2020-01-13T15:32:17.988Z [TRACE] client: updating alloc: alloc_id=a4f537fb-5d70-58cd-2dd1-ba98e5bb3e05 index=375
+2020-01-13T15:32:17.990Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=a4f537fb-5d70-58cd-2dd1-ba98e5bb3e05 modify_index=375
+2020-01-13T15:32:17.990Z [TRACE] client: updating alloc: alloc_id=d53795fe-57a7-510c-9a23-e688c37a3a10 index=518
+2020-01-13T15:32:17.992Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=d53795fe-57a7-510c-9a23-e688c37a3a10 modify_index=518
+2020-01-13T15:32:17.992Z [TRACE] client: updating alloc: alloc_id=e2b544e2-65f8-3360-6ba2-20c74265078a index=589
+2020-01-13T15:32:17.994Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=e2b544e2-65f8-3360-6ba2-20c74265078a modify_index=589
+2020-01-13T15:32:17.994Z [TRACE] client: updating alloc: alloc_id=7d88e249-9585-0173-949a-ff8ec9b9a458 index=483
+2020-01-13T15:32:17.996Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=7d88e249-9585-0173-949a-ff8ec9b9a458 modify_index=483
+2020-01-13T15:32:17.996Z [TRACE] client: updating alloc: alloc_id=fa04b4f8-97a3-c271-0b7e-bc1e4c3df153 index=589
+2020-01-13T15:32:18.000Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=fa04b4f8-97a3-c271-0b7e-bc1e4c3df153 modify_index=589
+2020-01-13T15:32:18.000Z [TRACE] client: updating alloc: alloc_id=170de67b-e478-65a9-4ed9-bc48315751d0 index=395
+2020-01-13T15:32:18.003Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=170de67b-e478-65a9-4ed9-bc48315751d0 modify_index=395
+2020-01-13T15:32:18.003Z [TRACE] client: updating alloc: alloc_id=a94fd0d3-8a36-df8d-2f57-9649131d019d index=375
+2020-01-13T15:32:18.005Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=a94fd0d3-8a36-df8d-2f57-9649131d019d modify_index=375
+2020-01-13T15:32:18.005Z [TRACE] client: updating alloc: alloc_id=7b990a90-9ea4-9c2b-5244-24c58a80b28a index=186
+2020-01-13T15:32:18.007Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=7b990a90-9ea4-9c2b-5244-24c58a80b28a modify_index=186
+2020-01-13T15:32:18.007Z [TRACE] client: updating alloc: alloc_id=bfb24811-776e-ac11-179f-1da72dc17bc7 index=283
+2020-01-13T15:32:18.009Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=bfb24811-776e-ac11-179f-1da72dc17bc7 modify_index=283
+2020-01-13T15:32:18.009Z [TRACE] client: updating alloc: alloc_id=6a41739c-ac54-031a-d5bf-3a44ed08fd9a index=589
+2020-01-13T15:32:18.010Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=6a41739c-ac54-031a-d5bf-3a44ed08fd9a modify_index=589
+2020-01-13T15:32:18.010Z [TRACE] client: updating alloc: alloc_id=de47aba9-b2b9-b9f8-47aa-6a27b41e2a90 index=137
+2020-01-13T15:32:18.012Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=de47aba9-b2b9-b9f8-47aa-6a27b41e2a90 modify_index=137
+2020-01-13T15:32:18.012Z [TRACE] client: updating alloc: alloc_id=f6adb34f-6d86-0cc5-5b4e-6086f1210ced index=96
+2020-01-13T15:32:18.014Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=f6adb34f-6d86-0cc5-5b4e-6086f1210ced modify_index=96
+2020-01-13T15:32:18.014Z [TRACE] client: updating alloc: alloc_id=747cfa1b-d7bb-ef09-2cdb-69c224cef59f index=283
+2020-01-13T15:32:18.018Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=747cfa1b-d7bb-ef09-2cdb-69c224cef59f modify_index=283
+2020-01-13T15:32:18.018Z [TRACE] client: updating alloc: alloc_id=0ee7727e-7c11-117b-ab4d-f6b3f6e8a2cc index=186
+2020-01-13T15:32:18.020Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=0ee7727e-7c11-117b-ab4d-f6b3f6e8a2cc modify_index=186
+2020-01-13T15:32:18.020Z [TRACE] client: updating alloc: alloc_id=042b691b-c331-242b-f27e-fcd4522f4d23 index=96
+2020-01-13T15:32:18.022Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=042b691b-c331-242b-f27e-fcd4522f4d23 modify_index=96
+2020-01-13T15:32:18.022Z [TRACE] client: updating alloc: alloc_id=1160fece-17fb-39c3-1cdd-bc63983acd3d index=264
+2020-01-13T15:32:18.023Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=1160fece-17fb-39c3-1cdd-bc63983acd3d modify_index=264
+2020-01-13T15:32:18.023Z [DEBUG] client: allocation updates applied: added=0 removed=0 updated=18 ignored=11 errors=0
+2020-01-13T15:32:18.245Z [TRACE] client: next heartbeat: period=19.743095183s
+2020-01-13T15:32:18.247Z [DEBUG] client: updated allocations: index=625 total=29 pulled=19 filtered=10
+2020-01-13T15:32:18.248Z [DEBUG] client: allocation updates: added=0 removed=0 updated=19 ignored=10
+2020-01-13T15:32:18.248Z [TRACE] client: updating alloc: alloc_id=747cfa1b-d7bb-ef09-2cdb-69c224cef59f index=283
+2020-01-13T15:32:18.248Z [TRACE] client: next heartbeat: period=17.4607841s
+2020-01-13T15:32:18.250Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=747cfa1b-d7bb-ef09-2cdb-69c224cef59f modify_index=283
+2020-01-13T15:32:18.250Z [TRACE] client: updating alloc: alloc_id=7d88e249-9585-0173-949a-ff8ec9b9a458 index=483
+2020-01-13T15:32:18.252Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=7d88e249-9585-0173-949a-ff8ec9b9a458 modify_index=483
+2020-01-13T15:32:18.252Z [TRACE] client: updating alloc: alloc_id=fa04b4f8-97a3-c271-0b7e-bc1e4c3df153 index=589
+2020-01-13T15:32:18.254Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=fa04b4f8-97a3-c271-0b7e-bc1e4c3df153 modify_index=589
+2020-01-13T15:32:18.254Z [TRACE] client: updating alloc: alloc_id=a4f537fb-5d70-58cd-2dd1-ba98e5bb3e05 index=375
+2020-01-13T15:32:18.256Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=a4f537fb-5d70-58cd-2dd1-ba98e5bb3e05 modify_index=375
+2020-01-13T15:32:18.256Z [TRACE] client: updating alloc: alloc_id=170de67b-e478-65a9-4ed9-bc48315751d0 index=395
+2020-01-13T15:32:18.258Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=170de67b-e478-65a9-4ed9-bc48315751d0 modify_index=395
+2020-01-13T15:32:18.258Z [TRACE] client: updating alloc: alloc_id=0ee7727e-7c11-117b-ab4d-f6b3f6e8a2cc index=186
+2020-01-13T15:32:18.260Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=0ee7727e-7c11-117b-ab4d-f6b3f6e8a2cc modify_index=186
+2020-01-13T15:32:18.260Z [TRACE] client: updating alloc: alloc_id=7b990a90-9ea4-9c2b-5244-24c58a80b28a index=186
+2020-01-13T15:32:18.262Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=7b990a90-9ea4-9c2b-5244-24c58a80b28a modify_index=186
+2020-01-13T15:32:18.262Z [TRACE] client: updating alloc: alloc_id=6a41739c-ac54-031a-d5bf-3a44ed08fd9a index=589
+2020-01-13T15:32:18.263Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=6a41739c-ac54-031a-d5bf-3a44ed08fd9a modify_index=589
+2020-01-13T15:32:18.264Z [TRACE] client: updating alloc: alloc_id=042b691b-c331-242b-f27e-fcd4522f4d23 index=96
+2020-01-13T15:32:18.265Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=042b691b-c331-242b-f27e-fcd4522f4d23 modify_index=96
+2020-01-13T15:32:18.265Z [TRACE] client: updating alloc: alloc_id=1160fece-17fb-39c3-1cdd-bc63983acd3d index=264
+2020-01-13T15:32:18.267Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=1160fece-17fb-39c3-1cdd-bc63983acd3d modify_index=264
+2020-01-13T15:32:18.267Z [TRACE] client: updating alloc: alloc_id=a94fd0d3-8a36-df8d-2f57-9649131d019d index=375
+2020-01-13T15:32:18.269Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=a94fd0d3-8a36-df8d-2f57-9649131d019d modify_index=375
+2020-01-13T15:32:18.269Z [TRACE] client: updating alloc: alloc_id=de47aba9-b2b9-b9f8-47aa-6a27b41e2a90 index=137
+2020-01-13T15:32:18.271Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=de47aba9-b2b9-b9f8-47aa-6a27b41e2a90 modify_index=137
+2020-01-13T15:32:18.271Z [TRACE] client: updating alloc: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 index=625
+2020-01-13T15:32:18.273Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 modify_index=625
+2020-01-13T15:32:18.273Z [TRACE] client: updating alloc: alloc_id=f6adb34f-6d86-0cc5-5b4e-6086f1210ced index=96
+2020-01-13T15:32:18.275Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=f6adb34f-6d86-0cc5-5b4e-6086f1210ced modify_index=96
+2020-01-13T15:32:18.275Z [TRACE] client: updating alloc: alloc_id=aed90a68-d584-72af-c191-16f769110960 index=264
+2020-01-13T15:32:18.277Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=aed90a68-d584-72af-c191-16f769110960 modify_index=264
+2020-01-13T15:32:18.277Z [TRACE] client: updating alloc: alloc_id=bfb24811-776e-ac11-179f-1da72dc17bc7 index=283
+2020-01-13T15:32:18.278Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=bfb24811-776e-ac11-179f-1da72dc17bc7 modify_index=283
+2020-01-13T15:32:18.278Z [TRACE] client: updating alloc: alloc_id=1db75628-aa86-8a5a-a04e-323393bd832b index=158
+2020-01-13T15:32:18.280Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=1db75628-aa86-8a5a-a04e-323393bd832b modify_index=158
+2020-01-13T15:32:18.280Z [TRACE] client: updating alloc: alloc_id=d53795fe-57a7-510c-9a23-e688c37a3a10 index=518
+2020-01-13T15:32:18.282Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=d53795fe-57a7-510c-9a23-e688c37a3a10 modify_index=518
+2020-01-13T15:32:18.282Z [TRACE] client: updating alloc: alloc_id=e2b544e2-65f8-3360-6ba2-20c74265078a index=589
+2020-01-13T15:32:18.283Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=e2b544e2-65f8-3360-6ba2-20c74265078a modify_index=589
+2020-01-13T15:32:18.283Z [DEBUG] client: allocation updates applied: added=0 removed=0 updated=19 ignored=10 errors=0
+2020-01-13T15:32:18.588Z [DEBUG] http: request complete: method=GET path=/v1/agent/health?type=client duration=206.296µs
+2020-01-13T15:32:19.022Z [TRACE] client: next heartbeat: period=19.06156718s
+2020-01-13T15:32:19.023Z [DEBUG] client: updated allocations: index=628 total=29 pulled=19 filtered=10
+2020-01-13T15:32:19.023Z [DEBUG] client: allocation updates: added=0 removed=0 updated=19 ignored=10
+2020-01-13T15:32:19.023Z [TRACE] client: updating alloc: alloc_id=fa04b4f8-97a3-c271-0b7e-bc1e4c3df153 index=589
+2020-01-13T15:32:19.024Z [TRACE] client: next heartbeat: period=17.991941193s
+2020-01-13T15:32:19.024Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=fa04b4f8-97a3-c271-0b7e-bc1e4c3df153 modify_index=589
+2020-01-13T15:32:19.024Z [TRACE] client: updating alloc: alloc_id=0ee7727e-7c11-117b-ab4d-f6b3f6e8a2cc index=186
+2020-01-13T15:32:19.026Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=0ee7727e-7c11-117b-ab4d-f6b3f6e8a2cc modify_index=186
+2020-01-13T15:32:19.026Z [TRACE] client: updating alloc: alloc_id=a94fd0d3-8a36-df8d-2f57-9649131d019d index=375
+2020-01-13T15:32:19.027Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=a94fd0d3-8a36-df8d-2f57-9649131d019d modify_index=375
+2020-01-13T15:32:19.027Z [TRACE] client: updating alloc: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 index=625
+2020-01-13T15:32:19.029Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 modify_index=625
+2020-01-13T15:32:19.029Z [TRACE] client: updating alloc: alloc_id=aed90a68-d584-72af-c191-16f769110960 index=264
+2020-01-13T15:32:19.031Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=aed90a68-d584-72af-c191-16f769110960 modify_index=264
+2020-01-13T15:32:19.031Z [TRACE] client: updating alloc: alloc_id=042b691b-c331-242b-f27e-fcd4522f4d23 index=96
+2020-01-13T15:32:19.033Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=042b691b-c331-242b-f27e-fcd4522f4d23 modify_index=96
+2020-01-13T15:32:19.033Z [TRACE] client: updating alloc: alloc_id=d53795fe-57a7-510c-9a23-e688c37a3a10 index=518
+2020-01-13T15:32:19.034Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=d53795fe-57a7-510c-9a23-e688c37a3a10 modify_index=518
+2020-01-13T15:32:19.034Z [TRACE] client: updating alloc: alloc_id=6a41739c-ac54-031a-d5bf-3a44ed08fd9a index=589
+2020-01-13T15:32:19.036Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=6a41739c-ac54-031a-d5bf-3a44ed08fd9a modify_index=589
+2020-01-13T15:32:19.036Z [TRACE] client: updating alloc: alloc_id=7d88e249-9585-0173-949a-ff8ec9b9a458 index=483
+2020-01-13T15:32:19.038Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=7d88e249-9585-0173-949a-ff8ec9b9a458 modify_index=483
+2020-01-13T15:32:19.038Z [TRACE] client: updating alloc: alloc_id=170de67b-e478-65a9-4ed9-bc48315751d0 index=395
+2020-01-13T15:32:19.039Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=170de67b-e478-65a9-4ed9-bc48315751d0 modify_index=395
+2020-01-13T15:32:19.039Z [TRACE] client: updating alloc: alloc_id=e2b544e2-65f8-3360-6ba2-20c74265078a index=589
+2020-01-13T15:32:19.041Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=e2b544e2-65f8-3360-6ba2-20c74265078a modify_index=589
+2020-01-13T15:32:19.041Z [TRACE] client: updating alloc: alloc_id=747cfa1b-d7bb-ef09-2cdb-69c224cef59f index=283
+2020-01-13T15:32:19.042Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=747cfa1b-d7bb-ef09-2cdb-69c224cef59f modify_index=283
+2020-01-13T15:32:19.042Z [TRACE] client: updating alloc: alloc_id=7b990a90-9ea4-9c2b-5244-24c58a80b28a index=186
+2020-01-13T15:32:19.046Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=7b990a90-9ea4-9c2b-5244-24c58a80b28a modify_index=186
+2020-01-13T15:32:19.046Z [TRACE] client: updating alloc: alloc_id=1160fece-17fb-39c3-1cdd-bc63983acd3d index=264
+2020-01-13T15:32:19.048Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=1160fece-17fb-39c3-1cdd-bc63983acd3d modify_index=264
+2020-01-13T15:32:19.048Z [TRACE] client: updating alloc: alloc_id=a4f537fb-5d70-58cd-2dd1-ba98e5bb3e05 index=375
+2020-01-13T15:32:19.049Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=a4f537fb-5d70-58cd-2dd1-ba98e5bb3e05 modify_index=375
+2020-01-13T15:32:19.049Z [TRACE] client: updating alloc: alloc_id=1db75628-aa86-8a5a-a04e-323393bd832b index=158
+2020-01-13T15:32:19.051Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=1db75628-aa86-8a5a-a04e-323393bd832b modify_index=158
+2020-01-13T15:32:19.051Z [TRACE] client: updating alloc: alloc_id=bfb24811-776e-ac11-179f-1da72dc17bc7 index=283
+2020-01-13T15:32:19.053Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=bfb24811-776e-ac11-179f-1da72dc17bc7 modify_index=283
+2020-01-13T15:32:19.053Z [TRACE] client: updating alloc: alloc_id=f6adb34f-6d86-0cc5-5b4e-6086f1210ced index=96
+2020-01-13T15:32:19.055Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=f6adb34f-6d86-0cc5-5b4e-6086f1210ced modify_index=96
+2020-01-13T15:32:19.055Z [TRACE] client: updating alloc: alloc_id=de47aba9-b2b9-b9f8-47aa-6a27b41e2a90 index=137
+2020-01-13T15:32:19.056Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=de47aba9-b2b9-b9f8-47aa-6a27b41e2a90 modify_index=137
+2020-01-13T15:32:19.056Z [DEBUG] client: allocation updates applied: added=0 removed=0 updated=19 ignored=10 errors=0
+2020-01-13T15:32:28.590Z [DEBUG] http: request complete: method=GET path=/v1/agent/health?type=client duration=1.394169ms
+2020-01-13T15:32:37.022Z [TRACE] client: next heartbeat: period=11.339279745s
+2020-01-13T15:32:38.600Z [DEBUG] http: request complete: method=GET path=/v1/agent/health?type=client duration=192.239µs
+2020-01-13T15:32:46.416Z [TRACE] client: next heartbeat: period=16.691755941s
+2020-01-13T15:32:46.417Z [DEBUG] client: updated allocations: index=633 total=30 pulled=20 filtered=10
+2020-01-13T15:32:46.418Z [DEBUG] client: allocation updates: added=1 removed=0 updated=19 ignored=10
+2020-01-13T15:32:46.418Z [TRACE] client: updating alloc: alloc_id=d53795fe-57a7-510c-9a23-e688c37a3a10 index=518
+2020-01-13T15:32:46.418Z [TRACE] client: next heartbeat: period=17.273757375s
+2020-01-13T15:32:46.419Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=d53795fe-57a7-510c-9a23-e688c37a3a10 modify_index=518
+2020-01-13T15:32:46.419Z [TRACE] client: updating alloc: alloc_id=e2b544e2-65f8-3360-6ba2-20c74265078a index=589
+2020-01-13T15:32:46.421Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=e2b544e2-65f8-3360-6ba2-20c74265078a modify_index=589
+2020-01-13T15:32:46.421Z [TRACE] client: updating alloc: alloc_id=0ee7727e-7c11-117b-ab4d-f6b3f6e8a2cc index=186
+2020-01-13T15:32:46.423Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=0ee7727e-7c11-117b-ab4d-f6b3f6e8a2cc modify_index=186
+2020-01-13T15:32:46.423Z [TRACE] client: updating alloc: alloc_id=a4f537fb-5d70-58cd-2dd1-ba98e5bb3e05 index=375
+2020-01-13T15:32:46.425Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=a4f537fb-5d70-58cd-2dd1-ba98e5bb3e05 modify_index=375
+2020-01-13T15:32:46.425Z [TRACE] client: updating alloc: alloc_id=1db75628-aa86-8a5a-a04e-323393bd832b index=158
+2020-01-13T15:32:46.426Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=1db75628-aa86-8a5a-a04e-323393bd832b modify_index=158
+2020-01-13T15:32:46.426Z [TRACE] client: updating alloc: alloc_id=7d88e249-9585-0173-949a-ff8ec9b9a458 index=483
+2020-01-13T15:32:46.428Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=7d88e249-9585-0173-949a-ff8ec9b9a458 modify_index=483
+2020-01-13T15:32:46.428Z [TRACE] client: updating alloc: alloc_id=042b691b-c331-242b-f27e-fcd4522f4d23 index=96
+2020-01-13T15:32:46.430Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=042b691b-c331-242b-f27e-fcd4522f4d23 modify_index=96
+2020-01-13T15:32:46.430Z [TRACE] client: updating alloc: alloc_id=aed90a68-d584-72af-c191-16f769110960 index=264
+2020-01-13T15:32:46.435Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=aed90a68-d584-72af-c191-16f769110960 modify_index=264
+2020-01-13T15:32:46.435Z [TRACE] client: updating alloc: alloc_id=a94fd0d3-8a36-df8d-2f57-9649131d019d index=375
+2020-01-13T15:32:46.437Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=a94fd0d3-8a36-df8d-2f57-9649131d019d modify_index=375
+2020-01-13T15:32:46.437Z [TRACE] client: updating alloc: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 index=633
+2020-01-13T15:32:46.438Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 modify_index=633
+2020-01-13T15:32:46.438Z [TRACE] client: updating alloc: alloc_id=1160fece-17fb-39c3-1cdd-bc63983acd3d index=264
+2020-01-13T15:32:46.440Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=1160fece-17fb-39c3-1cdd-bc63983acd3d modify_index=264
+2020-01-13T15:32:46.440Z [TRACE] client: updating alloc: alloc_id=bfb24811-776e-ac11-179f-1da72dc17bc7 index=283
+2020-01-13T15:32:46.441Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=bfb24811-776e-ac11-179f-1da72dc17bc7 modify_index=283
+2020-01-13T15:32:46.441Z [TRACE] client: updating alloc: alloc_id=7b990a90-9ea4-9c2b-5244-24c58a80b28a index=186
+2020-01-13T15:32:46.443Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=7b990a90-9ea4-9c2b-5244-24c58a80b28a modify_index=186
+2020-01-13T15:32:46.443Z [TRACE] client: updating alloc: alloc_id=6a41739c-ac54-031a-d5bf-3a44ed08fd9a index=589
+2020-01-13T15:32:46.445Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=6a41739c-ac54-031a-d5bf-3a44ed08fd9a modify_index=589
+2020-01-13T15:32:46.445Z [TRACE] client: updating alloc: alloc_id=f6adb34f-6d86-0cc5-5b4e-6086f1210ced index=96
+2020-01-13T15:32:46.446Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=f6adb34f-6d86-0cc5-5b4e-6086f1210ced modify_index=96
+2020-01-13T15:32:46.446Z [TRACE] client: updating alloc: alloc_id=747cfa1b-d7bb-ef09-2cdb-69c224cef59f index=283
+2020-01-13T15:32:46.448Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=747cfa1b-d7bb-ef09-2cdb-69c224cef59f modify_index=283
+2020-01-13T15:32:46.448Z [TRACE] client: updating alloc: alloc_id=170de67b-e478-65a9-4ed9-bc48315751d0 index=395
+2020-01-13T15:32:46.450Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=170de67b-e478-65a9-4ed9-bc48315751d0 modify_index=395
+2020-01-13T15:32:46.450Z [TRACE] client: updating alloc: alloc_id=de47aba9-b2b9-b9f8-47aa-6a27b41e2a90 index=137
+2020-01-13T15:32:46.452Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=de47aba9-b2b9-b9f8-47aa-6a27b41e2a90 modify_index=137
+2020-01-13T15:32:46.452Z [TRACE] client: updating alloc: alloc_id=fa04b4f8-97a3-c271-0b7e-bc1e4c3df153 index=589
+2020-01-13T15:32:46.454Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=fa04b4f8-97a3-c271-0b7e-bc1e4c3df153 modify_index=589
+2020-01-13T15:32:46.456Z [DEBUG] client: allocation updates applied: added=1 removed=0 updated=19 ignored=10 errors=0
+2020-01-13T15:32:46.457Z [DEBUG] client.alloc_migrator: waiting for remote previous alloc to terminate: alloc_id=8a5d3686-118d-b555-9751-0daa53f4c889 previous_alloc=6f13e938-33fb-5a72-e2ec-6d4ebe80d724
+2020-01-13T15:32:46.457Z [DEBUG] client.alloc_migrator: waiting for remote previous alloc to terminate: alloc_id=8a5d3686-118d-b555-9751-0daa53f4c889 previous_alloc=6f13e938-33fb-5a72-e2ec-6d4ebe80d724
+2020-01-13T15:32:46.459Z [TRACE] client: next heartbeat: period=15.323950466s
+2020-01-13T15:32:46.459Z [TRACE] client.alloc_runner.runner_hook.alloc_health_watcher: watching: alloc_id=8a5d3686-118d-b555-9751-0daa53f4c889 deadline="2020-01-13 15:35:46.459795099 +0000 UTC m=+4377.262734581" checks=true min_healthy_time=10s
+2020-01-13T15:32:46.460Z [TRACE] client: next heartbeat: period=14.320539413s
+2020-01-13T15:32:46.463Z [TRACE] client.alloc_runner: handling task state update: alloc_id=8a5d3686-118d-b555-9751-0daa53f4c889 done=false
+2020-01-13T15:32:46.463Z [TRACE] client.alloc_runner: sending updated alloc: alloc_id=8a5d3686-118d-b555-9751-0daa53f4c889 client_status=pending desired_status=
+2020-01-13T15:32:46.464Z [DEBUG] client.alloc_runner.task_runner.task_hook.logmon: starting plugin: alloc_id=8a5d3686-118d-b555-9751-0daa53f4c889 task=rails path=/usr/local/bin/nomad args=[/usr/local/bin/nomad, logmon]
+2020-01-13T15:32:46.465Z [DEBUG] client.alloc_runner.task_runner.task_hook.logmon: plugin started: alloc_id=8a5d3686-118d-b555-9751-0daa53f4c889 task=rails path=/usr/local/bin/nomad pid=7614
+2020-01-13T15:32:46.465Z [DEBUG] client.alloc_runner.task_runner.task_hook.logmon: waiting for RPC address: alloc_id=8a5d3686-118d-b555-9751-0daa53f4c889 task=rails path=/usr/local/bin/nomad
+2020-01-13T15:32:46.470Z [DEBUG] client.alloc_runner.task_runner.task_hook.logmon.nomad: plugin address: alloc_id=8a5d3686-118d-b555-9751-0daa53f4c889 task=rails @module=logmon address=/tmp/plugin541120287 network=unix timestamp=2020-01-13T15:32:46.470Z
+2020-01-13T15:32:46.470Z [DEBUG] client.alloc_runner.task_runner.task_hook.logmon: using plugin: alloc_id=8a5d3686-118d-b555-9751-0daa53f4c889 task=rails version=2
+2020-01-13T15:32:46.471Z [INFO]  client.alloc_runner.task_runner.task_hook.logmon.nomad: opening fifo: alloc_id=8a5d3686-118d-b555-9751-0daa53f4c889 task=rails @module=logmon path=/opt/nomad/data/alloc/8a5d3686-118d-b555-9751-0daa53f4c889/alloc/logs/.rails.stdout.fifo timestamp=2020-01-13T15:32:46.470Z
+2020-01-13T15:32:46.471Z [INFO]  client.alloc_runner.task_runner.task_hook.logmon.nomad: opening fifo: alloc_id=8a5d3686-118d-b555-9751-0daa53f4c889 task=rails @module=logmon path=/opt/nomad/data/alloc/8a5d3686-118d-b555-9751-0daa53f4c889/alloc/logs/.rails.stderr.fifo timestamp=2020-01-13T15:32:46.470Z
+2020-01-13T15:32:46.485Z [DEBUG] client.driver_mgr.docker: image reference count incremented: driver=docker image_name=kaspergrubbe/diceapp:0.0.6 image_id=sha256:04b67578f216cb740b402f0d13826349ce9ad94ec63ca78b3480bb4cd2d02308 references=29
+2020-01-13T15:32:46.485Z [TRACE] client.driver_mgr.docker: binding volumes: driver=docker task_name=rails volumes=[/opt/nomad/data/alloc/8a5d3686-118d-b555-9751-0daa53f4c889/alloc:/alloc, /opt/nomad/data/alloc/8a5d3686-118d-b555-9751-0daa53f4c889/rails/local:/local, /opt/nomad/data/alloc/8a5d3686-118d-b555-9751-0daa53f4c889/rails/secrets:/secrets]
+2020-01-13T15:32:46.485Z [TRACE] client.driver_mgr.docker: no docker log driver provided, defaulting to json-file: driver=docker task_name=rails
+2020-01-13T15:32:46.485Z [DEBUG] client.driver_mgr.docker: configured resources: driver=docker task_name=rails memory=262144000 cpu_shares=750 cpu_quota=0 cpu_period=0
+2020-01-13T15:32:46.485Z [DEBUG] client.driver_mgr.docker: binding directories: driver=docker task_name=rails binds="[]string{"/opt/nomad/data/alloc/8a5d3686-118d-b555-9751-0daa53f4c889/alloc:/alloc", "/opt/nomad/data/alloc/8a5d3686-118d-b555-9751-0daa53f4c889/rails/local:/local", "/opt/nomad/data/alloc/8a5d3686-118d-b555-9751-0daa53f4c889/rails/secrets:/secrets"}"
+2020-01-13T15:32:46.485Z [DEBUG] client.driver_mgr.docker: networking mode not specified; using default: driver=docker task_name=rails
+2020-01-13T15:32:46.485Z [DEBUG] client.driver_mgr.docker: allocated mapped port: driver=docker task_name=rails ip=172.31.36.12 port=27672
+2020-01-13T15:32:46.485Z [DEBUG] client.driver_mgr.docker: exposed port: driver=docker task_name=rails port=8080
+2020-01-13T15:32:46.485Z [DEBUG] client.driver_mgr.docker: setting container startup command: driver=docker task_name=rails command=false
+2020-01-13T15:32:46.485Z [DEBUG] client.driver_mgr.docker: applied labels on the container: driver=docker task_name=rails labels=map[com.hashicorp.nomad.alloc_id:8a5d3686-118d-b555-9751-0daa53f4c889]
+2020-01-13T15:32:46.485Z [DEBUG] client.driver_mgr.docker: setting container name: driver=docker task_name=rails container_name=rails-8a5d3686-118d-b555-9751-0daa53f4c889
+2020-01-13T15:32:46.536Z [INFO]  client.driver_mgr.docker: created container: driver=docker container_id=a43c530411167e35f7f8b50ed2b82b322cc0aa5adf99a5309ca51495091cdf0f
+2020-01-13T15:32:46.647Z [TRACE] client: next heartbeat: period=17.438988414s
+2020-01-13T15:32:46.716Z [TRACE] client: next heartbeat: period=11.503065229s
+2020-01-13T15:32:46.717Z [DEBUG] client: updated allocations: index=636 total=30 pulled=19 filtered=11
+2020-01-13T15:32:46.717Z [DEBUG] client: allocation updates: added=0 removed=0 updated=19 ignored=11
+2020-01-13T15:32:46.717Z [TRACE] client: updating alloc: alloc_id=747cfa1b-d7bb-ef09-2cdb-69c224cef59f index=283
+2020-01-13T15:32:46.718Z [TRACE] client: next heartbeat: period=13.128568067s
+2020-01-13T15:32:46.731Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=747cfa1b-d7bb-ef09-2cdb-69c224cef59f modify_index=283
+2020-01-13T15:32:46.731Z [TRACE] client: updating alloc: alloc_id=aed90a68-d584-72af-c191-16f769110960 index=264
+2020-01-13T15:32:46.735Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=aed90a68-d584-72af-c191-16f769110960 modify_index=264
+2020-01-13T15:32:46.735Z [TRACE] client: updating alloc: alloc_id=7d88e249-9585-0173-949a-ff8ec9b9a458 index=483
+2020-01-13T15:32:46.737Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=7d88e249-9585-0173-949a-ff8ec9b9a458 modify_index=483
+2020-01-13T15:32:46.737Z [TRACE] client: updating alloc: alloc_id=0ee7727e-7c11-117b-ab4d-f6b3f6e8a2cc index=186
+2020-01-13T15:32:46.739Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=0ee7727e-7c11-117b-ab4d-f6b3f6e8a2cc modify_index=186
+2020-01-13T15:32:46.739Z [TRACE] client: updating alloc: alloc_id=d53795fe-57a7-510c-9a23-e688c37a3a10 index=518
+2020-01-13T15:32:46.741Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=d53795fe-57a7-510c-9a23-e688c37a3a10 modify_index=518
+2020-01-13T15:32:46.741Z [TRACE] client: updating alloc: alloc_id=6a41739c-ac54-031a-d5bf-3a44ed08fd9a index=589
+2020-01-13T15:32:46.745Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=6a41739c-ac54-031a-d5bf-3a44ed08fd9a modify_index=589
+2020-01-13T15:32:46.745Z [TRACE] client: updating alloc: alloc_id=170de67b-e478-65a9-4ed9-bc48315751d0 index=395
+2020-01-13T15:32:46.747Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=170de67b-e478-65a9-4ed9-bc48315751d0 modify_index=395
+2020-01-13T15:32:46.747Z [TRACE] client: updating alloc: alloc_id=7b990a90-9ea4-9c2b-5244-24c58a80b28a index=186
+2020-01-13T15:32:46.749Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=7b990a90-9ea4-9c2b-5244-24c58a80b28a modify_index=186
+2020-01-13T15:32:46.749Z [TRACE] client: updating alloc: alloc_id=a4f537fb-5d70-58cd-2dd1-ba98e5bb3e05 index=375
+2020-01-13T15:32:46.751Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=a4f537fb-5d70-58cd-2dd1-ba98e5bb3e05 modify_index=375
+2020-01-13T15:32:46.751Z [TRACE] client: updating alloc: alloc_id=e2b544e2-65f8-3360-6ba2-20c74265078a index=589
+2020-01-13T15:32:46.752Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=e2b544e2-65f8-3360-6ba2-20c74265078a modify_index=589
+2020-01-13T15:32:46.752Z [TRACE] client: updating alloc: alloc_id=fa04b4f8-97a3-c271-0b7e-bc1e4c3df153 index=589
+2020-01-13T15:32:46.754Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=fa04b4f8-97a3-c271-0b7e-bc1e4c3df153 modify_index=589
+2020-01-13T15:32:46.754Z [TRACE] client: updating alloc: alloc_id=042b691b-c331-242b-f27e-fcd4522f4d23 index=96
+2020-01-13T15:32:46.756Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=042b691b-c331-242b-f27e-fcd4522f4d23 modify_index=96
+2020-01-13T15:32:46.756Z [TRACE] client: updating alloc: alloc_id=de47aba9-b2b9-b9f8-47aa-6a27b41e2a90 index=137
+2020-01-13T15:32:46.757Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=de47aba9-b2b9-b9f8-47aa-6a27b41e2a90 modify_index=137
+2020-01-13T15:32:46.758Z [TRACE] client: updating alloc: alloc_id=1160fece-17fb-39c3-1cdd-bc63983acd3d index=264
+2020-01-13T15:32:46.759Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=1160fece-17fb-39c3-1cdd-bc63983acd3d modify_index=264
+2020-01-13T15:32:46.759Z [TRACE] client: updating alloc: alloc_id=f6adb34f-6d86-0cc5-5b4e-6086f1210ced index=96
+2020-01-13T15:32:46.761Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=f6adb34f-6d86-0cc5-5b4e-6086f1210ced modify_index=96
+2020-01-13T15:32:46.761Z [TRACE] client: updating alloc: alloc_id=bfb24811-776e-ac11-179f-1da72dc17bc7 index=283
+2020-01-13T15:32:46.762Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=bfb24811-776e-ac11-179f-1da72dc17bc7 modify_index=283
+2020-01-13T15:32:46.762Z [TRACE] client: updating alloc: alloc_id=a94fd0d3-8a36-df8d-2f57-9649131d019d index=375
+2020-01-13T15:32:46.764Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=a94fd0d3-8a36-df8d-2f57-9649131d019d modify_index=375
+2020-01-13T15:32:46.764Z [TRACE] client: updating alloc: alloc_id=1db75628-aa86-8a5a-a04e-323393bd832b index=158
+2020-01-13T15:32:46.765Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=1db75628-aa86-8a5a-a04e-323393bd832b modify_index=158
+2020-01-13T15:32:46.765Z [TRACE] client: updating alloc: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 index=633
+2020-01-13T15:32:46.767Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 modify_index=633
+2020-01-13T15:32:46.767Z [DEBUG] client: allocation updates applied: added=0 removed=0 updated=19 ignored=11 errors=0
+2020-01-13T15:32:47.076Z [INFO]  client.driver_mgr.docker: started container: driver=docker container_id=a43c530411167e35f7f8b50ed2b82b322cc0aa5adf99a5309ca51495091cdf0f
+2020-01-13T15:32:47.076Z [DEBUG] client.driver_mgr.docker.docker_logger: starting plugin: driver=docker path=/usr/local/bin/nomad args=[/usr/local/bin/nomad, docker_logger]
+2020-01-13T15:32:47.077Z [DEBUG] client.driver_mgr.docker.docker_logger: plugin started: driver=docker path=/usr/local/bin/nomad pid=7779
+2020-01-13T15:32:47.077Z [DEBUG] client.driver_mgr.docker.docker_logger: waiting for RPC address: driver=docker path=/usr/local/bin/nomad
+2020-01-13T15:32:47.084Z [DEBUG] client.driver_mgr.docker.docker_logger.nomad: plugin address: driver=docker @module=docker_logger address=/tmp/plugin254893830 network=unix timestamp=2020-01-13T15:32:47.084Z
+2020-01-13T15:32:47.084Z [DEBUG] client.driver_mgr.docker.docker_logger: using plugin: driver=docker version=2
+2020-01-13T15:32:47.085Z [DEBUG] client.driver_mgr.docker.docker_logger.nomad: using client connection initialized from environment: driver=docker @module=docker_logger timestamp=2020-01-13T15:32:47.085Z
+2020-01-13T15:32:47.087Z [TRACE] client.alloc_runner.task_runner: setting task state: alloc_id=8a5d3686-118d-b555-9751-0daa53f4c889 task=rails state=running event=Started
+2020-01-13T15:32:47.089Z [TRACE] client.alloc_runner: handling task state update: alloc_id=8a5d3686-118d-b555-9751-0daa53f4c889 done=false
+2020-01-13T15:32:47.089Z [TRACE] client.alloc_runner: sending updated alloc: alloc_id=8a5d3686-118d-b555-9751-0daa53f4c889 client_status=running desired_status=
+2020-01-13T15:32:47.108Z [DEBUG] consul.sync: sync complete: registered_services=1 deregistered_services=0 registered_checks=1 deregistered_checks=0
+2020-01-13T15:32:47.245Z [TRACE] client: next heartbeat: period=11.715898383s
+2020-01-13T15:32:47.272Z [ERROR] client.alloc_runner.task_runner.task_hook.stats_hook: failed to start stats collection for task with unrecoverable error: alloc_id=8a5d3686-118d-b555-9751-0daa53f4c889 task=rails error="container stopped"
+2020-01-13T15:32:47.274Z [DEBUG] client.driver_mgr.docker.docker_logger: plugin process exited: driver=docker path=/usr/local/bin/nomad pid=7779
+2020-01-13T15:32:47.274Z [DEBUG] client.driver_mgr.docker.docker_logger: plugin exited: driver=docker
+2020-01-13T15:32:47.275Z [TRACE] client.alloc_runner: handling task state update: alloc_id=8a5d3686-118d-b555-9751-0daa53f4c889 done=false
+2020-01-13T15:32:47.275Z [TRACE] client.alloc_runner: sending updated alloc: alloc_id=8a5d3686-118d-b555-9751-0daa53f4c889 client_status=running desired_status=
+2020-01-13T15:32:47.285Z [DEBUG] client.driver_mgr.docker: image id reference count decremented: driver=docker image_id=sha256:04b67578f216cb740b402f0d13826349ce9ad94ec63ca78b3480bb4cd2d02308 references=29
+2020-01-13T15:32:47.285Z [INFO]  client.alloc_runner.task_runner: not restarting task: alloc_id=8a5d3686-118d-b555-9751-0daa53f4c889 task=rails reason="Policy allows no restarts"
+2020-01-13T15:32:47.285Z [TRACE] client.alloc_runner.task_runner: setting task state: alloc_id=8a5d3686-118d-b555-9751-0daa53f4c889 task=rails state=dead event="Not Restarting"
+2020-01-13T15:32:47.287Z [TRACE] client.alloc_runner: handling task state update: alloc_id=8a5d3686-118d-b555-9751-0daa53f4c889 done=false
+2020-01-13T15:32:47.289Z [INFO]  client.gc: marking allocation for GC: alloc_id=8a5d3686-118d-b555-9751-0daa53f4c889
+2020-01-13T15:32:47.289Z [TRACE] client.alloc_runner: sending updated alloc: alloc_id=8a5d3686-118d-b555-9751-0daa53f4c889 client_status=failed desired_status=
+2020-01-13T15:32:47.289Z [TRACE] client.alloc_runner: handling task state update: alloc_id=8a5d3686-118d-b555-9751-0daa53f4c889 done=false
+2020-01-13T15:32:47.289Z [TRACE] client.alloc_runner: sending updated alloc: alloc_id=8a5d3686-118d-b555-9751-0daa53f4c889 client_status=failed desired_status=
+2020-01-13T15:32:47.289Z [TRACE] client.alloc_runner.runner_hook.alloc_health_watcher: health set: alloc_id=8a5d3686-118d-b555-9751-0daa53f4c889 healthy=false
+2020-01-13T15:32:47.291Z [DEBUG] client.alloc_runner.task_runner.task_hook.logmon: plugin process exited: alloc_id=8a5d3686-118d-b555-9751-0daa53f4c889 task=rails path=/usr/local/bin/nomad pid=7614
+2020-01-13T15:32:47.291Z [DEBUG] client.alloc_runner.task_runner.task_hook.logmon: plugin exited: alloc_id=8a5d3686-118d-b555-9751-0daa53f4c889 task=rails
+2020-01-13T15:32:47.292Z [TRACE] client.alloc_runner: sending updated alloc: alloc_id=8a5d3686-118d-b555-9751-0daa53f4c889 client_status=failed desired_status=
+2020-01-13T15:32:47.292Z [DEBUG] client.alloc_runner.task_runner: task run loop exiting: alloc_id=8a5d3686-118d-b555-9751-0daa53f4c889 task=rails
+2020-01-13T15:32:47.292Z [TRACE] client.alloc_runner: handling task state update: alloc_id=8a5d3686-118d-b555-9751-0daa53f4c889 done=true
+2020-01-13T15:32:47.292Z [TRACE] client.alloc_runner: sending updated alloc: alloc_id=8a5d3686-118d-b555-9751-0daa53f4c889 client_status=failed desired_status=
+2020-01-13T15:32:47.296Z [DEBUG] consul.sync: sync complete: registered_services=0 deregistered_services=1 registered_checks=0 deregistered_checks=1
+2020-01-13T15:32:47.342Z [TRACE] client: next heartbeat: period=17.452811654s
+2020-01-13T15:32:47.345Z [DEBUG] client: updated allocations: index=637 total=30 pulled=19 filtered=11
+2020-01-13T15:32:47.346Z [DEBUG] client: allocation updates: added=0 removed=0 updated=19 ignored=11
+2020-01-13T15:32:47.346Z [TRACE] client: updating alloc: alloc_id=de47aba9-b2b9-b9f8-47aa-6a27b41e2a90 index=137
+2020-01-13T15:32:47.346Z [TRACE] client: next heartbeat: period=13.091188373s
+2020-01-13T15:32:47.348Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=de47aba9-b2b9-b9f8-47aa-6a27b41e2a90 modify_index=137
+2020-01-13T15:32:47.348Z [TRACE] client: updating alloc: alloc_id=1db75628-aa86-8a5a-a04e-323393bd832b index=158
+2020-01-13T15:32:47.350Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=1db75628-aa86-8a5a-a04e-323393bd832b modify_index=158
+2020-01-13T15:32:47.350Z [TRACE] client: updating alloc: alloc_id=1160fece-17fb-39c3-1cdd-bc63983acd3d index=264
+2020-01-13T15:32:47.351Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=1160fece-17fb-39c3-1cdd-bc63983acd3d modify_index=264
+2020-01-13T15:32:47.351Z [TRACE] client: updating alloc: alloc_id=6a41739c-ac54-031a-d5bf-3a44ed08fd9a index=589
+2020-01-13T15:32:47.353Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=6a41739c-ac54-031a-d5bf-3a44ed08fd9a modify_index=589
+2020-01-13T15:32:47.353Z [TRACE] client: updating alloc: alloc_id=e2b544e2-65f8-3360-6ba2-20c74265078a index=589
+2020-01-13T15:32:47.355Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=e2b544e2-65f8-3360-6ba2-20c74265078a modify_index=589
+2020-01-13T15:32:47.355Z [TRACE] client: updating alloc: alloc_id=f6adb34f-6d86-0cc5-5b4e-6086f1210ced index=96
+2020-01-13T15:32:47.356Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=f6adb34f-6d86-0cc5-5b4e-6086f1210ced modify_index=96
+2020-01-13T15:32:47.356Z [TRACE] client: updating alloc: alloc_id=170de67b-e478-65a9-4ed9-bc48315751d0 index=395
+2020-01-13T15:32:47.358Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=170de67b-e478-65a9-4ed9-bc48315751d0 modify_index=395
+2020-01-13T15:32:47.358Z [TRACE] client: updating alloc: alloc_id=aed90a68-d584-72af-c191-16f769110960 index=264
+2020-01-13T15:32:47.359Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=aed90a68-d584-72af-c191-16f769110960 modify_index=264
+2020-01-13T15:32:47.359Z [TRACE] client: updating alloc: alloc_id=0ee7727e-7c11-117b-ab4d-f6b3f6e8a2cc index=186
+2020-01-13T15:32:47.361Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=0ee7727e-7c11-117b-ab4d-f6b3f6e8a2cc modify_index=186
+2020-01-13T15:32:47.361Z [TRACE] client: updating alloc: alloc_id=bfb24811-776e-ac11-179f-1da72dc17bc7 index=283
+2020-01-13T15:32:47.362Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=bfb24811-776e-ac11-179f-1da72dc17bc7 modify_index=283
+2020-01-13T15:32:47.362Z [TRACE] client: updating alloc: alloc_id=fa04b4f8-97a3-c271-0b7e-bc1e4c3df153 index=589
+2020-01-13T15:32:47.364Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=fa04b4f8-97a3-c271-0b7e-bc1e4c3df153 modify_index=589
+2020-01-13T15:32:47.364Z [TRACE] client: updating alloc: alloc_id=d53795fe-57a7-510c-9a23-e688c37a3a10 index=518
+2020-01-13T15:32:47.366Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=d53795fe-57a7-510c-9a23-e688c37a3a10 modify_index=518
+2020-01-13T15:32:47.366Z [TRACE] client: updating alloc: alloc_id=747cfa1b-d7bb-ef09-2cdb-69c224cef59f index=283
+2020-01-13T15:32:47.367Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=747cfa1b-d7bb-ef09-2cdb-69c224cef59f modify_index=283
+2020-01-13T15:32:47.367Z [TRACE] client: updating alloc: alloc_id=a4f537fb-5d70-58cd-2dd1-ba98e5bb3e05 index=375
+2020-01-13T15:32:47.369Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=a4f537fb-5d70-58cd-2dd1-ba98e5bb3e05 modify_index=375
+2020-01-13T15:32:47.369Z [TRACE] client: updating alloc: alloc_id=a94fd0d3-8a36-df8d-2f57-9649131d019d index=375
+2020-01-13T15:32:47.371Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=a94fd0d3-8a36-df8d-2f57-9649131d019d modify_index=375
+2020-01-13T15:32:47.371Z [TRACE] client: updating alloc: alloc_id=7b990a90-9ea4-9c2b-5244-24c58a80b28a index=186
+2020-01-13T15:32:47.372Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=7b990a90-9ea4-9c2b-5244-24c58a80b28a modify_index=186
+2020-01-13T15:32:47.372Z [TRACE] client: updating alloc: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 index=633
+2020-01-13T15:32:47.374Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 modify_index=633
+2020-01-13T15:32:47.374Z [TRACE] client: updating alloc: alloc_id=042b691b-c331-242b-f27e-fcd4522f4d23 index=96
+2020-01-13T15:32:47.375Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=042b691b-c331-242b-f27e-fcd4522f4d23 modify_index=96
+2020-01-13T15:32:47.375Z [TRACE] client: updating alloc: alloc_id=7d88e249-9585-0173-949a-ff8ec9b9a458 index=483
+2020-01-13T15:32:47.377Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=7d88e249-9585-0173-949a-ff8ec9b9a458 modify_index=483
+2020-01-13T15:32:47.377Z [DEBUG] client: allocation updates applied: added=0 removed=0 updated=19 ignored=11 errors=0
+2020-01-13T15:32:47.446Z [TRACE] client: next heartbeat: period=17.705407659s
+2020-01-13T15:32:47.518Z [TRACE] client: next heartbeat: period=16.799429616s
+2020-01-13T15:32:47.522Z [DEBUG] client: updated allocations: index=640 total=30 pulled=19 filtered=11
+2020-01-13T15:32:47.522Z [DEBUG] client: allocation updates: added=0 removed=0 updated=19 ignored=11
+2020-01-13T15:32:47.522Z [TRACE] client: updating alloc: alloc_id=bfb24811-776e-ac11-179f-1da72dc17bc7 index=283
+2020-01-13T15:32:47.523Z [TRACE] client: next heartbeat: period=16.443537691s
+2020-01-13T15:32:47.524Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=bfb24811-776e-ac11-179f-1da72dc17bc7 modify_index=283
+2020-01-13T15:32:47.524Z [TRACE] client: updating alloc: alloc_id=f6adb34f-6d86-0cc5-5b4e-6086f1210ced index=96
+2020-01-13T15:32:47.526Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=f6adb34f-6d86-0cc5-5b4e-6086f1210ced modify_index=96
+2020-01-13T15:32:47.526Z [TRACE] client: updating alloc: alloc_id=042b691b-c331-242b-f27e-fcd4522f4d23 index=96
+2020-01-13T15:32:47.527Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=042b691b-c331-242b-f27e-fcd4522f4d23 modify_index=96
+2020-01-13T15:32:47.527Z [TRACE] client: updating alloc: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 index=633
+2020-01-13T15:32:47.529Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 modify_index=633
+2020-01-13T15:32:47.529Z [TRACE] client: updating alloc: alloc_id=7d88e249-9585-0173-949a-ff8ec9b9a458 index=483
+2020-01-13T15:32:47.531Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=7d88e249-9585-0173-949a-ff8ec9b9a458 modify_index=483
+2020-01-13T15:32:47.531Z [TRACE] client: updating alloc: alloc_id=0ee7727e-7c11-117b-ab4d-f6b3f6e8a2cc index=186
+2020-01-13T15:32:47.532Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=0ee7727e-7c11-117b-ab4d-f6b3f6e8a2cc modify_index=186
+2020-01-13T15:32:47.532Z [TRACE] client: updating alloc: alloc_id=d53795fe-57a7-510c-9a23-e688c37a3a10 index=518
+2020-01-13T15:32:47.534Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=d53795fe-57a7-510c-9a23-e688c37a3a10 modify_index=518
+2020-01-13T15:32:47.534Z [TRACE] client: updating alloc: alloc_id=747cfa1b-d7bb-ef09-2cdb-69c224cef59f index=283
+2020-01-13T15:32:47.536Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=747cfa1b-d7bb-ef09-2cdb-69c224cef59f modify_index=283
+2020-01-13T15:32:47.536Z [TRACE] client: updating alloc: alloc_id=aed90a68-d584-72af-c191-16f769110960 index=264
+2020-01-13T15:32:47.538Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=aed90a68-d584-72af-c191-16f769110960 modify_index=264
+2020-01-13T15:32:47.538Z [TRACE] client: updating alloc: alloc_id=6a41739c-ac54-031a-d5bf-3a44ed08fd9a index=589
+2020-01-13T15:32:47.540Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=6a41739c-ac54-031a-d5bf-3a44ed08fd9a modify_index=589
+2020-01-13T15:32:47.540Z [TRACE] client: updating alloc: alloc_id=1160fece-17fb-39c3-1cdd-bc63983acd3d index=264
+2020-01-13T15:32:47.542Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=1160fece-17fb-39c3-1cdd-bc63983acd3d modify_index=264
+2020-01-13T15:32:47.542Z [TRACE] client: updating alloc: alloc_id=a94fd0d3-8a36-df8d-2f57-9649131d019d index=375
+2020-01-13T15:32:47.544Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=a94fd0d3-8a36-df8d-2f57-9649131d019d modify_index=375
+2020-01-13T15:32:47.544Z [TRACE] client: updating alloc: alloc_id=7b990a90-9ea4-9c2b-5244-24c58a80b28a index=186
+2020-01-13T15:32:47.545Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=7b990a90-9ea4-9c2b-5244-24c58a80b28a modify_index=186
+2020-01-13T15:32:47.545Z [TRACE] client: updating alloc: alloc_id=a4f537fb-5d70-58cd-2dd1-ba98e5bb3e05 index=375
+2020-01-13T15:32:47.547Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=a4f537fb-5d70-58cd-2dd1-ba98e5bb3e05 modify_index=375
+2020-01-13T15:32:47.547Z [TRACE] client: updating alloc: alloc_id=170de67b-e478-65a9-4ed9-bc48315751d0 index=395
+2020-01-13T15:32:47.549Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=170de67b-e478-65a9-4ed9-bc48315751d0 modify_index=395
+2020-01-13T15:32:47.549Z [TRACE] client: updating alloc: alloc_id=de47aba9-b2b9-b9f8-47aa-6a27b41e2a90 index=137
+2020-01-13T15:32:47.550Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=de47aba9-b2b9-b9f8-47aa-6a27b41e2a90 modify_index=137
+2020-01-13T15:32:47.550Z [TRACE] client: updating alloc: alloc_id=1db75628-aa86-8a5a-a04e-323393bd832b index=158
+2020-01-13T15:32:47.552Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=1db75628-aa86-8a5a-a04e-323393bd832b modify_index=158
+2020-01-13T15:32:47.552Z [TRACE] client: updating alloc: alloc_id=e2b544e2-65f8-3360-6ba2-20c74265078a index=589
+2020-01-13T15:32:47.553Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=e2b544e2-65f8-3360-6ba2-20c74265078a modify_index=589
+2020-01-13T15:32:47.553Z [TRACE] client: updating alloc: alloc_id=fa04b4f8-97a3-c271-0b7e-bc1e4c3df153 index=589
+2020-01-13T15:32:47.555Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=fa04b4f8-97a3-c271-0b7e-bc1e4c3df153 modify_index=589
+2020-01-13T15:32:47.555Z [DEBUG] client: allocation updates applied: added=0 removed=0 updated=19 ignored=11 errors=0
+2020-01-13T15:32:47.802Z [TRACE] client: next heartbeat: period=13.446698705s
+2020-01-13T15:32:47.806Z [DEBUG] client: updated allocations: index=642 total=31 pulled=21 filtered=10
+2020-01-13T15:32:47.806Z [DEBUG] client: allocation updates: added=1 removed=0 updated=20 ignored=10
+2020-01-13T15:32:47.806Z [TRACE] client: updating alloc: alloc_id=042b691b-c331-242b-f27e-fcd4522f4d23 index=96
+2020-01-13T15:32:47.806Z [TRACE] client: next heartbeat: period=19.741699373s
+2020-01-13T15:32:47.808Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=042b691b-c331-242b-f27e-fcd4522f4d23 modify_index=96
+2020-01-13T15:32:47.808Z [TRACE] client: updating alloc: alloc_id=7b990a90-9ea4-9c2b-5244-24c58a80b28a index=186
+2020-01-13T15:32:47.809Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=7b990a90-9ea4-9c2b-5244-24c58a80b28a modify_index=186
+2020-01-13T15:32:47.809Z [TRACE] client: updating alloc: alloc_id=6a41739c-ac54-031a-d5bf-3a44ed08fd9a index=589
+2020-01-13T15:32:47.811Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=6a41739c-ac54-031a-d5bf-3a44ed08fd9a modify_index=589
+2020-01-13T15:32:47.811Z [TRACE] client: updating alloc: alloc_id=1db75628-aa86-8a5a-a04e-323393bd832b index=158
+2020-01-13T15:32:47.813Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=1db75628-aa86-8a5a-a04e-323393bd832b modify_index=158
+2020-01-13T15:32:47.813Z [TRACE] client: updating alloc: alloc_id=d53795fe-57a7-510c-9a23-e688c37a3a10 index=518
+2020-01-13T15:32:47.814Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=d53795fe-57a7-510c-9a23-e688c37a3a10 modify_index=518
+2020-01-13T15:32:47.814Z [TRACE] client: updating alloc: alloc_id=e2b544e2-65f8-3360-6ba2-20c74265078a index=589
+2020-01-13T15:32:47.816Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=e2b544e2-65f8-3360-6ba2-20c74265078a modify_index=589
+2020-01-13T15:32:47.816Z [TRACE] client: updating alloc: alloc_id=aed90a68-d584-72af-c191-16f769110960 index=264
+2020-01-13T15:32:47.818Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=aed90a68-d584-72af-c191-16f769110960 modify_index=264
+2020-01-13T15:32:47.818Z [TRACE] client: updating alloc: alloc_id=a94fd0d3-8a36-df8d-2f57-9649131d019d index=375
+2020-01-13T15:32:47.819Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=a94fd0d3-8a36-df8d-2f57-9649131d019d modify_index=375
+2020-01-13T15:32:47.819Z [TRACE] client: updating alloc: alloc_id=de47aba9-b2b9-b9f8-47aa-6a27b41e2a90 index=137
+2020-01-13T15:32:47.821Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=de47aba9-b2b9-b9f8-47aa-6a27b41e2a90 modify_index=137
+2020-01-13T15:32:47.821Z [TRACE] client: updating alloc: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 index=633
+2020-01-13T15:32:47.823Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 modify_index=633
+2020-01-13T15:32:47.823Z [TRACE] client: updating alloc: alloc_id=1160fece-17fb-39c3-1cdd-bc63983acd3d index=264
+2020-01-13T15:32:47.825Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=1160fece-17fb-39c3-1cdd-bc63983acd3d modify_index=264
+2020-01-13T15:32:47.825Z [TRACE] client: updating alloc: alloc_id=fa04b4f8-97a3-c271-0b7e-bc1e4c3df153 index=589
+2020-01-13T15:32:47.826Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=fa04b4f8-97a3-c271-0b7e-bc1e4c3df153 modify_index=589
+2020-01-13T15:32:47.826Z [TRACE] client: updating alloc: alloc_id=021bb356-65e6-efde-6adf-44aa26b6bec3 index=642
+2020-01-13T15:32:47.828Z [TRACE] client: updating alloc: alloc_id=7d88e249-9585-0173-949a-ff8ec9b9a458 index=483
+2020-01-13T15:32:47.828Z [TRACE] client.alloc_runner.task_runner: Kill requested: alloc_id=021bb356-65e6-efde-6adf-44aa26b6bec3 task=rails event_type=Killing event_reason=
+2020-01-13T15:32:47.830Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=7d88e249-9585-0173-949a-ff8ec9b9a458 modify_index=483
+2020-01-13T15:32:47.830Z [TRACE] client: updating alloc: alloc_id=170de67b-e478-65a9-4ed9-bc48315751d0 index=395
+2020-01-13T15:32:47.831Z [TRACE] client.alloc_runner: handling task state update: alloc_id=021bb356-65e6-efde-6adf-44aa26b6bec3 done=false
+2020-01-13T15:32:47.831Z [TRACE] client.alloc_runner: sending updated alloc: alloc_id=021bb356-65e6-efde-6adf-44aa26b6bec3 client_status=running desired_status=
+2020-01-13T15:32:47.835Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=170de67b-e478-65a9-4ed9-bc48315751d0 modify_index=395
+2020-01-13T15:32:47.835Z [TRACE] client: updating alloc: alloc_id=0ee7727e-7c11-117b-ab4d-f6b3f6e8a2cc index=186
+2020-01-13T15:32:47.837Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=0ee7727e-7c11-117b-ab4d-f6b3f6e8a2cc modify_index=186
+2020-01-13T15:32:47.837Z [TRACE] client: updating alloc: alloc_id=bfb24811-776e-ac11-179f-1da72dc17bc7 index=283
+2020-01-13T15:32:47.839Z [DEBUG] consul.sync: sync complete: registered_services=0 deregistered_services=1 registered_checks=0 deregistered_checks=1
+2020-01-13T15:32:47.840Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=bfb24811-776e-ac11-179f-1da72dc17bc7 modify_index=283
+2020-01-13T15:32:47.840Z [TRACE] client: updating alloc: alloc_id=f6adb34f-6d86-0cc5-5b4e-6086f1210ced index=96
+2020-01-13T15:32:47.841Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=f6adb34f-6d86-0cc5-5b4e-6086f1210ced modify_index=96
+2020-01-13T15:32:47.841Z [TRACE] client: updating alloc: alloc_id=747cfa1b-d7bb-ef09-2cdb-69c224cef59f index=283
+2020-01-13T15:32:47.843Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=747cfa1b-d7bb-ef09-2cdb-69c224cef59f modify_index=283
+2020-01-13T15:32:47.843Z [TRACE] client: updating alloc: alloc_id=a4f537fb-5d70-58cd-2dd1-ba98e5bb3e05 index=375
+2020-01-13T15:32:47.845Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=a4f537fb-5d70-58cd-2dd1-ba98e5bb3e05 modify_index=375
+2020-01-13T15:32:47.847Z [DEBUG] client: allocation updates applied: added=1 removed=0 updated=20 ignored=10 errors=0
+2020-01-13T15:32:47.848Z [DEBUG] client.alloc_migrator: waiting for remote previous alloc to terminate: alloc_id=2df0420b-64a7-bd4d-46e7-2f7f1796f83c previous_alloc=69ed0a8f-668a-9c5e-c44a-2c7364194748
+2020-01-13T15:32:47.849Z [DEBUG] client.alloc_migrator: waiting for remote previous alloc to terminate: alloc_id=2df0420b-64a7-bd4d-46e7-2f7f1796f83c previous_alloc=69ed0a8f-668a-9c5e-c44a-2c7364194748
+2020-01-13T15:32:47.850Z [TRACE] client: next heartbeat: period=18.734213003s
+2020-01-13T15:32:47.851Z [TRACE] client.alloc_runner.runner_hook.alloc_health_watcher: watching: alloc_id=2df0420b-64a7-bd4d-46e7-2f7f1796f83c deadline="2020-01-13 15:35:47.851073484 +0000 UTC m=+4378.654012958" checks=true min_healthy_time=10s
+2020-01-13T15:32:47.851Z [TRACE] client: next heartbeat: period=12.623933041s
+2020-01-13T15:32:47.855Z [TRACE] client.alloc_runner: handling task state update: alloc_id=2df0420b-64a7-bd4d-46e7-2f7f1796f83c done=false
+2020-01-13T15:32:47.857Z [TRACE] client.alloc_runner: sending updated alloc: alloc_id=2df0420b-64a7-bd4d-46e7-2f7f1796f83c client_status=pending desired_status=
+2020-01-13T15:32:47.857Z [DEBUG] client.alloc_runner.task_runner.task_hook.logmon: starting plugin: alloc_id=2df0420b-64a7-bd4d-46e7-2f7f1796f83c task=rails path=/usr/local/bin/nomad args=[/usr/local/bin/nomad, logmon]
+2020-01-13T15:32:47.857Z [DEBUG] client.alloc_runner.task_runner.task_hook.logmon: plugin started: alloc_id=2df0420b-64a7-bd4d-46e7-2f7f1796f83c task=rails path=/usr/local/bin/nomad pid=7871
+2020-01-13T15:32:47.857Z [DEBUG] client.alloc_runner.task_runner.task_hook.logmon: waiting for RPC address: alloc_id=2df0420b-64a7-bd4d-46e7-2f7f1796f83c task=rails path=/usr/local/bin/nomad
+2020-01-13T15:32:47.865Z [DEBUG] client.alloc_runner.task_runner.task_hook.logmon.nomad: plugin address: alloc_id=2df0420b-64a7-bd4d-46e7-2f7f1796f83c task=rails address=/tmp/plugin602343675 network=unix @module=logmon timestamp=2020-01-13T15:32:47.865Z
+2020-01-13T15:32:47.866Z [DEBUG] client.alloc_runner.task_runner.task_hook.logmon: using plugin: alloc_id=2df0420b-64a7-bd4d-46e7-2f7f1796f83c task=rails version=2
+2020-01-13T15:32:47.867Z [INFO]  client.alloc_runner.task_runner.task_hook.logmon.nomad: opening fifo: alloc_id=2df0420b-64a7-bd4d-46e7-2f7f1796f83c task=rails @module=logmon path=/opt/nomad/data/alloc/2df0420b-64a7-bd4d-46e7-2f7f1796f83c/alloc/logs/.rails.stdout.fifo timestamp=2020-01-13T15:32:47.866Z
+2020-01-13T15:32:47.867Z [INFO]  client.alloc_runner.task_runner.task_hook.logmon.nomad: opening fifo: alloc_id=2df0420b-64a7-bd4d-46e7-2f7f1796f83c task=rails @module=logmon path=/opt/nomad/data/alloc/2df0420b-64a7-bd4d-46e7-2f7f1796f83c/alloc/logs/.rails.stderr.fifo timestamp=2020-01-13T15:32:47.867Z
+2020-01-13T15:32:47.883Z [DEBUG] client.driver_mgr.docker: image reference count incremented: driver=docker image_name=kaspergrubbe/diceapp:0.0.6 image_id=sha256:04b67578f216cb740b402f0d13826349ce9ad94ec63ca78b3480bb4cd2d02308 references=30
+2020-01-13T15:32:47.883Z [TRACE] client.driver_mgr.docker: binding volumes: driver=docker task_name=rails volumes=[/opt/nomad/data/alloc/2df0420b-64a7-bd4d-46e7-2f7f1796f83c/alloc:/alloc, /opt/nomad/data/alloc/2df0420b-64a7-bd4d-46e7-2f7f1796f83c/rails/local:/local, /opt/nomad/data/alloc/2df0420b-64a7-bd4d-46e7-2f7f1796f83c/rails/secrets:/secrets]
+2020-01-13T15:32:47.883Z [TRACE] client.driver_mgr.docker: no docker log driver provided, defaulting to json-file: driver=docker task_name=rails
+2020-01-13T15:32:47.883Z [DEBUG] client.driver_mgr.docker: configured resources: driver=docker task_name=rails memory=262144000 cpu_shares=750 cpu_quota=0 cpu_period=0
+2020-01-13T15:32:47.883Z [DEBUG] client.driver_mgr.docker: binding directories: driver=docker task_name=rails binds="[]string{"/opt/nomad/data/alloc/2df0420b-64a7-bd4d-46e7-2f7f1796f83c/alloc:/alloc", "/opt/nomad/data/alloc/2df0420b-64a7-bd4d-46e7-2f7f1796f83c/rails/local:/local", "/opt/nomad/data/alloc/2df0420b-64a7-bd4d-46e7-2f7f1796f83c/rails/secrets:/secrets"}"
+2020-01-13T15:32:47.883Z [DEBUG] client.driver_mgr.docker: networking mode not specified; using default: driver=docker task_name=rails
+2020-01-13T15:32:47.883Z [DEBUG] client.driver_mgr.docker: allocated mapped port: driver=docker task_name=rails ip=172.31.36.12 port=21959
+2020-01-13T15:32:47.883Z [DEBUG] client.driver_mgr.docker: exposed port: driver=docker task_name=rails port=8080
+2020-01-13T15:32:47.883Z [DEBUG] client.driver_mgr.docker: setting container startup command: driver=docker task_name=rails command=false
+2020-01-13T15:32:47.883Z [DEBUG] client.driver_mgr.docker: applied labels on the container: driver=docker task_name=rails labels=map[com.hashicorp.nomad.alloc_id:2df0420b-64a7-bd4d-46e7-2f7f1796f83c]
+2020-01-13T15:32:47.883Z [DEBUG] client.driver_mgr.docker: setting container name: driver=docker task_name=rails container_name=rails-2df0420b-64a7-bd4d-46e7-2f7f1796f83c
+2020-01-13T15:32:47.935Z [INFO]  client.driver_mgr.docker: created container: driver=docker container_id=b6cf516616fe6414515efea755969fecbe61a133518186adb5a19749ec67182d
+2020-01-13T15:32:48.045Z [TRACE] client: next heartbeat: period=17.283798638s
+2020-01-13T15:32:48.110Z [TRACE] client: next heartbeat: period=10.451033872s
+2020-01-13T15:32:48.122Z [DEBUG] client: updated allocations: index=645 total=31 pulled=19 filtered=12
+2020-01-13T15:32:48.122Z [DEBUG] client: allocation updates: added=0 removed=0 updated=19 ignored=12
+2020-01-13T15:32:48.122Z [TRACE] client: updating alloc: alloc_id=170de67b-e478-65a9-4ed9-bc48315751d0 index=395
+2020-01-13T15:32:48.125Z [TRACE] client: next heartbeat: period=16.21452997s
+2020-01-13T15:32:48.127Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=170de67b-e478-65a9-4ed9-bc48315751d0 modify_index=395
+2020-01-13T15:32:48.127Z [TRACE] client: updating alloc: alloc_id=7b990a90-9ea4-9c2b-5244-24c58a80b28a index=186
+2020-01-13T15:32:48.130Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=7b990a90-9ea4-9c2b-5244-24c58a80b28a modify_index=186
+2020-01-13T15:32:48.130Z [TRACE] client: updating alloc: alloc_id=e2b544e2-65f8-3360-6ba2-20c74265078a index=589
+2020-01-13T15:32:48.132Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=e2b544e2-65f8-3360-6ba2-20c74265078a modify_index=589
+2020-01-13T15:32:48.132Z [TRACE] client: updating alloc: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 index=633
+2020-01-13T15:32:48.134Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 modify_index=633
+2020-01-13T15:32:48.134Z [TRACE] client: updating alloc: alloc_id=1160fece-17fb-39c3-1cdd-bc63983acd3d index=264
+2020-01-13T15:32:48.136Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=1160fece-17fb-39c3-1cdd-bc63983acd3d modify_index=264
+2020-01-13T15:32:48.136Z [TRACE] client: updating alloc: alloc_id=a4f537fb-5d70-58cd-2dd1-ba98e5bb3e05 index=375
+2020-01-13T15:32:48.137Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=a4f537fb-5d70-58cd-2dd1-ba98e5bb3e05 modify_index=375
+2020-01-13T15:32:48.137Z [TRACE] client: updating alloc: alloc_id=a94fd0d3-8a36-df8d-2f57-9649131d019d index=375
+2020-01-13T15:32:48.139Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=a94fd0d3-8a36-df8d-2f57-9649131d019d modify_index=375
+2020-01-13T15:32:48.139Z [TRACE] client: updating alloc: alloc_id=bfb24811-776e-ac11-179f-1da72dc17bc7 index=283
+2020-01-13T15:32:48.141Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=bfb24811-776e-ac11-179f-1da72dc17bc7 modify_index=283
+2020-01-13T15:32:48.141Z [TRACE] client: updating alloc: alloc_id=f6adb34f-6d86-0cc5-5b4e-6086f1210ced index=96
+2020-01-13T15:32:48.142Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=f6adb34f-6d86-0cc5-5b4e-6086f1210ced modify_index=96
+2020-01-13T15:32:48.142Z [TRACE] client: updating alloc: alloc_id=d53795fe-57a7-510c-9a23-e688c37a3a10 index=518
+2020-01-13T15:32:48.144Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=d53795fe-57a7-510c-9a23-e688c37a3a10 modify_index=518
+2020-01-13T15:32:48.144Z [TRACE] client: updating alloc: alloc_id=0ee7727e-7c11-117b-ab4d-f6b3f6e8a2cc index=186
+2020-01-13T15:32:48.146Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=0ee7727e-7c11-117b-ab4d-f6b3f6e8a2cc modify_index=186
+2020-01-13T15:32:48.146Z [TRACE] client: updating alloc: alloc_id=747cfa1b-d7bb-ef09-2cdb-69c224cef59f index=283
+2020-01-13T15:32:48.148Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=747cfa1b-d7bb-ef09-2cdb-69c224cef59f modify_index=283
+2020-01-13T15:32:48.148Z [TRACE] client: updating alloc: alloc_id=fa04b4f8-97a3-c271-0b7e-bc1e4c3df153 index=589
+2020-01-13T15:32:48.149Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=fa04b4f8-97a3-c271-0b7e-bc1e4c3df153 modify_index=589
+2020-01-13T15:32:48.149Z [TRACE] client: updating alloc: alloc_id=1db75628-aa86-8a5a-a04e-323393bd832b index=158
+2020-01-13T15:32:48.151Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=1db75628-aa86-8a5a-a04e-323393bd832b modify_index=158
+2020-01-13T15:32:48.151Z [TRACE] client: updating alloc: alloc_id=de47aba9-b2b9-b9f8-47aa-6a27b41e2a90 index=137
+2020-01-13T15:32:48.153Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=de47aba9-b2b9-b9f8-47aa-6a27b41e2a90 modify_index=137
+2020-01-13T15:32:48.153Z [TRACE] client: updating alloc: alloc_id=6a41739c-ac54-031a-d5bf-3a44ed08fd9a index=589
+2020-01-13T15:32:48.155Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=6a41739c-ac54-031a-d5bf-3a44ed08fd9a modify_index=589
+2020-01-13T15:32:48.155Z [TRACE] client: updating alloc: alloc_id=7d88e249-9585-0173-949a-ff8ec9b9a458 index=483
+2020-01-13T15:32:48.156Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=7d88e249-9585-0173-949a-ff8ec9b9a458 modify_index=483
+2020-01-13T15:32:48.156Z [TRACE] client: updating alloc: alloc_id=aed90a68-d584-72af-c191-16f769110960 index=264
+2020-01-13T15:32:48.158Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=aed90a68-d584-72af-c191-16f769110960 modify_index=264
+2020-01-13T15:32:48.158Z [TRACE] client: updating alloc: alloc_id=042b691b-c331-242b-f27e-fcd4522f4d23 index=96
+2020-01-13T15:32:48.160Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=042b691b-c331-242b-f27e-fcd4522f4d23 modify_index=96
+2020-01-13T15:32:48.160Z [DEBUG] client: allocation updates applied: added=0 removed=0 updated=19 ignored=12 errors=0
+2020-01-13T15:32:48.243Z [ERROR] client.alloc_runner.task_runner.task_hook.stats_hook: failed to start stats collection for task with unrecoverable error: alloc_id=021bb356-65e6-efde-6adf-44aa26b6bec3 task=rails error="container stopped"
+2020-01-13T15:32:48.245Z [DEBUG] client.driver_mgr.docker.docker_logger: plugin process exited: driver=docker path=/usr/local/bin/nomad pid=6783
+2020-01-13T15:32:48.245Z [DEBUG] client.driver_mgr.docker.docker_logger: plugin exited: driver=docker
+2020-01-13T15:32:48.245Z [TRACE] client.alloc_runner: handling task state update: alloc_id=021bb356-65e6-efde-6adf-44aa26b6bec3 done=false
+2020-01-13T15:32:48.245Z [TRACE] client.alloc_runner: sending updated alloc: alloc_id=021bb356-65e6-efde-6adf-44aa26b6bec3 client_status=running desired_status=
+2020-01-13T15:32:48.292Z [DEBUG] client.driver_mgr.docker: image id reference count decremented: driver=docker image_id=sha256:04b67578f216cb740b402f0d13826349ce9ad94ec63ca78b3480bb4cd2d02308 references=30
+2020-01-13T15:32:48.295Z [TRACE] client.alloc_runner: handling task state update: alloc_id=021bb356-65e6-efde-6adf-44aa26b6bec3 done=false
+2020-01-13T15:32:48.297Z [INFO]  client.gc: marking allocation for GC: alloc_id=021bb356-65e6-efde-6adf-44aa26b6bec3
+2020-01-13T15:32:48.297Z [TRACE] client.alloc_runner: sending updated alloc: alloc_id=021bb356-65e6-efde-6adf-44aa26b6bec3 client_status=complete desired_status=
+2020-01-13T15:32:48.297Z [TRACE] client.alloc_runner: handling task state update: alloc_id=021bb356-65e6-efde-6adf-44aa26b6bec3 done=false
+2020-01-13T15:32:48.297Z [TRACE] client.alloc_runner: sending updated alloc: alloc_id=021bb356-65e6-efde-6adf-44aa26b6bec3 client_status=complete desired_status=
+2020-01-13T15:32:48.300Z [DEBUG] client.alloc_runner.task_runner.task_hook.logmon: plugin process exited: alloc_id=021bb356-65e6-efde-6adf-44aa26b6bec3 task=rails path=/usr/local/bin/nomad pid=6619
+2020-01-13T15:32:48.300Z [DEBUG] client.alloc_runner.task_runner.task_hook.logmon: plugin exited: alloc_id=021bb356-65e6-efde-6adf-44aa26b6bec3 task=rails
+2020-01-13T15:32:48.300Z [DEBUG] client.alloc_runner.task_runner: task run loop exiting: alloc_id=021bb356-65e6-efde-6adf-44aa26b6bec3 task=rails
+2020-01-13T15:32:48.300Z [TRACE] client.alloc_runner: handling task state update: alloc_id=021bb356-65e6-efde-6adf-44aa26b6bec3 done=true
+2020-01-13T15:32:48.300Z [TRACE] client.alloc_runner: sending updated alloc: alloc_id=021bb356-65e6-efde-6adf-44aa26b6bec3 client_status=complete desired_status=
+2020-01-13T15:32:48.448Z [TRACE] client: next heartbeat: period=15.325401024s
+2020-01-13T15:32:48.510Z [INFO]  client.driver_mgr.docker: started container: driver=docker container_id=b6cf516616fe6414515efea755969fecbe61a133518186adb5a19749ec67182d
+2020-01-13T15:32:48.510Z [DEBUG] client.driver_mgr.docker.docker_logger: starting plugin: driver=docker path=/usr/local/bin/nomad args=[/usr/local/bin/nomad, docker_logger]
+2020-01-13T15:32:48.513Z [DEBUG] client.driver_mgr.docker.docker_logger: plugin started: driver=docker path=/usr/local/bin/nomad pid=8106
+2020-01-13T15:32:48.513Z [DEBUG] client.driver_mgr.docker.docker_logger: waiting for RPC address: driver=docker path=/usr/local/bin/nomad
+2020-01-13T15:32:48.513Z [TRACE] client: next heartbeat: period=10.358752822s
+2020-01-13T15:32:48.519Z [DEBUG] client: updated allocations: index=650 total=31 pulled=19 filtered=12
+2020-01-13T15:32:48.519Z [DEBUG] client: allocation updates: added=0 removed=0 updated=19 ignored=12
+2020-01-13T15:32:48.519Z [TRACE] client: updating alloc: alloc_id=0ee7727e-7c11-117b-ab4d-f6b3f6e8a2cc index=186
+2020-01-13T15:32:48.520Z [TRACE] client: next heartbeat: period=15.080263294s
+2020-01-13T15:32:48.523Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=0ee7727e-7c11-117b-ab4d-f6b3f6e8a2cc modify_index=186
+2020-01-13T15:32:48.523Z [TRACE] client: updating alloc: alloc_id=042b691b-c331-242b-f27e-fcd4522f4d23 index=96
+2020-01-13T15:32:48.524Z [DEBUG] client.driver_mgr.docker.docker_logger: using plugin: driver=docker version=2
+2020-01-13T15:32:48.524Z [DEBUG] client.driver_mgr.docker.docker_logger.nomad: plugin address: driver=docker @module=docker_logger address=/tmp/plugin626663567 network=unix timestamp=2020-01-13T15:32:48.523Z
+2020-01-13T15:32:48.524Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=042b691b-c331-242b-f27e-fcd4522f4d23 modify_index=96
+2020-01-13T15:32:48.524Z [TRACE] client: updating alloc: alloc_id=d53795fe-57a7-510c-9a23-e688c37a3a10 index=518
+2020-01-13T15:32:48.526Z [DEBUG] client.driver_mgr.docker.docker_logger.nomad: using client connection initialized from environment: driver=docker @module=docker_logger timestamp=2020-01-13T15:32:48.525Z
+2020-01-13T15:32:48.526Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=d53795fe-57a7-510c-9a23-e688c37a3a10 modify_index=518
+2020-01-13T15:32:48.526Z [TRACE] client: updating alloc: alloc_id=6a41739c-ac54-031a-d5bf-3a44ed08fd9a index=589
+2020-01-13T15:32:48.529Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=6a41739c-ac54-031a-d5bf-3a44ed08fd9a modify_index=589
+2020-01-13T15:32:48.529Z [TRACE] client: updating alloc: alloc_id=a94fd0d3-8a36-df8d-2f57-9649131d019d index=375
+2020-01-13T15:32:48.530Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=a94fd0d3-8a36-df8d-2f57-9649131d019d modify_index=375
+2020-01-13T15:32:48.530Z [TRACE] client: updating alloc: alloc_id=1160fece-17fb-39c3-1cdd-bc63983acd3d index=264
+2020-01-13T15:32:48.532Z [TRACE] client.alloc_runner.task_runner: setting task state: alloc_id=2df0420b-64a7-bd4d-46e7-2f7f1796f83c task=rails state=running event=Started
+2020-01-13T15:32:48.538Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=1160fece-17fb-39c3-1cdd-bc63983acd3d modify_index=264
+2020-01-13T15:32:48.538Z [TRACE] client: updating alloc: alloc_id=bfb24811-776e-ac11-179f-1da72dc17bc7 index=283
+2020-01-13T15:32:48.540Z [TRACE] client.alloc_runner: handling task state update: alloc_id=2df0420b-64a7-bd4d-46e7-2f7f1796f83c done=false
+2020-01-13T15:32:48.540Z [TRACE] client.alloc_runner: sending updated alloc: alloc_id=2df0420b-64a7-bd4d-46e7-2f7f1796f83c client_status=running desired_status=
+2020-01-13T15:32:48.542Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=bfb24811-776e-ac11-179f-1da72dc17bc7 modify_index=283
+2020-01-13T15:32:48.542Z [TRACE] client: updating alloc: alloc_id=f6adb34f-6d86-0cc5-5b4e-6086f1210ced index=96
+2020-01-13T15:32:48.546Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=f6adb34f-6d86-0cc5-5b4e-6086f1210ced modify_index=96
+2020-01-13T15:32:48.546Z [TRACE] client: updating alloc: alloc_id=747cfa1b-d7bb-ef09-2cdb-69c224cef59f index=283
+2020-01-13T15:32:48.548Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=747cfa1b-d7bb-ef09-2cdb-69c224cef59f modify_index=283
+2020-01-13T15:32:48.548Z [TRACE] client: updating alloc: alloc_id=aed90a68-d584-72af-c191-16f769110960 index=264
+2020-01-13T15:32:48.550Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=aed90a68-d584-72af-c191-16f769110960 modify_index=264
+2020-01-13T15:32:48.550Z [TRACE] client: updating alloc: alloc_id=7d88e249-9585-0173-949a-ff8ec9b9a458 index=483
+2020-01-13T15:32:48.552Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=7d88e249-9585-0173-949a-ff8ec9b9a458 modify_index=483
+2020-01-13T15:32:48.552Z [TRACE] client: updating alloc: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 index=633
+2020-01-13T15:32:48.556Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 modify_index=633
+2020-01-13T15:32:48.556Z [TRACE] client: updating alloc: alloc_id=fa04b4f8-97a3-c271-0b7e-bc1e4c3df153 index=589
+2020-01-13T15:32:48.558Z [DEBUG] consul.sync: sync complete: registered_services=1 deregistered_services=0 registered_checks=1 deregistered_checks=0
+2020-01-13T15:32:48.558Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=fa04b4f8-97a3-c271-0b7e-bc1e4c3df153 modify_index=589
+2020-01-13T15:32:48.558Z [TRACE] client: updating alloc: alloc_id=7b990a90-9ea4-9c2b-5244-24c58a80b28a index=186
+2020-01-13T15:32:48.560Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=7b990a90-9ea4-9c2b-5244-24c58a80b28a modify_index=186
+2020-01-13T15:32:48.560Z [TRACE] client: updating alloc: alloc_id=e2b544e2-65f8-3360-6ba2-20c74265078a index=589
+2020-01-13T15:32:48.562Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=e2b544e2-65f8-3360-6ba2-20c74265078a modify_index=589
+2020-01-13T15:32:48.562Z [TRACE] client: updating alloc: alloc_id=de47aba9-b2b9-b9f8-47aa-6a27b41e2a90 index=137
+2020-01-13T15:32:48.564Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=de47aba9-b2b9-b9f8-47aa-6a27b41e2a90 modify_index=137
+2020-01-13T15:32:48.564Z [TRACE] client: updating alloc: alloc_id=a4f537fb-5d70-58cd-2dd1-ba98e5bb3e05 index=375
+2020-01-13T15:32:48.566Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=a4f537fb-5d70-58cd-2dd1-ba98e5bb3e05 modify_index=375
+2020-01-13T15:32:48.566Z [TRACE] client: updating alloc: alloc_id=170de67b-e478-65a9-4ed9-bc48315751d0 index=395
+2020-01-13T15:32:48.568Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=170de67b-e478-65a9-4ed9-bc48315751d0 modify_index=395
+2020-01-13T15:32:48.568Z [TRACE] client: updating alloc: alloc_id=1db75628-aa86-8a5a-a04e-323393bd832b index=158
+2020-01-13T15:32:48.570Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=1db75628-aa86-8a5a-a04e-323393bd832b modify_index=158
+2020-01-13T15:32:48.570Z [DEBUG] client: allocation updates applied: added=0 removed=0 updated=19 ignored=12 errors=0
+2020-01-13T15:32:48.601Z [DEBUG] http: request complete: method=GET path=/v1/agent/health?type=client duration=630.582µs
+2020-01-13T15:32:48.642Z [TRACE] client: next heartbeat: period=16.259075636s
+2020-01-13T15:32:48.689Z [ERROR] client.alloc_runner.task_runner.task_hook.stats_hook: failed to start stats collection for task with unrecoverable error: alloc_id=2df0420b-64a7-bd4d-46e7-2f7f1796f83c task=rails error="container stopped"
+2020-01-13T15:32:48.691Z [DEBUG] client.driver_mgr.docker.docker_logger: plugin process exited: driver=docker path=/usr/local/bin/nomad pid=8106
+2020-01-13T15:32:48.691Z [DEBUG] client.driver_mgr.docker.docker_logger: plugin exited: driver=docker
+2020-01-13T15:32:48.692Z [TRACE] client.alloc_runner: handling task state update: alloc_id=2df0420b-64a7-bd4d-46e7-2f7f1796f83c done=false
+2020-01-13T15:32:48.692Z [TRACE] client.alloc_runner: sending updated alloc: alloc_id=2df0420b-64a7-bd4d-46e7-2f7f1796f83c client_status=running desired_status=
+2020-01-13T15:32:48.700Z [TRACE] client: next heartbeat: period=18.276391655s
+2020-01-13T15:32:48.704Z [DEBUG] client: updated allocations: index=652 total=31 pulled=19 filtered=12
+2020-01-13T15:32:48.704Z [DEBUG] client: allocation updates: added=0 removed=0 updated=19 ignored=12
+2020-01-13T15:32:48.704Z [TRACE] client: updating alloc: alloc_id=170de67b-e478-65a9-4ed9-bc48315751d0 index=395
+2020-01-13T15:32:48.705Z [DEBUG] client.driver_mgr.docker: image id reference count decremented: driver=docker image_id=sha256:04b67578f216cb740b402f0d13826349ce9ad94ec63ca78b3480bb4cd2d02308 references=30
+2020-01-13T15:32:48.705Z [INFO]  client.alloc_runner.task_runner: not restarting task: alloc_id=2df0420b-64a7-bd4d-46e7-2f7f1796f83c task=rails reason="Policy allows no restarts"
+2020-01-13T15:32:48.705Z [TRACE] client.alloc_runner.task_runner: setting task state: alloc_id=2df0420b-64a7-bd4d-46e7-2f7f1796f83c task=rails state=dead event="Not Restarting"
+2020-01-13T15:32:48.705Z [TRACE] client: next heartbeat: period=13.972557116s
+2020-01-13T15:32:48.706Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=170de67b-e478-65a9-4ed9-bc48315751d0 modify_index=395
+2020-01-13T15:32:48.706Z [TRACE] client: updating alloc: alloc_id=aed90a68-d584-72af-c191-16f769110960 index=264
+2020-01-13T15:32:48.708Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=aed90a68-d584-72af-c191-16f769110960 modify_index=264
+2020-01-13T15:32:48.708Z [TRACE] client: updating alloc: alloc_id=0ee7727e-7c11-117b-ab4d-f6b3f6e8a2cc index=186
+2020-01-13T15:32:48.709Z [TRACE] client.alloc_runner: handling task state update: alloc_id=2df0420b-64a7-bd4d-46e7-2f7f1796f83c done=false
+2020-01-13T15:32:48.711Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=0ee7727e-7c11-117b-ab4d-f6b3f6e8a2cc modify_index=186
+2020-01-13T15:32:48.711Z [TRACE] client: updating alloc: alloc_id=7b990a90-9ea4-9c2b-5244-24c58a80b28a index=186
+2020-01-13T15:32:48.713Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=7b990a90-9ea4-9c2b-5244-24c58a80b28a modify_index=186
+2020-01-13T15:32:48.713Z [TRACE] client: updating alloc: alloc_id=747cfa1b-d7bb-ef09-2cdb-69c224cef59f index=283
+2020-01-13T15:32:48.714Z [INFO]  client.gc: marking allocation for GC: alloc_id=2df0420b-64a7-bd4d-46e7-2f7f1796f83c
+2020-01-13T15:32:48.714Z [TRACE] client.alloc_runner: sending updated alloc: alloc_id=2df0420b-64a7-bd4d-46e7-2f7f1796f83c client_status=failed desired_status=
+2020-01-13T15:32:48.714Z [TRACE] client.alloc_runner: handling task state update: alloc_id=2df0420b-64a7-bd4d-46e7-2f7f1796f83c done=false
+2020-01-13T15:32:48.714Z [TRACE] client.alloc_runner: sending updated alloc: alloc_id=2df0420b-64a7-bd4d-46e7-2f7f1796f83c client_status=failed desired_status=
+2020-01-13T15:32:48.715Z [TRACE] client.alloc_runner.runner_hook.alloc_health_watcher: health set: alloc_id=2df0420b-64a7-bd4d-46e7-2f7f1796f83c healthy=false
+2020-01-13T15:32:48.716Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=747cfa1b-d7bb-ef09-2cdb-69c224cef59f modify_index=283
+2020-01-13T15:32:48.716Z [TRACE] client: updating alloc: alloc_id=de47aba9-b2b9-b9f8-47aa-6a27b41e2a90 index=137
+2020-01-13T15:32:48.716Z [DEBUG] client.alloc_runner.task_runner.task_hook.logmon: plugin process exited: alloc_id=2df0420b-64a7-bd4d-46e7-2f7f1796f83c task=rails path=/usr/local/bin/nomad pid=7871
+2020-01-13T15:32:48.716Z [DEBUG] client.alloc_runner.task_runner.task_hook.logmon: plugin exited: alloc_id=2df0420b-64a7-bd4d-46e7-2f7f1796f83c task=rails
+2020-01-13T15:32:48.716Z [DEBUG] client.alloc_runner.task_runner: task run loop exiting: alloc_id=2df0420b-64a7-bd4d-46e7-2f7f1796f83c task=rails
+2020-01-13T15:32:48.718Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=de47aba9-b2b9-b9f8-47aa-6a27b41e2a90 modify_index=137
+2020-01-13T15:32:48.718Z [TRACE] client: updating alloc: alloc_id=a94fd0d3-8a36-df8d-2f57-9649131d019d index=375
+2020-01-13T15:32:48.718Z [DEBUG] consul.sync: sync complete: registered_services=0 deregistered_services=1 registered_checks=0 deregistered_checks=1
+2020-01-13T15:32:48.719Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=a94fd0d3-8a36-df8d-2f57-9649131d019d modify_index=375
+2020-01-13T15:32:48.719Z [TRACE] client: updating alloc: alloc_id=e2b544e2-65f8-3360-6ba2-20c74265078a index=589
+2020-01-13T15:32:48.722Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=e2b544e2-65f8-3360-6ba2-20c74265078a modify_index=589
+2020-01-13T15:32:48.722Z [TRACE] client: updating alloc: alloc_id=a4f537fb-5d70-58cd-2dd1-ba98e5bb3e05 index=375
+2020-01-13T15:32:48.724Z [TRACE] client.alloc_runner: sending updated alloc: alloc_id=2df0420b-64a7-bd4d-46e7-2f7f1796f83c client_status=failed desired_status=
+2020-01-13T15:32:48.725Z [TRACE] client.alloc_runner: handling task state update: alloc_id=2df0420b-64a7-bd4d-46e7-2f7f1796f83c done=true
+2020-01-13T15:32:48.725Z [TRACE] client.alloc_runner: sending updated alloc: alloc_id=2df0420b-64a7-bd4d-46e7-2f7f1796f83c client_status=failed desired_status=
+2020-01-13T15:32:48.726Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=a4f537fb-5d70-58cd-2dd1-ba98e5bb3e05 modify_index=375
+2020-01-13T15:32:48.726Z [TRACE] client: updating alloc: alloc_id=042b691b-c331-242b-f27e-fcd4522f4d23 index=96
+2020-01-13T15:32:48.727Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=042b691b-c331-242b-f27e-fcd4522f4d23 modify_index=96
+2020-01-13T15:32:48.727Z [TRACE] client: updating alloc: alloc_id=1db75628-aa86-8a5a-a04e-323393bd832b index=158
+2020-01-13T15:32:48.730Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=1db75628-aa86-8a5a-a04e-323393bd832b modify_index=158
+2020-01-13T15:32:48.730Z [TRACE] client: updating alloc: alloc_id=d53795fe-57a7-510c-9a23-e688c37a3a10 index=518
+2020-01-13T15:32:48.732Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=d53795fe-57a7-510c-9a23-e688c37a3a10 modify_index=518
+2020-01-13T15:32:48.732Z [TRACE] client: updating alloc: alloc_id=7d88e249-9585-0173-949a-ff8ec9b9a458 index=483
+2020-01-13T15:32:48.733Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=7d88e249-9585-0173-949a-ff8ec9b9a458 modify_index=483
+2020-01-13T15:32:48.733Z [TRACE] client: updating alloc: alloc_id=fa04b4f8-97a3-c271-0b7e-bc1e4c3df153 index=589
+2020-01-13T15:32:48.737Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=fa04b4f8-97a3-c271-0b7e-bc1e4c3df153 modify_index=589
+2020-01-13T15:32:48.737Z [TRACE] client: updating alloc: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 index=633
+2020-01-13T15:32:48.739Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 modify_index=633
+2020-01-13T15:32:48.739Z [TRACE] client: updating alloc: alloc_id=1160fece-17fb-39c3-1cdd-bc63983acd3d index=264
+2020-01-13T15:32:48.741Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=1160fece-17fb-39c3-1cdd-bc63983acd3d modify_index=264
+2020-01-13T15:32:48.741Z [TRACE] client: updating alloc: alloc_id=bfb24811-776e-ac11-179f-1da72dc17bc7 index=283
+2020-01-13T15:32:48.742Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=bfb24811-776e-ac11-179f-1da72dc17bc7 modify_index=283
+2020-01-13T15:32:48.742Z [TRACE] client: updating alloc: alloc_id=6a41739c-ac54-031a-d5bf-3a44ed08fd9a index=589
+2020-01-13T15:32:48.744Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=6a41739c-ac54-031a-d5bf-3a44ed08fd9a modify_index=589
+2020-01-13T15:32:48.744Z [TRACE] client: updating alloc: alloc_id=f6adb34f-6d86-0cc5-5b4e-6086f1210ced index=96
+2020-01-13T15:32:48.746Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=f6adb34f-6d86-0cc5-5b4e-6086f1210ced modify_index=96
+2020-01-13T15:32:48.746Z [DEBUG] client: allocation updates applied: added=0 removed=0 updated=19 ignored=12 errors=0
+2020-01-13T15:32:48.764Z [TRACE] client: next heartbeat: period=18.887052243s
+2020-01-13T15:32:48.765Z [DEBUG] client: updated allocations: index=653 total=31 pulled=19 filtered=12
+2020-01-13T15:32:48.765Z [DEBUG] client: allocation updates: added=0 removed=0 updated=19 ignored=12
+2020-01-13T15:32:48.765Z [TRACE] client: updating alloc: alloc_id=1db75628-aa86-8a5a-a04e-323393bd832b index=158
+2020-01-13T15:32:48.766Z [TRACE] client: next heartbeat: period=17.688583031s
+2020-01-13T15:32:48.767Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=1db75628-aa86-8a5a-a04e-323393bd832b modify_index=158
+2020-01-13T15:32:48.767Z [TRACE] client: updating alloc: alloc_id=f6adb34f-6d86-0cc5-5b4e-6086f1210ced index=96
+2020-01-13T15:32:48.769Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=f6adb34f-6d86-0cc5-5b4e-6086f1210ced modify_index=96
+2020-01-13T15:32:48.769Z [TRACE] client: updating alloc: alloc_id=747cfa1b-d7bb-ef09-2cdb-69c224cef59f index=283
+2020-01-13T15:32:48.771Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=747cfa1b-d7bb-ef09-2cdb-69c224cef59f modify_index=283
+2020-01-13T15:32:48.771Z [TRACE] client: updating alloc: alloc_id=fa04b4f8-97a3-c271-0b7e-bc1e4c3df153 index=589
+2020-01-13T15:32:48.773Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=fa04b4f8-97a3-c271-0b7e-bc1e4c3df153 modify_index=589
+2020-01-13T15:32:48.773Z [TRACE] client: updating alloc: alloc_id=7b990a90-9ea4-9c2b-5244-24c58a80b28a index=186
+2020-01-13T15:32:48.774Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=7b990a90-9ea4-9c2b-5244-24c58a80b28a modify_index=186
+2020-01-13T15:32:48.774Z [TRACE] client: updating alloc: alloc_id=a4f537fb-5d70-58cd-2dd1-ba98e5bb3e05 index=375
+2020-01-13T15:32:48.776Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=a4f537fb-5d70-58cd-2dd1-ba98e5bb3e05 modify_index=375
+2020-01-13T15:32:48.776Z [TRACE] client: updating alloc: alloc_id=aed90a68-d584-72af-c191-16f769110960 index=264
+2020-01-13T15:32:48.778Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=aed90a68-d584-72af-c191-16f769110960 modify_index=264
+2020-01-13T15:32:48.778Z [TRACE] client: updating alloc: alloc_id=0ee7727e-7c11-117b-ab4d-f6b3f6e8a2cc index=186
+2020-01-13T15:32:48.780Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=0ee7727e-7c11-117b-ab4d-f6b3f6e8a2cc modify_index=186
+2020-01-13T15:32:48.780Z [TRACE] client: updating alloc: alloc_id=170de67b-e478-65a9-4ed9-bc48315751d0 index=395
+2020-01-13T15:32:48.781Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=170de67b-e478-65a9-4ed9-bc48315751d0 modify_index=395
+2020-01-13T15:32:48.781Z [TRACE] client: updating alloc: alloc_id=d53795fe-57a7-510c-9a23-e688c37a3a10 index=518
+2020-01-13T15:32:48.783Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=d53795fe-57a7-510c-9a23-e688c37a3a10 modify_index=518
+2020-01-13T15:32:48.783Z [TRACE] client: updating alloc: alloc_id=1160fece-17fb-39c3-1cdd-bc63983acd3d index=264
+2020-01-13T15:32:48.785Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=1160fece-17fb-39c3-1cdd-bc63983acd3d modify_index=264
+2020-01-13T15:32:48.785Z [TRACE] client: updating alloc: alloc_id=bfb24811-776e-ac11-179f-1da72dc17bc7 index=283
+2020-01-13T15:32:48.787Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=bfb24811-776e-ac11-179f-1da72dc17bc7 modify_index=283
+2020-01-13T15:32:48.787Z [TRACE] client: updating alloc: alloc_id=a94fd0d3-8a36-df8d-2f57-9649131d019d index=375
+2020-01-13T15:32:48.788Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=a94fd0d3-8a36-df8d-2f57-9649131d019d modify_index=375
+2020-01-13T15:32:48.788Z [TRACE] client: updating alloc: alloc_id=042b691b-c331-242b-f27e-fcd4522f4d23 index=96
+2020-01-13T15:32:48.790Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=042b691b-c331-242b-f27e-fcd4522f4d23 modify_index=96
+2020-01-13T15:32:48.790Z [TRACE] client: updating alloc: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 index=633
+2020-01-13T15:32:48.791Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 modify_index=633
+2020-01-13T15:32:48.791Z [TRACE] client: updating alloc: alloc_id=7d88e249-9585-0173-949a-ff8ec9b9a458 index=483
+2020-01-13T15:32:48.793Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=7d88e249-9585-0173-949a-ff8ec9b9a458 modify_index=483
+2020-01-13T15:32:48.793Z [TRACE] client: updating alloc: alloc_id=de47aba9-b2b9-b9f8-47aa-6a27b41e2a90 index=137
+2020-01-13T15:32:48.795Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=de47aba9-b2b9-b9f8-47aa-6a27b41e2a90 modify_index=137
+2020-01-13T15:32:48.795Z [TRACE] client: updating alloc: alloc_id=6a41739c-ac54-031a-d5bf-3a44ed08fd9a index=589
+2020-01-13T15:32:48.796Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=6a41739c-ac54-031a-d5bf-3a44ed08fd9a modify_index=589
+2020-01-13T15:32:48.796Z [TRACE] client: updating alloc: alloc_id=e2b544e2-65f8-3360-6ba2-20c74265078a index=589
+2020-01-13T15:32:48.798Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=e2b544e2-65f8-3360-6ba2-20c74265078a modify_index=589
+2020-01-13T15:32:48.798Z [DEBUG] client: allocation updates applied: added=0 removed=0 updated=19 ignored=12 errors=0
+2020-01-13T15:32:48.849Z [TRACE] client: next heartbeat: period=13.126165528s
+2020-01-13T15:32:48.856Z [TRACE] client: next heartbeat: period=19.439385193s
+2020-01-13T15:32:48.861Z [DEBUG] client: updated allocations: index=654 total=31 pulled=19 filtered=12
+2020-01-13T15:32:48.861Z [DEBUG] client: allocation updates: added=0 removed=0 updated=19 ignored=12
+2020-01-13T15:32:48.861Z [TRACE] client: updating alloc: alloc_id=bfb24811-776e-ac11-179f-1da72dc17bc7 index=283
+2020-01-13T15:32:48.862Z [TRACE] client: next heartbeat: period=16.064240573s
+2020-01-13T15:32:48.863Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=bfb24811-776e-ac11-179f-1da72dc17bc7 modify_index=283
+2020-01-13T15:32:48.863Z [TRACE] client: updating alloc: alloc_id=747cfa1b-d7bb-ef09-2cdb-69c224cef59f index=283
+2020-01-13T15:32:48.865Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=747cfa1b-d7bb-ef09-2cdb-69c224cef59f modify_index=283
+2020-01-13T15:32:48.865Z [TRACE] client: updating alloc: alloc_id=170de67b-e478-65a9-4ed9-bc48315751d0 index=395
+2020-01-13T15:32:48.867Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=170de67b-e478-65a9-4ed9-bc48315751d0 modify_index=395
+2020-01-13T15:32:48.867Z [TRACE] client: updating alloc: alloc_id=a4f537fb-5d70-58cd-2dd1-ba98e5bb3e05 index=375
+2020-01-13T15:32:48.868Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=a4f537fb-5d70-58cd-2dd1-ba98e5bb3e05 modify_index=375
+2020-01-13T15:32:48.868Z [TRACE] client: updating alloc: alloc_id=7d88e249-9585-0173-949a-ff8ec9b9a458 index=483
+2020-01-13T15:32:48.869Z [TRACE] client: next heartbeat: period=18.503299737s
+2020-01-13T15:32:48.870Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=7d88e249-9585-0173-949a-ff8ec9b9a458 modify_index=483
+2020-01-13T15:32:48.870Z [TRACE] client: updating alloc: alloc_id=fa04b4f8-97a3-c271-0b7e-bc1e4c3df153 index=589
+2020-01-13T15:32:48.872Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=fa04b4f8-97a3-c271-0b7e-bc1e4c3df153 modify_index=589
+2020-01-13T15:32:48.872Z [TRACE] client: updating alloc: alloc_id=a94fd0d3-8a36-df8d-2f57-9649131d019d index=375
+2020-01-13T15:32:48.872Z [DEBUG] client: updated allocations: index=657 total=31 pulled=20 filtered=11
+2020-01-13T15:32:48.873Z [TRACE] client: next heartbeat: period=11.185431553s
+2020-01-13T15:32:48.874Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=a94fd0d3-8a36-df8d-2f57-9649131d019d modify_index=375
+2020-01-13T15:32:48.874Z [TRACE] client: updating alloc: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 index=633
+2020-01-13T15:32:48.875Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 modify_index=633
+2020-01-13T15:32:48.875Z [TRACE] client: updating alloc: alloc_id=d53795fe-57a7-510c-9a23-e688c37a3a10 index=518
+2020-01-13T15:32:48.877Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=d53795fe-57a7-510c-9a23-e688c37a3a10 modify_index=518
+2020-01-13T15:32:48.877Z [TRACE] client: updating alloc: alloc_id=6a41739c-ac54-031a-d5bf-3a44ed08fd9a index=589
+2020-01-13T15:32:48.879Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=6a41739c-ac54-031a-d5bf-3a44ed08fd9a modify_index=589
+2020-01-13T15:32:48.879Z [TRACE] client: updating alloc: alloc_id=de47aba9-b2b9-b9f8-47aa-6a27b41e2a90 index=137
+2020-01-13T15:32:48.880Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=de47aba9-b2b9-b9f8-47aa-6a27b41e2a90 modify_index=137
+2020-01-13T15:32:48.880Z [TRACE] client: updating alloc: alloc_id=1db75628-aa86-8a5a-a04e-323393bd832b index=158
+2020-01-13T15:32:48.882Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=1db75628-aa86-8a5a-a04e-323393bd832b modify_index=158
+2020-01-13T15:32:48.882Z [TRACE] client: updating alloc: alloc_id=aed90a68-d584-72af-c191-16f769110960 index=264
+2020-01-13T15:32:48.884Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=aed90a68-d584-72af-c191-16f769110960 modify_index=264
+2020-01-13T15:32:48.884Z [TRACE] client: updating alloc: alloc_id=f6adb34f-6d86-0cc5-5b4e-6086f1210ced index=96
+2020-01-13T15:32:48.885Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=f6adb34f-6d86-0cc5-5b4e-6086f1210ced modify_index=96
+2020-01-13T15:32:48.885Z [TRACE] client: updating alloc: alloc_id=0ee7727e-7c11-117b-ab4d-f6b3f6e8a2cc index=186
+2020-01-13T15:32:48.887Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=0ee7727e-7c11-117b-ab4d-f6b3f6e8a2cc modify_index=186
+2020-01-13T15:32:48.887Z [TRACE] client: updating alloc: alloc_id=042b691b-c331-242b-f27e-fcd4522f4d23 index=96
+2020-01-13T15:32:48.889Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=042b691b-c331-242b-f27e-fcd4522f4d23 modify_index=96
+2020-01-13T15:32:48.889Z [TRACE] client: updating alloc: alloc_id=7b990a90-9ea4-9c2b-5244-24c58a80b28a index=186
+2020-01-13T15:32:48.891Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=7b990a90-9ea4-9c2b-5244-24c58a80b28a modify_index=186
+2020-01-13T15:32:48.891Z [TRACE] client: updating alloc: alloc_id=1160fece-17fb-39c3-1cdd-bc63983acd3d index=264
+2020-01-13T15:32:48.892Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=1160fece-17fb-39c3-1cdd-bc63983acd3d modify_index=264
+2020-01-13T15:32:48.892Z [TRACE] client: updating alloc: alloc_id=e2b544e2-65f8-3360-6ba2-20c74265078a index=589
+2020-01-13T15:32:48.894Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=e2b544e2-65f8-3360-6ba2-20c74265078a modify_index=589
+2020-01-13T15:32:48.894Z [DEBUG] client: allocation updates applied: added=0 removed=0 updated=19 ignored=12 errors=0
+2020-01-13T15:32:48.894Z [DEBUG] client: allocation updates: added=0 removed=0 updated=20 ignored=11
+2020-01-13T15:32:48.894Z [TRACE] client: updating alloc: alloc_id=fa04b4f8-97a3-c271-0b7e-bc1e4c3df153 index=589
+2020-01-13T15:32:48.896Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=fa04b4f8-97a3-c271-0b7e-bc1e4c3df153 modify_index=589
+2020-01-13T15:32:48.896Z [TRACE] client: updating alloc: alloc_id=170de67b-e478-65a9-4ed9-bc48315751d0 index=395
+2020-01-13T15:32:48.898Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=170de67b-e478-65a9-4ed9-bc48315751d0 modify_index=395
+2020-01-13T15:32:48.898Z [TRACE] client: updating alloc: alloc_id=8a5d3686-118d-b555-9751-0daa53f4c889 index=657
+2020-01-13T15:32:48.899Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=8a5d3686-118d-b555-9751-0daa53f4c889 modify_index=657
+2020-01-13T15:32:48.899Z [TRACE] client: updating alloc: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 index=633
+2020-01-13T15:32:48.901Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 modify_index=633
+2020-01-13T15:32:48.901Z [TRACE] client: updating alloc: alloc_id=bfb24811-776e-ac11-179f-1da72dc17bc7 index=283
+2020-01-13T15:32:48.902Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=bfb24811-776e-ac11-179f-1da72dc17bc7 modify_index=283
+2020-01-13T15:32:48.902Z [TRACE] client: updating alloc: alloc_id=7d88e249-9585-0173-949a-ff8ec9b9a458 index=483
+2020-01-13T15:32:48.904Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=7d88e249-9585-0173-949a-ff8ec9b9a458 modify_index=483
+2020-01-13T15:32:48.904Z [TRACE] client: updating alloc: alloc_id=747cfa1b-d7bb-ef09-2cdb-69c224cef59f index=283
+2020-01-13T15:32:48.905Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=747cfa1b-d7bb-ef09-2cdb-69c224cef59f modify_index=283
+2020-01-13T15:32:48.905Z [TRACE] client: updating alloc: alloc_id=7b990a90-9ea4-9c2b-5244-24c58a80b28a index=186
+2020-01-13T15:32:48.907Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=7b990a90-9ea4-9c2b-5244-24c58a80b28a modify_index=186
+2020-01-13T15:32:48.907Z [TRACE] client: updating alloc: alloc_id=d53795fe-57a7-510c-9a23-e688c37a3a10 index=518
+2020-01-13T15:32:48.909Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=d53795fe-57a7-510c-9a23-e688c37a3a10 modify_index=518
+2020-01-13T15:32:48.909Z [TRACE] client: updating alloc: alloc_id=e2b544e2-65f8-3360-6ba2-20c74265078a index=589
+2020-01-13T15:32:48.911Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=e2b544e2-65f8-3360-6ba2-20c74265078a modify_index=589
+2020-01-13T15:32:48.911Z [TRACE] client: updating alloc: alloc_id=1db75628-aa86-8a5a-a04e-323393bd832b index=158
+2020-01-13T15:32:48.912Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=1db75628-aa86-8a5a-a04e-323393bd832b modify_index=158
+2020-01-13T15:32:48.912Z [TRACE] client: updating alloc: alloc_id=042b691b-c331-242b-f27e-fcd4522f4d23 index=96
+2020-01-13T15:32:48.914Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=042b691b-c331-242b-f27e-fcd4522f4d23 modify_index=96
+2020-01-13T15:32:48.914Z [TRACE] client: updating alloc: alloc_id=0ee7727e-7c11-117b-ab4d-f6b3f6e8a2cc index=186
+2020-01-13T15:32:48.916Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=0ee7727e-7c11-117b-ab4d-f6b3f6e8a2cc modify_index=186
+2020-01-13T15:32:48.916Z [TRACE] client: updating alloc: alloc_id=aed90a68-d584-72af-c191-16f769110960 index=264
+2020-01-13T15:32:48.918Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=aed90a68-d584-72af-c191-16f769110960 modify_index=264
+2020-01-13T15:32:48.918Z [TRACE] client: updating alloc: alloc_id=a4f537fb-5d70-58cd-2dd1-ba98e5bb3e05 index=375
+2020-01-13T15:32:48.920Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=a4f537fb-5d70-58cd-2dd1-ba98e5bb3e05 modify_index=375
+2020-01-13T15:32:48.920Z [TRACE] client: updating alloc: alloc_id=de47aba9-b2b9-b9f8-47aa-6a27b41e2a90 index=137
+2020-01-13T15:32:48.921Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=de47aba9-b2b9-b9f8-47aa-6a27b41e2a90 modify_index=137
+2020-01-13T15:32:48.921Z [TRACE] client: updating alloc: alloc_id=1160fece-17fb-39c3-1cdd-bc63983acd3d index=264
+2020-01-13T15:32:48.923Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=1160fece-17fb-39c3-1cdd-bc63983acd3d modify_index=264
+2020-01-13T15:32:48.923Z [TRACE] client: updating alloc: alloc_id=f6adb34f-6d86-0cc5-5b4e-6086f1210ced index=96
+2020-01-13T15:32:48.925Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=f6adb34f-6d86-0cc5-5b4e-6086f1210ced modify_index=96
+2020-01-13T15:32:48.925Z [TRACE] client: updating alloc: alloc_id=a94fd0d3-8a36-df8d-2f57-9649131d019d index=375
+2020-01-13T15:32:48.927Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=a94fd0d3-8a36-df8d-2f57-9649131d019d modify_index=375
+2020-01-13T15:32:48.927Z [TRACE] client: updating alloc: alloc_id=6a41739c-ac54-031a-d5bf-3a44ed08fd9a index=589
+2020-01-13T15:32:48.929Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=6a41739c-ac54-031a-d5bf-3a44ed08fd9a modify_index=589
+2020-01-13T15:32:48.929Z [DEBUG] client: allocation updates applied: added=0 removed=0 updated=20 ignored=11 errors=0
+2020-01-13T15:32:49.962Z [TRACE] client: next heartbeat: period=15.84681186s
+2020-01-13T15:32:49.964Z [DEBUG] client: updated allocations: index=661 total=31 pulled=20 filtered=11
+2020-01-13T15:32:49.964Z [DEBUG] client: allocation updates: added=0 removed=0 updated=20 ignored=11
+2020-01-13T15:32:49.964Z [TRACE] client: updating alloc: alloc_id=170de67b-e478-65a9-4ed9-bc48315751d0 index=395
+2020-01-13T15:32:49.964Z [TRACE] client: next heartbeat: period=14.093464256s
+2020-01-13T15:32:49.966Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=170de67b-e478-65a9-4ed9-bc48315751d0 modify_index=395
+2020-01-13T15:32:49.966Z [TRACE] client: updating alloc: alloc_id=1db75628-aa86-8a5a-a04e-323393bd832b index=158
+2020-01-13T15:32:49.968Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=1db75628-aa86-8a5a-a04e-323393bd832b modify_index=158
+2020-01-13T15:32:49.968Z [TRACE] client: updating alloc: alloc_id=f6adb34f-6d86-0cc5-5b4e-6086f1210ced index=96
+2020-01-13T15:32:49.970Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=f6adb34f-6d86-0cc5-5b4e-6086f1210ced modify_index=96
+2020-01-13T15:32:49.970Z [TRACE] client: updating alloc: alloc_id=a4f537fb-5d70-58cd-2dd1-ba98e5bb3e05 index=375
+2020-01-13T15:32:49.971Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=a4f537fb-5d70-58cd-2dd1-ba98e5bb3e05 modify_index=375
+2020-01-13T15:32:49.971Z [TRACE] client: updating alloc: alloc_id=6a41739c-ac54-031a-d5bf-3a44ed08fd9a index=589
+2020-01-13T15:32:49.973Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=6a41739c-ac54-031a-d5bf-3a44ed08fd9a modify_index=589
+2020-01-13T15:32:49.973Z [TRACE] client: updating alloc: alloc_id=747cfa1b-d7bb-ef09-2cdb-69c224cef59f index=283
+2020-01-13T15:32:49.975Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=747cfa1b-d7bb-ef09-2cdb-69c224cef59f modify_index=283
+2020-01-13T15:32:49.975Z [TRACE] client: updating alloc: alloc_id=1160fece-17fb-39c3-1cdd-bc63983acd3d index=264
+2020-01-13T15:32:49.977Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=1160fece-17fb-39c3-1cdd-bc63983acd3d modify_index=264
+2020-01-13T15:32:49.977Z [TRACE] client: updating alloc: alloc_id=bfb24811-776e-ac11-179f-1da72dc17bc7 index=283
+2020-01-13T15:32:49.978Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=bfb24811-776e-ac11-179f-1da72dc17bc7 modify_index=283
+2020-01-13T15:32:49.978Z [TRACE] client: updating alloc: alloc_id=8a5d3686-118d-b555-9751-0daa53f4c889 index=657
+2020-01-13T15:32:49.979Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=8a5d3686-118d-b555-9751-0daa53f4c889 modify_index=657
+2020-01-13T15:32:49.979Z [TRACE] client: updating alloc: alloc_id=0ee7727e-7c11-117b-ab4d-f6b3f6e8a2cc index=186
+2020-01-13T15:32:49.981Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=0ee7727e-7c11-117b-ab4d-f6b3f6e8a2cc modify_index=186
+2020-01-13T15:32:49.981Z [TRACE] client: updating alloc: alloc_id=a94fd0d3-8a36-df8d-2f57-9649131d019d index=375
+2020-01-13T15:32:49.983Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=a94fd0d3-8a36-df8d-2f57-9649131d019d modify_index=375
+2020-01-13T15:32:49.983Z [TRACE] client: updating alloc: alloc_id=7d88e249-9585-0173-949a-ff8ec9b9a458 index=483
+2020-01-13T15:32:49.985Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=7d88e249-9585-0173-949a-ff8ec9b9a458 modify_index=483
+2020-01-13T15:32:49.985Z [TRACE] client: updating alloc: alloc_id=fa04b4f8-97a3-c271-0b7e-bc1e4c3df153 index=589
+2020-01-13T15:32:49.986Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=fa04b4f8-97a3-c271-0b7e-bc1e4c3df153 modify_index=589
+2020-01-13T15:32:49.986Z [TRACE] client: updating alloc: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 index=633
+2020-01-13T15:32:49.988Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 modify_index=633
+2020-01-13T15:32:49.988Z [TRACE] client: updating alloc: alloc_id=042b691b-c331-242b-f27e-fcd4522f4d23 index=96
+2020-01-13T15:32:49.989Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=042b691b-c331-242b-f27e-fcd4522f4d23 modify_index=96
+2020-01-13T15:32:49.989Z [TRACE] client: updating alloc: alloc_id=d53795fe-57a7-510c-9a23-e688c37a3a10 index=518
+2020-01-13T15:32:49.991Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=d53795fe-57a7-510c-9a23-e688c37a3a10 modify_index=518
+2020-01-13T15:32:49.991Z [TRACE] client: updating alloc: alloc_id=de47aba9-b2b9-b9f8-47aa-6a27b41e2a90 index=137
+2020-01-13T15:32:49.993Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=de47aba9-b2b9-b9f8-47aa-6a27b41e2a90 modify_index=137
+2020-01-13T15:32:49.993Z [TRACE] client: updating alloc: alloc_id=7b990a90-9ea4-9c2b-5244-24c58a80b28a index=186
+2020-01-13T15:32:49.994Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=7b990a90-9ea4-9c2b-5244-24c58a80b28a modify_index=186
+2020-01-13T15:32:49.994Z [TRACE] client: updating alloc: alloc_id=e2b544e2-65f8-3360-6ba2-20c74265078a index=589
+2020-01-13T15:32:49.996Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=e2b544e2-65f8-3360-6ba2-20c74265078a modify_index=589
+2020-01-13T15:32:49.996Z [TRACE] client: updating alloc: alloc_id=aed90a68-d584-72af-c191-16f769110960 index=264
+2020-01-13T15:32:49.998Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=aed90a68-d584-72af-c191-16f769110960 modify_index=264
+2020-01-13T15:32:49.998Z [DEBUG] client: allocation updates applied: added=0 removed=0 updated=20 ignored=11 errors=0
+2020-01-13T15:32:50.270Z [TRACE] client: next heartbeat: period=10.009334665s
+2020-01-13T15:32:50.271Z [DEBUG] client: updated allocations: index=663 total=31 pulled=21 filtered=10
+2020-01-13T15:32:50.272Z [DEBUG] client: allocation updates: added=0 removed=0 updated=21 ignored=10
+2020-01-13T15:32:50.272Z [TRACE] client: updating alloc: alloc_id=042b691b-c331-242b-f27e-fcd4522f4d23 index=96
+2020-01-13T15:32:50.272Z [TRACE] client: next heartbeat: period=12.941687628s
+2020-01-13T15:32:50.273Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=042b691b-c331-242b-f27e-fcd4522f4d23 modify_index=96
+2020-01-13T15:32:50.274Z [TRACE] client: updating alloc: alloc_id=e2b544e2-65f8-3360-6ba2-20c74265078a index=589
+2020-01-13T15:32:50.275Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=e2b544e2-65f8-3360-6ba2-20c74265078a modify_index=589
+2020-01-13T15:32:50.275Z [TRACE] client: updating alloc: alloc_id=f6adb34f-6d86-0cc5-5b4e-6086f1210ced index=96
+2020-01-13T15:32:50.277Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=f6adb34f-6d86-0cc5-5b4e-6086f1210ced modify_index=96
+2020-01-13T15:32:50.277Z [TRACE] client: updating alloc: alloc_id=0ee7727e-7c11-117b-ab4d-f6b3f6e8a2cc index=186
+2020-01-13T15:32:50.279Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=0ee7727e-7c11-117b-ab4d-f6b3f6e8a2cc modify_index=186
+2020-01-13T15:32:50.279Z [TRACE] client: updating alloc: alloc_id=170de67b-e478-65a9-4ed9-bc48315751d0 index=395
+2020-01-13T15:32:50.281Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=170de67b-e478-65a9-4ed9-bc48315751d0 modify_index=395
+2020-01-13T15:32:50.281Z [TRACE] client: updating alloc: alloc_id=a4f537fb-5d70-58cd-2dd1-ba98e5bb3e05 index=375
+2020-01-13T15:32:50.282Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=a4f537fb-5d70-58cd-2dd1-ba98e5bb3e05 modify_index=375
+2020-01-13T15:32:50.282Z [TRACE] client: updating alloc: alloc_id=7d88e249-9585-0173-949a-ff8ec9b9a458 index=483
+2020-01-13T15:32:50.284Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=7d88e249-9585-0173-949a-ff8ec9b9a458 modify_index=483
+2020-01-13T15:32:50.284Z [TRACE] client: updating alloc: alloc_id=a94fd0d3-8a36-df8d-2f57-9649131d019d index=375
+2020-01-13T15:32:50.286Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=a94fd0d3-8a36-df8d-2f57-9649131d019d modify_index=375
+2020-01-13T15:32:50.286Z [TRACE] client: updating alloc: alloc_id=de47aba9-b2b9-b9f8-47aa-6a27b41e2a90 index=137
+2020-01-13T15:32:50.287Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=de47aba9-b2b9-b9f8-47aa-6a27b41e2a90 modify_index=137
+2020-01-13T15:32:50.287Z [TRACE] client: updating alloc: alloc_id=6a41739c-ac54-031a-d5bf-3a44ed08fd9a index=589
+2020-01-13T15:32:50.289Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=6a41739c-ac54-031a-d5bf-3a44ed08fd9a modify_index=589
+2020-01-13T15:32:50.289Z [TRACE] client: updating alloc: alloc_id=747cfa1b-d7bb-ef09-2cdb-69c224cef59f index=283
+2020-01-13T15:32:50.290Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=747cfa1b-d7bb-ef09-2cdb-69c224cef59f modify_index=283
+2020-01-13T15:32:50.290Z [TRACE] client: updating alloc: alloc_id=aed90a68-d584-72af-c191-16f769110960 index=264
+2020-01-13T15:32:50.292Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=aed90a68-d584-72af-c191-16f769110960 modify_index=264
+2020-01-13T15:32:50.292Z [TRACE] client: updating alloc: alloc_id=1db75628-aa86-8a5a-a04e-323393bd832b index=158
+2020-01-13T15:32:50.294Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=1db75628-aa86-8a5a-a04e-323393bd832b modify_index=158
+2020-01-13T15:32:50.294Z [TRACE] client: updating alloc: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 index=633
+2020-01-13T15:32:50.295Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=9b5d82b4-20d1-933f-b517-bab71518c798 modify_index=633
+2020-01-13T15:32:50.295Z [TRACE] client: updating alloc: alloc_id=bfb24811-776e-ac11-179f-1da72dc17bc7 index=283
+2020-01-13T15:32:50.297Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=bfb24811-776e-ac11-179f-1da72dc17bc7 modify_index=283
+2020-01-13T15:32:50.297Z [TRACE] client: updating alloc: alloc_id=d53795fe-57a7-510c-9a23-e688c37a3a10 index=518
+2020-01-13T15:32:50.299Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=d53795fe-57a7-510c-9a23-e688c37a3a10 modify_index=518
+2020-01-13T15:32:50.299Z [TRACE] client: updating alloc: alloc_id=8a5d3686-118d-b555-9751-0daa53f4c889 index=657
+2020-01-13T15:32:50.300Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=8a5d3686-118d-b555-9751-0daa53f4c889 modify_index=657
+2020-01-13T15:32:50.300Z [TRACE] client: updating alloc: alloc_id=1160fece-17fb-39c3-1cdd-bc63983acd3d index=264
+2020-01-13T15:32:50.302Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=1160fece-17fb-39c3-1cdd-bc63983acd3d modify_index=264
+2020-01-13T15:32:50.302Z [TRACE] client: updating alloc: alloc_id=7b990a90-9ea4-9c2b-5244-24c58a80b28a index=186
+2020-01-13T15:32:50.303Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=7b990a90-9ea4-9c2b-5244-24c58a80b28a modify_index=186
+2020-01-13T15:32:50.303Z [TRACE] client: updating alloc: alloc_id=fa04b4f8-97a3-c271-0b7e-bc1e4c3df153 index=589
+2020-01-13T15:32:50.305Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=fa04b4f8-97a3-c271-0b7e-bc1e4c3df153 modify_index=589
+2020-01-13T15:32:50.305Z [TRACE] client: updating alloc: alloc_id=2df0420b-64a7-bd4d-46e7-2f7f1796f83c index=663
+2020-01-13T15:32:50.306Z [TRACE] client.alloc_runner: AllocRunner has terminated, skipping alloc update: alloc_id=2df0420b-64a7-bd4d-46e7-2f7f1796f83c modify_index=663
+2020-01-13T15:32:50.306Z [DEBUG] client: allocation updates applied: added=0 removed=0 updated=21 ignored=10 errors=0
+2020-01-13T15:32:58.603Z [DEBUG] http: request complete: method=GET path=/v1/agent/health?type=client duration=1.343578ms
+2020-01-13T15:33:03.215Z [TRACE] client: next heartbeat: period=16.187133084s
+2020-01-13T15:33:08.609Z [DEBUG] http: request complete: method=GET path=/v1/agent/health?type=client duration=188.711µs
+2020-01-13T15:33:18.610Z [DEBUG] http: request complete: method=GET path=/v1/agent/health?type=client duration=139.274µs
+2020-01-13T15:33:19.404Z [TRACE] client: next heartbeat: period=18.558365602s
+2020-01-13T15:33:28.611Z [DEBUG] http: request complete: method=GET path=/v1/agent/health?type=client duration=149.011µs

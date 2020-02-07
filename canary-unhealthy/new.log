@@ -1,0 +1,17 @@
+2020-01-29T14:45:51.023-0500 [DEBUG] nomad: memberlist: Stream connection from=127.0.0.1:57220
+2020-01-29T14:45:54.129-0500 [DEBUG] http: request complete: method=GET path=/v1/agent/health?type=server duration=551.976µs
+2020-01-29T14:45:57.785-0500 [DEBUG] http: request complete: method=GET path=/v1/agent/members duration=338.425µs
+2020-01-29T14:45:57.787-0500 [DEBUG] http: request complete: method=GET path=/v1/status/leader?region=global duration=1.028107ms
+2020-01-29T14:45:57.788-0500 [DEBUG] http: request complete: method=GET path=/v1/status/leader?region=us-west-1 duration=79.311µs
+2020-01-29T14:45:58.543-0500 [DEBUG] http: request complete: method=GET path=/v1/agent/members duration=181.527µs
+2020-01-29T14:45:58.544-0500 [DEBUG] http: request complete: method=GET path=/v1/status/leader?region=global duration=260.176µs
+2020-01-29T14:45:58.544-0500 [DEBUG] http: request complete: method=GET path=/v1/status/leader?region=us-west-1 duration=98.369µs
+2020-01-29T14:45:59.183-0500 [DEBUG] http: request complete: method=GET path=/v1/agent/members duration=140.016µs
+2020-01-29T14:45:59.184-0500 [DEBUG] http: request complete: method=GET path=/v1/status/leader?region=global duration=255.599µs
+2020-01-29T14:45:59.184-0500 [DEBUG] http: request complete: method=GET path=/v1/status/leader?region=us-west-1 duration=158.099µs
+2020-01-29T14:46:00.061-0500 [DEBUG] nomad: memberlist: Initiating push/pull sync with: 192.168.1.54:6648
+2020-01-29T14:46:01.020-0500 [DEBUG] nomad: memberlist: Stream connection from=127.0.0.1:57268
+2020-01-29T14:46:04.130-0500 [DEBUG] http: request complete: method=GET path=/v1/agent/health?type=server duration=110.447µs
+2020-01-29T14:46:09.641-0500 [ERROR] nomad: skipping adding Raft peer because an existing peer is in bootstrap mode and only one server should be in bootstrap mode: existing_peer=server1.global joining_peer=server2.us-west-1
+2020-01-29T14:46:11.021-0500 [DEBUG] nomad: memberlist: Stream connection from=127.0.0.1:57296
+2020-01-29T14:46:14.132-0500 [DEBUG] http: request complete: method=GET path=/v1/agent/health?type=server duration=482.519µs

@@ -16,8 +16,7 @@ server {
   }
 
   # Self-elect, should be 3 or 5 for production
-  bootstrap_expect = 3
-  raft_protocol    = 2
+  bootstrap_expect = 1
 }
 
 ports {
@@ -25,3 +24,10 @@ ports {
   rpc  = 5647
   serf = 5648
 }
+
+# acl {
+#   enabled    = true
+#   token_ttl  = "30s"
+#   policy_ttl = "60s"
+# }
+

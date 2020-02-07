@@ -1,0 +1,120 @@
+this was a canary, then was _NOT_ ??
+"d4a11766-32f3-5d46-4508-eae71f4586cc": {
+  "ForceReschedule": null,
+  "Migrate": null,
+  "Reschedule": true
+}
+
+      "Alloc": [
+        {
+          "ClientDescription": "Failed tasks",
+          "ClientStatus": "failed",
+          "DeploymentStatus": {
+            "Canary": false,
+            "Healthy": false,
+            "ModifyIndex": 0,
+            "Timestamp": "\u0001\u0000\u0000\u0000\u000eձ5\u000b/W:\u0014\ufffd\ufffd"
+          },
+          "ID": "d4a11766-32f3-5d46-4508-eae71f4586cc",
+
+
+
+
+
+d0fc822b-926a-8da9-8fe1-20ae06512b9c  50        alloc-failure       pending   false
+86807e61-4e01-f404-4754-2c4e47f04246  50        deployment-watcher  complete  false
+ca6acd32-ef76-f699-08ab-95f95cada2bb  50        alloc-failure       complete  false
+16ab6abd-ac79-758a-a82b-d99047bf9f42  50        alloc-failure       complete  false
+8383a614-e51f-28d7-04b7-b8a00827f4b9  50        alloc-failure       complete  false
+d5b3b5b7-4b1c-86c5-63a3-e4a105a1fd01  50        alloc-failure       complete  false
+e38f4fd2-5355-2001-8ff0-c86b74c9fb90  50        alloc-failure       complete  false
+28a6b333-8de9-8eb7-ca92-4562585ab2fc  50        deployment-watcher  complete  false
+5925baa1-7eec-a765-6103-40a267ee17c1  50        alloc-failure       complete  false
+d4a6516d-76f1-5796-9ad1-dc059083837f  50        alloc-failure       complete  false
+6124341c-9384-1be3-92d0-990acf8e42a9  50        alloc-failure       complete  false
+6cced9b0-25a8-273b-9125-d584187b9c20  50        alloc-failure       complete  false
+66d9ec39-2d19-c527-92d3-f78d340ea699  50        job-register        complete  false
+b5a64105-a5c8-a71c-2f36-06762a882e83  50        deployment-watcher  complete  false
+f9407950-74c1-ecea-49a0-1841d9467216  50        deployment-watcher  complete  false
+d42991b5-0ca5-edf6-3c45-dc991f6a93c8  50        deployment-watcher  complete  false
+4d122b3d-1804-251d-8abb-9d7ddee1a814  50        job-register        complete  false
+
+
+
+
+-dev mode
+
+
+Evaluations
+ID                                    Priority  Triggered By        Status    Placement Failures
+bdeaf85f-adca-2993-4a9f-57c6fa952c80  50        deployment-watcher  complete  false
+221f9b25-b7c6-5495-0552-16f6a1b8233f  50        alloc-failure       pending   false
+d713af07-bc60-99b7-7a98-25c9dd54e473  50        deployment-watcher  complete  false
+cdb98cbc-74a1-2804-39df-b2248b1d7cc0  50        alloc-failure       complete  false
+cef5c655-fc81-1a22-80f1-5bac73e44a16  50        alloc-failure       complete  false
+d758f45f-e56d-409f-8dbf-36d79bcdb889  50        alloc-failure       complete  false
+8d91cdaa-19c3-243a-ea3b-d230c06c19c7  50        alloc-failure       complete  false
+367a6abb-4554-99fd-36a9-cf49cb1111cb  50        deployment-watcher  complete  false
+5a9b96e9-01df-7a0b-35db-ec23465f844b  50        alloc-failure       complete  false
+23a53021-0a39-fa40-d027-d7499be8f86a  50        alloc-failure       complete  false
+c590c48a-0fd6-4208-e51e-7705b62afe20  50        alloc-failure       complete  false
+4d331927-9046-0880-0588-8e601dbacf16  50        deployment-watcher  complete  false
+8bb29725-bc27-ba19-e0af-6374aa589162  50        alloc-failure       complete  false
+66dd7621-8b3b-4e08-a474-65ca007e8732  50        alloc-failure       complete  false
+ed8f2c87-62be-18fa-1a90-2629ce1ef7fa  50        alloc-failure       complete  false
+f6a6b80a-c951-30ca-c488-5c5bfbfa8e14  50        job-register        complete  false
+8b4e5d61-e851-3e25-c9f2-5c04c0dc8cc5  50        deployment-watcher  complete  false
+d9ab6ccf-ed15-c88d-7e86-45b159bb3a14  50        deployment-watcher  complete  false
+c4a5a95f-fa83-8372-116c-f47bbe932b9f  50        deployment-watcher  complete  false
+c8943103-f8e3-c746-d581-d509e81e67f2  50        job-register        complete  false
+
+clustered
+
+
+Evaluations
+ID                                    Priority  Triggered By        Status    Placement Failures
+bf9e2052-df9d-bf87-2463-0eed7b04b366  50        alloc-failure       pending   false
+5dec0137-3eb5-b1c6-1552-9380d225f2be  50        deployment-watcher  complete  false
+aeddc225-44f1-7f60-6895-db5be78afdd2  50        alloc-failure       complete  false
+220ab4de-b347-418e-cf70-62996e21bb79  50        alloc-failure       complete  false             THIS IS THE ONE THAT killed it
+663c5d88-30b7-b913-c776-1ba0fe112060  50        alloc-failure       complete  false
+1d7b1a98-1cb9-319a-ffe8-de4920f395cc  50        deployment-watcher  complete  false
+dfdf5704-4b37-4460-6c12-204df4acc735  50        alloc-failure       complete  false
+f00bdb6d-27bb-701d-5b83-c3cba1a30e23  50        alloc-failure       complete  false
+72959af6-af09-0f89-1908-f8c190a68249  50        job-register        complete  false
+43577f31-d924-5515-94a7-07904c68536c  50        deployment-watcher  complete  false
+dcc73414-72c6-52da-ae5f-0a0948f1457e  50        deployment-watcher  complete  false
+b3ee7150-240a-0f53-dc26-33055a821ba3  50        deployment-watcher  complete  false
+c97f28e3-58f4-4b8d-3db3-9fddb18a0603  50        queued-allocs       complete  false
+586d01f6-6bd6-6e31-7345-1c66c6278b18  50        job-register        complete  true
+
+
+→ nomad eval status -verbose 220a
+ID                 = 220ab4de-b347-418e-cf70-62996e21bb79
+Create Time        = 2020-01-17T10:44:49-05:00
+Modify Time        = 2020-01-17T10:44:49-05:00
+Status             = complete
+Status Description = complete
+Type               = service
+TriggeredBy        = alloc-failure
+Priority           = 50
+Placement Failures = false
+Previous Eval      = <none>
+Next Eval          = <none>
+Blocked Eval       = <none>
+
+
+ID                 = 1d7b1a98-1cb9-319a-ffe8-de4920f395cc
+Create Time        = 2020-01-17T10:44:18-05:00
+Modify Time        = 2020-01-17T10:44:18-05:00
+Status             = complete
+Status Description = complete
+Type               = service
+TriggeredBy        = deployment-watcher
+Job ID             = failing-nomad-test01
+Priority           = 50
+Placement Failures = false
+Previous Eval      = <none>
+Next Eval          = <none>
+Blocked Eval       = <none>
+

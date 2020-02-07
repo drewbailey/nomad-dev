@@ -1,0 +1,67 @@
+[
+  {
+    "CreateIndex": 11,
+    "ID": "47356216-c44c-bd48-4ded-8c9ceba7eaee",
+    "JobCreateIndex": 8,
+    "JobID": "failing-nomad-test01",
+    "JobModifyIndex": 8,
+    "JobSpecModifyIndex": 8,
+    "JobVersion": 0,
+    "ModifyIndex": 30,
+    "Namespace": "default",
+    "Status": "successful",
+    "StatusDescription": "Deployment completed successfully",
+    "TaskGroups": {
+      "group": {
+        "AutoPromote": false,
+        "AutoRevert": false,
+        "DesiredCanaries": 0,
+        "DesiredTotal": 4,
+        "HealthyAllocs": 4,
+        "PlacedAllocs": 4,
+        "PlacedCanaries": null,
+        "ProgressDeadline": 600000000000,
+        "Promoted": false,
+        "RequireProgressBy": "2020-01-17T15:16:40.646135763-05:00",
+        "UnhealthyAllocs": 0
+      }
+    }
+  },
+  {
+    "CreateIndex": 35,
+    "ID": "90c1b8d3-0ae7-0eb0-fd61-c39d8fad6955",
+    "JobCreateIndex": 8,
+    "JobID": "failing-nomad-test01",
+    "JobModifyIndex": 33,
+    "JobSpecModifyIndex": 33,
+    "JobVersion": 1,
+    "ModifyIndex": 62,
+    "Namespace": "default",
+    "Status": "running",
+    "StatusDescription": "Deployment is running but requires manual promotion",
+    "TaskGroups": {
+      "group": {
+        "AutoPromote": false,
+        "AutoRevert": false,
+        "DesiredCanaries": 4,
+        "DesiredTotal": 4,
+        "HealthyAllocs": 0,
+        "PlacedAllocs": 8,
+        "PlacedCanaries": [
+          "9f68e334-131f-6c7e-8701-022ac39bac7e",
+          "e7cfc8c9-f5c4-05cc-9f45-708d15f2bec4",
+          "7dcca6d9-5133-2870-acd7-9d8f51300fd6",
+          "8c5edbb0-3c3e-e005-798a-111e89eae860",
+          "239d2fb7-5106-8bc9-6e8a-a8ca984fdf13",
+          "87a90b20-2122-ddbe-b002-319f6f928c0f",
+          "6b2682fc-ea04-43ff-8fbc-4fef6a51f6fc",
+          "fd39cc94-ebc1-3828-28ba-58a16f9a8c5e"
+        ],
+        "ProgressDeadline": 600000000000,
+        "Promoted": false,
+        "RequireProgressBy": "2020-01-17T15:17:31.266005131-05:00",
+        "UnhealthyAllocs": 8
+      }
+    }
+  }
+]

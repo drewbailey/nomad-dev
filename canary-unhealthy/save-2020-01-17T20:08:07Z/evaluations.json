@@ -1,0 +1,299 @@
+[
+  {
+    "BlockedEval": "b7e31371-ff3e-db9b-1d97-2a7b59ed4b88",
+    "CreateIndex": 9,
+    "CreateTime": 1579291581028945000,
+    "DeploymentID": "47356216-c44c-bd48-4ded-8c9ceba7eaee",
+    "FailedTGAllocs": {
+      "group": {
+        "AllocationTime": 11367,
+        "ClassExhausted": null,
+        "ClassFiltered": null,
+        "CoalescedFailures": 3,
+        "ConstraintFiltered": null,
+        "DimensionExhausted": null,
+        "NodesAvailable": {
+          "dc1": 0
+        },
+        "NodesEvaluated": 0,
+        "NodesExhausted": 0,
+        "NodesFiltered": 0,
+        "QuotaExhausted": null,
+        "ScoreMetaData": null,
+        "Scores": null
+      }
+    },
+    "ID": "6f8d7940-8d79-3abd-58ea-1247d5b12cb5",
+    "JobID": "failing-nomad-test01",
+    "JobModifyIndex": 8,
+    "ModifyIndex": 12,
+    "ModifyTime": 1579291581048516400,
+    "Namespace": "default",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 4
+    },
+    "SnapshotIndex": 9,
+    "Status": "complete",
+    "TriggeredBy": "job-register",
+    "Type": "service"
+  },
+  {
+    "CreateIndex": 10,
+    "CreateTime": 1579291581032579800,
+    "DeploymentID": "47356216-c44c-bd48-4ded-8c9ceba7eaee",
+    "ID": "b7e31371-ff3e-db9b-1d97-2a7b59ed4b88",
+    "JobID": "failing-nomad-test01",
+    "JobModifyIndex": 8,
+    "ModifyIndex": 17,
+    "ModifyTime": 1579291582624396300,
+    "Namespace": "default",
+    "PreviousEval": "6f8d7940-8d79-3abd-58ea-1247d5b12cb5",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 0
+    },
+    "SnapshotIndex": 15,
+    "Status": "complete",
+    "TriggeredBy": "queued-allocs",
+    "Type": "service"
+  },
+  {
+    "CreateIndex": 25,
+    "CreateTime": 1579291598760309000,
+    "DeploymentID": "47356216-c44c-bd48-4ded-8c9ceba7eaee",
+    "ID": "e865ef9a-7fb9-a4c0-8b93-d184fe6f1d60",
+    "JobID": "failing-nomad-test01",
+    "ModifyIndex": 27,
+    "ModifyTime": 1579291599430687200,
+    "Namespace": "default",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 0
+    },
+    "SnapshotIndex": 26,
+    "Status": "complete",
+    "TriggeredBy": "deployment-watcher",
+    "Type": "service"
+  },
+  {
+    "CreateIndex": 28,
+    "CreateTime": 1579291600355629000,
+    "DeploymentID": "47356216-c44c-bd48-4ded-8c9ceba7eaee",
+    "ID": "9f93d583-bf23-b6da-6195-89563cbf5a26",
+    "JobID": "failing-nomad-test01",
+    "ModifyIndex": 31,
+    "ModifyTime": 1579291601028972500,
+    "Namespace": "default",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 0
+    },
+    "SnapshotIndex": 29,
+    "Status": "complete",
+    "TriggeredBy": "deployment-watcher",
+    "Type": "service"
+  },
+  {
+    "CreateIndex": 34,
+    "CreateTime": 1579291650919020800,
+    "DeploymentID": "90c1b8d3-0ae7-0eb0-fd61-c39d8fad6955",
+    "ID": "cdee48a3-6fe1-9969-6c9a-70cd7c21fc8e",
+    "JobID": "failing-nomad-test01",
+    "JobModifyIndex": 33,
+    "ModifyIndex": 36,
+    "ModifyTime": 1579291651278870000,
+    "Namespace": "default",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 0
+    },
+    "SnapshotIndex": 34,
+    "Status": "complete",
+    "TriggeredBy": "job-register",
+    "Type": "service"
+  },
+  {
+    "CreateIndex": 41,
+    "CreateTime": 1579291653153436200,
+    "DeploymentID": "90c1b8d3-0ae7-0eb0-fd61-c39d8fad6955",
+    "ID": "5e26c40b-dcb9-f05f-d59c-ddcaf103e455",
+    "JobID": "failing-nomad-test01",
+    "ModifyIndex": 43,
+    "ModifyTime": 1579291653500472300,
+    "Namespace": "default",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 0
+    },
+    "SnapshotIndex": 42,
+    "Status": "complete",
+    "TriggeredBy": "alloc-failure",
+    "Type": "service"
+  },
+  {
+    "CreateIndex": 42,
+    "CreateTime": 1579291653354198300,
+    "DeploymentID": "90c1b8d3-0ae7-0eb0-fd61-c39d8fad6955",
+    "ID": "8fc282b2-fd28-3200-57e3-a2ebed258bab",
+    "JobID": "failing-nomad-test01",
+    "ModifyIndex": 45,
+    "ModifyTime": 1579291653846863400,
+    "Namespace": "default",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 0
+    },
+    "SnapshotIndex": 44,
+    "Status": "complete",
+    "TriggeredBy": "alloc-failure",
+    "Type": "service"
+  },
+  {
+    "CreateIndex": 44,
+    "CreateTime": 1579291653552493800,
+    "DeploymentID": "90c1b8d3-0ae7-0eb0-fd61-c39d8fad6955",
+    "ID": "6bdeefa9-b706-8ab6-7e2f-b42040cf9bf8",
+    "JobID": "failing-nomad-test01",
+    "ModifyIndex": 46,
+    "ModifyTime": 1579291654196006700,
+    "Namespace": "default",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 0
+    },
+    "SnapshotIndex": 45,
+    "Status": "complete",
+    "TriggeredBy": "alloc-failure",
+    "Type": "service"
+  },
+  {
+    "CreateIndex": 47,
+    "CreateTime": 1579291654159020500,
+    "DeploymentID": "90c1b8d3-0ae7-0eb0-fd61-c39d8fad6955",
+    "ID": "c9d9c334-f4d8-18d6-3a5f-014a4f3f285b",
+    "JobID": "failing-nomad-test01",
+    "ModifyIndex": 50,
+    "ModifyTime": 1579291654766709800,
+    "Namespace": "default",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 0
+    },
+    "SnapshotIndex": 47,
+    "Status": "complete",
+    "TriggeredBy": "deployment-watcher",
+    "Type": "service"
+  },
+  {
+    "CreateIndex": 48,
+    "CreateTime": 1579291654757181000,
+    "DeploymentID": "90c1b8d3-0ae7-0eb0-fd61-c39d8fad6955",
+    "ID": "28a2aa47-1272-49ad-f978-2f5ac6d35fe4",
+    "JobID": "failing-nomad-test01",
+    "JobModifyIndex": 33,
+    "ModifyIndex": 52,
+    "ModifyTime": 1579291683159446300,
+    "Namespace": "default",
+    "PreviousEval": "c9d9c334-f4d8-18d6-3a5f-014a4f3f285b",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 0
+    },
+    "SnapshotIndex": 50,
+    "Status": "complete",
+    "TriggeredBy": "alloc-failure",
+    "Type": "service",
+    "WaitUntil": "2020-01-17T20:08:03.085818704Z"
+  },
+  {
+    "CreateIndex": 56,
+    "CreateTime": 1579291684951426300,
+    "DeploymentID": "90c1b8d3-0ae7-0eb0-fd61-c39d8fad6955",
+    "ID": "3dae1910-d43b-f433-0b1a-26c21e85429c",
+    "JobID": "failing-nomad-test01",
+    "ModifyIndex": 59,
+    "ModifyTime": 1579291685305301200,
+    "Namespace": "default",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 0
+    },
+    "SnapshotIndex": 57,
+    "Status": "complete",
+    "TriggeredBy": "alloc-failure",
+    "Type": "service"
+  },
+  {
+    "CreateIndex": 60,
+    "CreateTime": 1579291685351965400,
+    "DeploymentID": "90c1b8d3-0ae7-0eb0-fd61-c39d8fad6955",
+    "ID": "6d188673-bb72-8859-76ab-bb53355dccd3",
+    "JobID": "failing-nomad-test01",
+    "ModifyIndex": 63,
+    "ModifyTime": 1579291685696560000,
+    "Namespace": "default",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 0
+    },
+    "SnapshotIndex": 62,
+    "Status": "complete",
+    "TriggeredBy": "alloc-failure",
+    "Type": "service"
+  },
+  {
+    "CreateIndex": 62,
+    "CreateTime": 1579291685552415700,
+    "DeploymentID": "90c1b8d3-0ae7-0eb0-fd61-c39d8fad6955",
+    "ID": "2daa11e9-bd23-2069-8e61-20a1db236ec1",
+    "JobID": "failing-nomad-test01",
+    "ModifyIndex": 65,
+    "ModifyTime": 1579291686041042400,
+    "Namespace": "default",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 0
+    },
+    "SnapshotIndex": 64,
+    "Status": "complete",
+    "TriggeredBy": "alloc-failure",
+    "Type": "service"
+  },
+  {
+    "CreateIndex": 67,
+    "CreateTime": 1579291685955201300,
+    "DeploymentID": "90c1b8d3-0ae7-0eb0-fd61-c39d8fad6955",
+    "ID": "f998737e-da63-a7d7-fbe9-08b93ca061c4",
+    "JobID": "failing-nomad-test01",
+    "ModifyIndex": 72,
+    "ModifyTime": 1579291686578945800,
+    "Namespace": "default",
+    "Priority": 50,
+    "QueuedAllocations": {
+      "group": 0
+    },
+    "SnapshotIndex": 68,
+    "Status": "complete",
+    "TriggeredBy": "deployment-watcher",
+    "Type": "service"
+  },
+  {
+    "CreateIndex": 70,
+    "CreateTime": 1579291686553025000,
+    "ID": "949a6428-f7e6-caa9-5910-968f98a18122",
+    "JobID": "failing-nomad-test01",
+    "JobModifyIndex": 33,
+    "ModifyIndex": 70,
+    "ModifyTime": 1579291686553025000,
+    "Namespace": "default",
+    "PreviousEval": "f998737e-da63-a7d7-fbe9-08b93ca061c4",
+    "Priority": 50,
+    "SnapshotIndex": 68,
+    "Status": "pending",
+    "StatusDescription": "created for delayed rescheduling",
+    "TriggeredBy": "alloc-failure",
+    "Type": "service",
+    "WaitUntil": "2020-01-17T20:09:04.784325883Z"
+  }
+]

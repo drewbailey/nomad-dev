@@ -1,0 +1,53 @@
+job "redis" {
+  datacenters = ["dc1"]
+
+  type = "system"
+
+  group "cache" {
+    count = 1
+
+    restart {
+      attempts = 10
+      interval = "5m"
+
+      delay = "25s"
+      mode  = "delay"
+    }
+
+    ephemeral_disk {
+      size = 10
+    }
+
+    task "redis" {
+      driver = "docker"
+
+      config {
+        image = "redis:3.2"
+
+        port_map {
+          db = 6379
+        }
+      }
+
+      env {
+        version = "55"
+      }
+
+      logs {
+        max_files     = 1
+        max_file_size = 9
+      }
+
+      resources {
+        cpu = 20 # 500 MHz    
+
+        memory = 40 # 256MB
+
+        network {
+          mbits = 1
+          port  "db"  {}
+        }
+      }
+    }
+  }
+}

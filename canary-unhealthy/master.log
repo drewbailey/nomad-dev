@@ -1,0 +1,37 @@
+2020-01-29T14:41:33.745-0500 [DEBUG] http: request complete: method=GET path=/v1/agent/health?type=server duration=415.311µs
+2020-01-29T14:41:41.023-0500 [DEBUG] nomad: memberlist: Stream connection from=127.0.0.1:56442
+2020-01-29T14:41:43.749-0500 [DEBUG] http: request complete: method=GET path=/v1/agent/health?type=server duration=1.102593ms
+2020-01-29T14:41:47.849-0500 [DEBUG] nomad: memberlist: Stream connection from=127.0.0.1:56470
+2020-01-29T14:41:48.347-0500 [DEBUG] nomad: serf: messageJoinType: server3.us-west-1
+2020-01-29T14:41:48.359-0500 [DEBUG] nomad: serf: messageJoinType: server3.us-west-1
+2020-01-29T14:41:48.617-0500 [DEBUG] nomad: serf: messageJoinType: server3.us-west-1
+2020-01-29T14:41:49.117-0500 [DEBUG] nomad: serf: messageJoinType: server3.us-west-1
+2020-01-29T14:41:50.493-0500 [WARN]  nomad.heartbeat: node TTL expired: node_id=d93f4a80-9019-2a65-03b3-bb671cad8929
+2020-01-29T14:41:51.023-0500 [DEBUG] nomad: memberlist: Stream connection from=127.0.0.1:56480
+2020-01-29T14:41:53.751-0500 [DEBUG] http: request complete: method=GET path=/v1/agent/health?type=server duration=433.41µs
+2020-01-29T14:42:01.024-0500 [DEBUG] nomad: memberlist: Stream connection from=127.0.0.1:56526
+2020-01-29T14:42:03.753-0500 [DEBUG] http: request complete: method=GET path=/v1/agent/health?type=server duration=293.336µs
+2020-01-29T14:42:11.025-0500 [DEBUG] nomad: memberlist: Stream connection from=127.0.0.1:56562
+2020-01-29T14:42:13.755-0500 [DEBUG] http: request complete: method=GET path=/v1/agent/health?type=server duration=377.465µs
+2020-01-29T14:42:19.160-0500 [ERROR] nomad: skipping adding Raft peer because an existing peer is in bootstrap mode and only one server should be in bootstrap mode: existing_peer=server1.global joining_peer=server2.us-west-1
+2020-01-29T14:42:21.026-0500 [DEBUG] nomad: memberlist: Stream connection from=127.0.0.1:56590
+2020-01-29T14:42:23.081-0500 [DEBUG] nomad: memberlist: Initiating push/pull sync with: 192.168.1.54:7648
+2020-01-29T14:42:23.757-0500 [DEBUG] http: request complete: method=GET path=/v1/agent/health?type=server duration=375.397µs
+2020-01-29T14:42:31.027-0500 [DEBUG] nomad: memberlist: Stream connection from=127.0.0.1:56618
+2020-01-29T14:42:33.759-0500 [DEBUG] http: request complete: method=GET path=/v1/agent/health?type=server duration=475.355µs
+2020-01-29T14:42:41.027-0500 [DEBUG] nomad: memberlist: Stream connection from=127.0.0.1:56646
+2020-01-29T14:42:43.762-0500 [DEBUG] http: request complete: method=GET path=/v1/agent/health?type=server duration=263.172µs
+2020-01-29T14:42:48.767-0500 [DEBUG] nomad: memberlist: Stream connection from=192.168.1.54:40300
+2020-01-29T14:42:51.028-0500 [DEBUG] nomad: memberlist: Stream connection from=127.0.0.1:56676
+2020-01-29T14:42:53.764-0500 [DEBUG] http: request complete: method=GET path=/v1/agent/health?type=server duration=267.185µs
+2020-01-29T14:43:01.029-0500 [DEBUG] nomad: memberlist: Stream connection from=127.0.0.1:56702
+2020-01-29T14:43:03.766-0500 [DEBUG] http: request complete: method=GET path=/v1/agent/health?type=server duration=426.513µs
+2020-01-29T14:43:11.029-0500 [DEBUG] nomad: memberlist: Stream connection from=127.0.0.1:56728
+2020-01-29T14:43:13.768-0500 [DEBUG] http: request complete: method=GET path=/v1/agent/health?type=server duration=402.905µs
+2020-01-29T14:43:19.162-0500 [ERROR] nomad: skipping adding Raft peer because an existing peer is in bootstrap mode and only one server should be in bootstrap mode: existing_peer=server1.global joining_peer=server2.us-west-1
+2020-01-29T14:43:21.030-0500 [DEBUG] nomad: memberlist: Stream connection from=127.0.0.1:56758
+2020-01-29T14:43:23.082-0500 [DEBUG] nomad: memberlist: Initiating push/pull sync with: 192.168.1.54:7648
+2020-01-29T14:43:23.771-0500 [DEBUG] http: request complete: method=GET path=/v1/agent/health?type=server duration=372.274µs
+2020-01-29T14:43:31.031-0500 [DEBUG] nomad: memberlist: Stream connection from=127.0.0.1:56788
+2020-01-29T14:43:31.561-0500 [DEBUG] nomad: memberlist: Stream connection from=192.168.1.54:40424
+2020-01-29T14:43:33.774-0500 [DEBUG] http: request complete: method=GET path=/v1/agent/health?type=server duration=433.369µs
