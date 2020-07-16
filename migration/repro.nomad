@@ -24,12 +24,19 @@ job "web" {
     weight    = 100
   }
 
+  affinity {
+    attribute = "${node.class}"
+    value     = "class-1"
+    weight    = 100
+  }
+
   group "group" {
     count = 2
 
     task "server" {
       env {
         HTTP_PORT = "${NOMAD_PORT_http}"
+        change    = "this"
       }
 
       driver = "docker"

@@ -1,0 +1,5 @@
+{
+  "policies": ["access-kv"],
+  "ttl": "1h",
+  "renewable": true
+}

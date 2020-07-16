@@ -1,0 +1,14 @@
+{
+    "Count": 5,
+    "Meta": {
+        "metrics": [
+            "cpu",
+            "memory"
+        ]
+    },
+    "Reason": "metric did not satisfy SLA",
+    "Target": {
+        "Group": "group"
+    }
+}
+

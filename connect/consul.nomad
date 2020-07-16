@@ -2,7 +2,11 @@ job "delay" {
   datacenters = ["dc1"]
 
   group "api" {
-    shutdown_delay = "10s"
+    # shutdown_delay = "30s"
+
+    meta {
+      foo = "bar3"
+    }
 
     service {
       tags = ["group"]
@@ -19,6 +23,8 @@ job "delay" {
     task "web" {
       driver = "docker"
 
+      shutdown_delay = "10s"
+
       config {
         image = "hashicorpnomad/counter-api:v1"
       }
@@ -31,6 +37,8 @@ job "delay" {
     task "dashboard" {
       driver = "docker"
 
+      shutdown_delay = "60s"
+
       env {
         COUNTING_SERVICE_URL = "http://${NOMAD_UPSTREAM_ADDR_count_api}"
       }
@@ -39,9 +47,9 @@ job "delay" {
         image = "hashicorpnomad/counter-dashboard:v1"
       }
 
-      # service {
-      #   tags = ["other awesome"]
-      # }
+      service {
+        tags = ["dashboard-service"]
+      }
     }
   }
 }

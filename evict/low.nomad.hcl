@@ -1,18 +1,12 @@
 job "evict" {
-  type        = "service"
+  type        = "batch"
   datacenters = ["dc1"]
 
   priority = 10
 
-  constraint {
-    attribute = "${meta.tag}"
-    value     = "foo"
-  }
-
-  # affinity {
+  # constraint {
   #   attribute = "${meta.tag}"
   #   value     = "foo"
-  #   weight    = 100
   # }
 
   group "api" {
@@ -20,7 +14,7 @@ job "evict" {
 
     task "low" {
       resources {
-        memory = "10"
+        memory = "2000"
       }
 
       shutdown_delay = "10s"

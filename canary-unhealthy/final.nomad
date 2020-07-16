@@ -5,8 +5,8 @@ job "web" {
   update {
     max_parallel      = 4
     min_healthy_time  = "10s"
-    healthy_deadline  = "3m"
-    progress_deadline = "10m"
+    healthy_deadline  = "1m"
+    progress_deadline = "2m"
     auto_revert       = false
     auto_promote      = false
     canary            = 4
@@ -111,7 +111,8 @@ EOF
       driver = "docker"
 
       config {
-        image = "drewbailey/simple-server:fail"
+        # image = "drewbailey/simple-server:fail"
+        image = "drewbailey/simple-server:1"
       }
 
       resources {

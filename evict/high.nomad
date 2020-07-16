@@ -1,20 +1,20 @@
 job "override" {
-  type        = "system"
+  type        = "batch"
   datacenters = ["dc1"]
 
   priority = 90
 
-  constraint {
-    attribute = "${meta.tag}"
-    value     = "foo"
-  }
+  # constraint {
+  #   attribute = "${meta.tag}"
+  #   value     = "foo"
+  # }
 
   group "group" {
     task "high" {
       driver = "raw_exec"
 
       resources {
-        memory = "49"
+        memory = "15699"
       }
 
       config {
