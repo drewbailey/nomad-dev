@@ -2,7 +2,7 @@
 
 plugin_dir = "/opt/nomad/plugins"
 
-data_dir = "/tmp/nomad-vault-server"
+data_dir = "/tmp/nomad-vault-server-oss"
 
 server {
   enabled          = true

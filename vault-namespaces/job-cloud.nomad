@@ -2,7 +2,26 @@ job "vault-cloud" {
   datacenters = ["dc1"]
 
   group "demo" {
+    task "sleepr" {
+      driver = "raw_exec"
+      config {
+        command = "/usr/bin/sleep"
+        args    = ["1000"]
+      }
+      vault {
+        namespace = "engineering/cloud"
+        policies  = ["access-kv"]
+      }
+    }
+
     task "task" {
+      lifecycle {
+        hook = "prestart"
+      }
+
+      meta {
+        this = "that"
+      }
       vault {
         namespace = "engineering/cloud"
         policies  = ["access-kv"]

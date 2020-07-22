@@ -1,12 +1,10 @@
 # Local cluster that doesn't exist anywhere, no use in looking
 ############################
 
-Unseal Key 1: 3EJHFmlTlqhJTDJktY7M5IvvgruNMdKl+uuphozKwAY=
+Unseal Key 1: FLu8Ff/UYiIGqYwtmOAJi2RK5HMeYKNBzjo5QBwQ8lo=
 
-Initial Root Token: s.HXe8iy9RQ74JvWRY2SrWvhKb
+Initial Root Token: s.KIn9KYzrC7HQpAE9r8erNRp9
 
-
-→ vault login s.HXe8iy9RQ74JvWRY2SrWvhKb
 Success! You are now authenticated. The token information displayed below
 is already stored in the token helper. You do NOT need to run "vault login"
 again. Future Vault requests will automatically use this token.

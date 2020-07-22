@@ -8,6 +8,7 @@ path "auth/token/create/nomad-cluster" {
 path "+/+/auth/token/create/nomad-cluster" {
   capabilities = ["update", "sudo"]
 }
+
 path "+/auth/token/create/nomad-cluster" {
   capabilities = ["update", "sudo"]
 }

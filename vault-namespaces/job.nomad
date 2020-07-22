@@ -9,8 +9,8 @@ job "vault" {
         args    = ["1000"]
       }
       vault {
-        # namespace = "engineering"
-        policies = ["access-kv"]
+        namespace = "engineering"
+        policies  = ["access-kv"]
       }
     }
 
@@ -23,8 +23,8 @@ job "vault" {
         this = "that"
       }
       vault {
-        # namespace = "engineering"
-        policies = ["access-kv"]
+        namespace = "engineering"
+        policies  = ["access-kv"]
       }
 
       driver = "raw_exec"
