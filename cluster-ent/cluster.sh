@@ -4,7 +4,7 @@ set -e
 mkdir -p /tmp/nomad-dev-cluster/server{1,2,3} /tmp/nomad-dev-cluster/client{1,2}
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
-NOMAD_CMD=/home/drew/go-ent/bin/nomad
+NOMAD_CMD=nomad
 
 # launch server 
 ( $NOMAD_CMD agent -config=server1.hcl  2>&1 | tee "/tmp/server1/log" ; echo "Exit code: $?" >> "/tmp/server1/log" ) &

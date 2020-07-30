@@ -1,86 +1,15 @@
-# There can only be a single job definition per file. This job is named
-# "example" so it will create a job with the ID and Name "example".
-
-# The "job" stanza is the top-most configuration option in the job
-# specification. A job is a declarative specification of tasks that Nomad
-# should run. Jobs have a globally unique name, one or many task groups, which
-# are themselves collections of one or many tasks.
-#
-# For more information and examples on the "job" stanza, please see
-# the online documentation at:
-#
-#     https://www.nomadproject.io/docs/job-specification/job.html
-#
 job "example" {
-  # The "region" parameter specifies the region in which to execute the job.
-  # If omitted, this inherits the default region name of "global".
-  # region = "global"
-  #
-  # The "datacenters" parameter specifies the list of datacenters which should
-  # be considered when placing this task. This must be provided.
   datacenters = ["dc1"]
 
-  # The "type" parameter controls the type of job, which impacts the scheduler's
-  # decision on placement. This configuration is optional and defaults to
-  # "service". For a full list of job types and their differences, please see
-  # the online documentation.
-  #
-  # For more information, please see the online documentation at:
-  #
-  #     https://www.nomadproject.io/docs/jobspec/schedulers.html
-  #
   type = "service"
 
-  # The "constraint" stanza defines additional constraints for placing this job,
-  # in addition to any resource or driver constraints. This stanza may be placed
-  # at the "job", "group", or "task" level, and supports variable interpolation.
-  #
-  # For more information and examples on the "constraint" stanza, please see
-  # the online documentation at:
-  #
-  #     https://www.nomadproject.io/docs/job-specification/constraint.html
-  #
-  # constraint {
-  #   attribute = "${attr.kernel.name}"
-  #   value     = "linux"
-  # }
-
-  # The "update" stanza specifies the update strategy of task groups. The update
-  # strategy is used to control things like rolling upgrades, canaries, and
-  # blue/green deployments. If omitted, no update strategy is enforced. The
-  # "update" stanza may be placed at the job or task group. When placed at the
-  # job, it applies to all groups within the job. When placed at both the job and
-  # group level, the stanzas are merged with the group's taking precedence.
-  #
-  # For more information and examples on the "update" stanza, please see
-  # the online documentation at:
-  #
-  #     https://www.nomadproject.io/docs/job-specification/update.html
-  #
   update {
-    # The "max_parallel" parameter specifies the maximum number of updates to
-    # perform in parallel. In this case, this specifies to update a single task
-    # at a time.
     max_parallel = 1
 
-    # The "min_healthy_time" parameter specifies the minimum time the allocation
-    # must be in the healthy state before it is marked as healthy and unblocks
-    # further allocations from being updated.
     min_healthy_time = "10s"
 
-    # The "healthy_deadline" parameter specifies the deadline in which the
-    # allocation must be marked as healthy after which the allocation is
-    # automatically transitioned to unhealthy. Transitioning to unhealthy will
-    # fail the deployment and potentially roll back the job if "auto_revert" is
-    # set to true.
     healthy_deadline = "3m"
 
-    # The "progress_deadline" parameter specifies the deadline in which an
-    # allocation must be marked as healthy. The deadline begins when the first
-    # allocation for the deployment is created and is reset whenever an allocation
-    # as part of the deployment transitions to a healthy state. If no allocation
-    # transitions to the healthy state before the progress deadline, the
-    # deployment is marked as failed.
     progress_deadline = "10m"
 
     # The "auto_revert" parameter specifies if the job should auto-revert to the
@@ -253,6 +182,14 @@ job "example" {
       # The "driver" parameter specifies the task driver that should be used to
       # run the task.
       driver = "docker"
+
+      meta {
+        this = "that"
+      }
+
+      env {
+        MY_VAR = "THISAaaA"
+      }
 
       # The "config" stanza specifies the driver configuration, which is passed
       # directly to the driver to start the task. The details of configurations

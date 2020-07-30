@@ -1,0 +1,1 @@
+{"create":{"args":["docker://docker.io/library/busybox:latest","nc","-l","-p","3000","127.0.0.1"],"cpuShares":512,"env":["foo=bar"],"hostname":"","init":false,"initPath":"","logOpt":["path=/tmp/.job1.stdout.fifo"],"memory":"100m","memoryReservation":"","memorySwap":"100m","memorySwappiness":0,"name":"job1","network":"","tmpfs":null,"user":"","volume":[]}}

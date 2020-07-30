@@ -1,4 +1,4 @@
-job "redis" {
+job "redis2" {
   datacenters = ["dc1"]
   type        = "service"
 
@@ -7,7 +7,7 @@ job "redis" {
       driver = "podman"
 
       env {
-        foo = "bar"
+        foo2 = "bar2"
       }
       config {
         image = "docker://redis"

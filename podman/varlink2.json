@@ -1,0 +1,2 @@
+{"create":{"args":["docker://docker.io/library/busybox:latest","nc","-l","-p","3001","127.0.0.1"],"capAdd":null,"capDrop":null,"cpuShares":512,"env":["foo=bar"],"hostname":"","init":false,"initPath":"","logOpt":["path=/tmp/.env1.stdout.fifo"],"memory":"100m","memoryReservation":"","memorySwap":"100m","memorySwappiness":0,"name":"env5-39c78ef9-7651-701d-a2d7-bfd9181da34e","network":"","tmpfs":null,"user":"","volume":[]}}
+
