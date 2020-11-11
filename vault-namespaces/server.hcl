@@ -14,7 +14,7 @@ vault {
   address               = "http://127.0.0.1:8200"
   task_token_ttl        = "1h"
   create_from_role      = "nomad-cluster"
-  token                 = "s.kjNO0modS9E47ZpMZq3yqr7w"
+  token                 = "s.N5Rv5OJpUbxviQkkqVtmlFni.fvuLy"
   allow_unauthenticated = false
-  # namespace        = "engineering"
+  namespace             = "engineering"
 }

@@ -1,0 +1,10 @@
+{
+  "CleanupDeadServers": true,
+  "LastContactThreshold": "200ms",
+  "MaxTrailingLogs": 250,
+  "ServerStabilizationTime": "10s",
+  "EnableRedundancyZones": false,
+  "DisableUpgradeMigration": false,
+  "EnableCustomUpgrades": false,
+  "UpgradeVersionTag": "1.2.3"
+}

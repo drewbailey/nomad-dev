@@ -2,6 +2,7 @@ job "example2" {
   datacenters = ["dc1"]
 
   group "cache" {
+    count = 3
     task "redis" {
       driver = "docker"
 

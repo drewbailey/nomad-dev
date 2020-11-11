@@ -19,7 +19,7 @@ job "web" {
     healthy_deadline = "5m"
   }
 
-  group "group" {
+  group "server" {
     count = 4
 
     restart {
@@ -36,7 +36,7 @@ job "web" {
     task "server" {
       env {
         HTTP_PORT = "${NOMAD_PORT_http}"
-        version   = "4"
+        version   = "11"
       }
 
       driver = "docker"
@@ -48,17 +48,13 @@ job "web" {
       resources {
         network {
           mbits = 10
-          port  "http"{}
+          port "http" {}
         }
       }
 
       service {
         name = "demo-webapp"
         port = "http"
-
-        canary_meta = {
-          thing = "value"
-        }
 
         check {
           type     = "http"

@@ -7,11 +7,11 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 NOMAD_CMD=nomad
 
 # launch server 
-( $NOMAD_CMD agent -config=server1.hcl  2>&1 | tee "/tmp/server1/log" ; echo "Exit code: $?" >> "/tmp/server1/log" ) &
+# ( $NOMAD_CMD agent -config=server1.hcl  2>&1 | tee "/tmp/server1/log" ; echo "Exit code: $?" >> "/tmp/server1/log" ) &
 
-( $NOMAD_CMD agent -config=server2.hcl  2>&1 | tee "/tmp/server2/log" ; echo "Exit code: $?" >> "/tmp/server2/log" ) &
+# ( $NOMAD_CMD agent -config=server2.hcl  2>&1 | tee "/tmp/server2/log" ; echo "Exit code: $?" >> "/tmp/server2/log" ) &
 
-( $NOMAD_CMD agent -config=server3.hcl   2>&1 | tee "/tmp/server3/log" ; echo "Exit code: $?" >> "/tmp/server3/log" ) &
+# ( $NOMAD_CMD agent -config=server3.hcl   2>&1 | tee "/tmp/server3/log" ; echo "Exit code: $?" >> "/tmp/server3/log" ) &
 
 # launch client 1
 ( $NOMAD_CMD agent -config=client1.hcl   2>&1 | tee "/tmp/client1/log" ; echo "Exit code: $?" >> "/tmp/client1/log" ) &

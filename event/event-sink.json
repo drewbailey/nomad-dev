@@ -1,0 +1,11 @@
+{
+  "ID": "job-webhook",
+  "Address": "http://127.0.0.1:8080/jobhook",
+  "Type": "webhook",
+  "Topics": {
+    "Eval": ["*"],
+    "Node": ["*"],
+    "Job": ["redis", "nginx"]
+  }
+}
+

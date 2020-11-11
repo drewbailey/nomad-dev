@@ -16,7 +16,21 @@ server {
   }
 
   # Self-elect, should be 3 or 5 for production
-  bootstrap_expect = 2
+  bootstrap_expect    = 2
+  upgrade_version     = "1.2.4"
+  raft_protocol       = 3
+  enable_event_broker = true
+  durable_event_count = 2000
+}
+
+autopilot {
+  cleanup_dead_servers      = true
+  last_contact_threshold    = "200ms"
+  max_trailing_logs         = 250
+  server_stabilization_time = "10s"
+  enable_redundancy_zones   = false
+  disable_upgrade_migration = false
+  enable_custom_upgrades    = true
 }
 
 ports {

@@ -1,0 +1,8 @@
+{
+  "ID": "deployments-webhook",
+  "Address": "http://127.0.0.1:8080/deployments",
+  "Type": "webhook",
+  "Topics": {
+    "Deployment": ["*"]
+  }
+}

@@ -1,7 +1,14 @@
-job "example" {
+job "example-system" {
   datacenters = ["dc1"]
-
+  type        = "system"
   group "cache" {
+    scaling {
+      enabled = true
+      min     = 3
+      max     = 10
+      policy {
+      }
+    }
     task "redis" {
       driver = "docker"
 
@@ -16,7 +23,6 @@ job "example" {
           db = 6379
         }
       }
-
       resources {
         cpu    = 500
         memory = 256
