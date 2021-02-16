@@ -1,4 +1,4 @@
-job "example" {
+job "example2" {
   datacenters = ["dc1"]
 
   type = "service"
@@ -188,7 +188,7 @@ job "example" {
       }
 
       env {
-        MY_VAR = "THISAaaa"
+        MY_VAR = "THISAaaA"
       }
 
       # The "config" stanza specifies the driver configuration, which is passed

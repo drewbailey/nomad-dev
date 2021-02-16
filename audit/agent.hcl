@@ -20,27 +20,27 @@ server {
   raft_protocol = 2
 }
 
-audit {
-  enabled = true
-}
-
 # audit {
 #   enabled = true
-
-
-#   sink "file" {
-#     type               = "file"
-#     format             = "json"
-#     delivery_guarantee = "enforced"
-#     path               = "/tmp/audit.log"
-#   }
-
-
-#   filter "default" {
-#     type       = "HTTPEvent"
-#     endpoints  = ["/ui/", "/v1/agent/health"]
-#     stages     = ["*"]
-#     operations = ["*"]
-#   }
 # }
+
+audit {
+  enabled = true
+
+
+  # sink "file" {
+  #   type               = "file"
+  #   format             = "json"
+  #   delivery_guarantee = "enforced"
+  #   path               = "/tmp/audit5.log"
+  # }
+
+
+  # filter "default" {
+  #   type       = "HTTPEvent"
+  #   endpoints  = ["/ui/", "/v1/agent/health"]
+  #   stages     = ["*"]
+  #   operations = ["*"]
+  # }
+}
 

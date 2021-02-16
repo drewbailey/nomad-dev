@@ -13,6 +13,9 @@ server {
 
   # Self-elect, should be 3 or 5 for production
   bootstrap_expect = 1
+
+  enable_event_broker = true
+  event_buffer_size   = 200
 }
 
 acl {

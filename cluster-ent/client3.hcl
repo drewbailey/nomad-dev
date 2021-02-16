@@ -31,7 +31,7 @@ ports {
   http = 9646
 }
 
-audit {
+acl {
   enabled = true
 }
 

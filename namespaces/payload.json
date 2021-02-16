@@ -1,0 +1,14 @@
+{
+    "Count": 5,
+    "Meta": {
+        "metrics": [
+            "cpu",
+            "memory"
+        ]
+    },
+    "Message": "metric did not satisfy SLA",
+    "Target": {
+        "Group": "cache",
+        "Namespace": "some-other-namespace"
+    }
+}

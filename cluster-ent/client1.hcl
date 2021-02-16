@@ -2,7 +2,7 @@
 log_level = "DEBUG"
 
 # Setup data dir
-data_dir = "/tmp/client1"
+data_dir = "/tmp/cluster/client1"
 
 # Give the agent a unique name. Defaults to hostname
 name = "client1"
@@ -32,9 +32,10 @@ ports {
   http = 7646
 }
 
-audit {
+acl {
   enabled = true
 }
+
 
 # acl {
 #   enabled    = true
