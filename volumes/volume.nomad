@@ -2,23 +2,26 @@ job "example" {
   datacenters = ["dc1"]
 
   group "cache" {
-    service {
-      name      = "some-service"
-      on_update = "ignore_warnings"
-    }
     network {
       port "db" {
         to = 6379
       }
     }
 
+    volume "certs" {
+      type      = "host"
+      source    = "ca-certificates"
+      read_only = true
+    }
+
+    volume "certstwo" {
+      type      = "host"
+      source    = "ca-certificates"
+      read_only = true
+    }
+
     task "redis" {
       driver = "docker"
-
-      env {
-        foo = "bar2"
-        a   = "2"
-      }
 
       config {
         image = "redis:3.2"

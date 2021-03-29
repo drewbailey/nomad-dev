@@ -18,14 +18,14 @@ client {
   # servers = ["127.0.0.1:4647"]
 }
 
+vault {
+  enabled = true
+  address = "http://127.0.0.1:8200"
+  # address = "http://active.vault.service.consul:8200"
+}
+
 # Modify our port to avoid a collision with server1
 ports {
   http = 5656
 }
 
-plugin "raw_exec" {
-  config {
-    enabled    = true
-    no_cgroups = true
-  }
-}

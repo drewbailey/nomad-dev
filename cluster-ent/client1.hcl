@@ -1,11 +1,11 @@
 # Increase log verbosity
-log_level = "DEBUG"
+log_level = "TRACE"
 
 # Setup data dir
-data_dir = "/tmp/cluster/client1"
+data_dir = "/tmp/cluster/client10"
 
 # Give the agent a unique name. Defaults to hostname
-name = "client1"
+name = "client10"
 
 # Enable the client
 client {
@@ -22,6 +22,11 @@ client {
   }
 }
 
+vault {
+  enabled = true
+  address = "http://127.0.0.1:8200"
+}
+
 plugin "raw_exec" {
   config {
     enabled = true
@@ -32,9 +37,9 @@ ports {
   http = 7646
 }
 
-acl {
-  enabled = true
-}
+# acl {
+#   enabled = true
+# }
 
 
 # acl {

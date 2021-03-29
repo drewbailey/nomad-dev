@@ -1,0 +1,99 @@
+{
+  "job": [
+    {
+      "scaling": [
+        {
+          "datacenters": [
+            "dc1"
+          ],
+          "group": [
+            {
+              "cache": [
+                {
+                  "network": [
+                    {
+                      "port": [
+                        {
+                          "db": [
+                            {
+                              "to": 6379
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "scaling": [
+                    {
+                      "enabled": "false",
+                      "max": 10,
+                      "min": 1,
+                      "policy": [
+                        {
+                          "check": [
+                            {
+                              "active_connections": [
+                                {
+                                  "query": "scalar(open_connections_example_cache)",
+                                  "source": "prometheus",
+                                  "strategy": [
+                                    {
+                                      "target_value": [
+                                        {
+                                          "target": 10
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "cooldown": "1m",
+                          "evaluation_interval": "5s",
+                          "target": [
+                            {
+                              "target": [
+                                {
+                                  "Group": "example",
+                                  "Job": "example"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "task": [
+                    {
+                      "redis": [
+                        {
+                          "config": [
+                            {
+                              "image": "redis:3.2",
+                              "ports": [
+                                "db"
+                              ]
+                            }
+                          ],
+                          "driver": "docker",
+                          "resources": [
+                            {
+                              "cpu": 500,
+                              "memory": 256
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

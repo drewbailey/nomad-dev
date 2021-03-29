@@ -19,8 +19,15 @@ server {
   bootstrap_expect = 3
   raft_protocol    = 3
   # enable_event_broker = true
+  license_path = "/home/drew/work/nomad-dev/license/expired.hclic"
+
+  # enable_event_broker = true
+  # event_buffer_size   = 1000
 }
 
+audit {
+  enabled = true
+}
 
 ports {
   http = 6646

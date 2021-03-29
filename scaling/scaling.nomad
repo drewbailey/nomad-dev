@@ -9,8 +9,8 @@ job "scaling" {
     }
 
     scaling {
-      enabled = "true"
-      min     = 0
+      enabled = "false"
+      min     = 1
       max     = 10
       policy {
         evaluation_interval = "5s"

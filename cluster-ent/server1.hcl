@@ -20,10 +20,15 @@ server {
 
   raft_protocol = 3
 
+  license_path = "/home/drew/work/nomad-dev/license/expired.hclic"
+
   # enable_event_broker = true
   # event_buffer_size   = 1000
 }
 
+audit {
+  enabled = true
+}
 
 # acl {
 #   enabled = true
